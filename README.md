@@ -10,6 +10,7 @@ Alumni of SPbSPU, Synopsys, Sitronics, and Intel Labs. Burnout and depression su
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
 [Education](./education) |
+[Hire me (?)](./job) |
 [More links](https://linktr.ee/onenashev)
 
 ## My communities and projects
