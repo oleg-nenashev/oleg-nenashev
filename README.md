@@ -4,8 +4,7 @@ I am an open source contributor, advocate, and community builder.
 Principal Engineer at [CloudBees](http://cloudbees.com/),
 community team.
 Alumni of SPbSPU, Synopsys, Sitronics, and Intel Labs. Burnout and depression survivor, kinda.
-
-Long story short: Hardware engineer turned CI/CD systems admin turned SWE turned community leader.
+**TL;DR:** Hardware engineer turned CI/CD systems admin turned SWE turned open source community leader.
 
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
@@ -15,9 +14,9 @@ Long story short: Hardware engineer turned CI/CD systems admin turned SWE turned
 
 ## My communities and projects
 
-**Jenkins** is first open source community I joined.
-No regrets!
-In [Jenkins](http://jenkins.io/) I am a community bulder, core maintainer, board member, event officer, and holder of many roles. 
+**Jenkins** is the first open source community I joined.
+No regrets, it has been a great experience!
+In [Jenkins](http://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles. 
 I am not a mother of dragons, but I am definitely a father of bugs 😊
 My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
@@ -39,6 +38,6 @@ and a contributor to the [LibreCores](https://www.librecores.org/) project.
 I also have a PhD in hardware design.
 
 **Pet Projects**.
-I am a co-maintainer of [Windows Service Wrapper (WinSW)](https://github.com/winsw/winsw), not so active these days :( 
+I am a co-maintainer of [Windows Service Wrapper (WinSW)](https://github.com/winsw/winsw), not so active these days 😢
 In June 2021 I've also started the [FaaScinator project](https://github.com/oleg-nenashev/FaaScinator) - 
 a tool that converts Java CLI apps to FaaS containers and OpenFaaS templates, powered by Quarkus.
