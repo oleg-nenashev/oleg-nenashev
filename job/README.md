@@ -1,13 +1,13 @@
-# Hiring me?
+# Want to hire me? Need my help in a community?
 
 **Quick links:** [My resume](https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing) | 
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
 [E-mail](mailto:o.v.nenashev+opportunities@gmail.com) |
 [More links](https://linktr.ee/onenashev)
 
-## My availablility
+## My current availability
 
-I am not actively looking for a job, bad luck if you are a company recruiter!
+I am **NOT** actively looking for a job, bad luck if you are a company recruiter!
 At the same time I am ready to discuss good opportunities within the area of my interests.
 
 If you are from an open source community and looking for help or advice, feel free to reach out!
@@ -18,7 +18,7 @@ For Jenkins related topics please use the
 
 ## My interests
 
-I am interested in Research, Developer Tooling, Continuous Integration and Delivery, Embedded Systems, and Digital Hardware.
+My main interests: Research, Developer Tooling, Continuous Integration and Delivery, Embedded Systems, and Digital Hardware.
 I am opinionated about climate change and interested in projects targeting this problem directly or via [sustainable development](https://en.wikipedia.org/wiki/Sustainable_development).
 I used to be a hardcore introvert engineer in the past.
 In 2021 I realized that I am more interested in working directly with end users and contributors, and helping them by facilitating changes and unblocking contributions.
