@@ -3,7 +3,7 @@ Hello, world! 👋
 I am an open source contributor, advocate, and community builder.
 Principal Engineer at [CloudBees](http://cloudbees.com/),
 community team.
-Alumni of SPbSPU, Synopsys, Sitronics, and Intel Labs. Burnout and depression survivor, kinda.
+Alumni of SPbSPU, Synopsys, Sitronics, and Intel Labs.
 **TL;DR:** Hardware engineer turned CI/CD systems admin turned SWE turned open source community leader.
 
 **Quick links:**
