@@ -1,9 +1,15 @@
-# Secondary MSc - Information Systems in Economics and Management
+# Secondary MSc Degree - Information Systems in Economics and Management
 
+* University: [Peter the Great St.Petersburg Polytechnic University (SPbPU)](https://english.spbstu.ru/)
 * Department: Information Systems in Economics and Management
 * Major: Applied Computer Science in Economics (Russian classifier - 080801)
 * Dates: 2005-2001
 * Average grade - 4.9/5.0 (with honors)
+
+## Files
+
+* [Thesis](./thesis.pdf)
+* [Slides from the thesis defence](./defence-slides.pdf)
 
 ## Abstract (English)
 
@@ -29,7 +35,3 @@ Coming soon
 Указаны основные пути дальнейшего развития системы.
 По итогам работы сделан вывод, что система соответствует поставленным техническим требованиям и маркетинговым требованиям,
 благодаря чему она быть внедрена у потенциального заказчика.
-
-## Files
-
-Coming soon
