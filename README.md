@@ -1,25 +1,30 @@
-## Hello, open source world!
 
-Open source contributor, advocate, and community builder.
+Hello, world! 👋
+I am an open source contributor, advocate, and community builder.
 Principal Engineer at [CloudBees](http://cloudbees.com/),
 community team.
-Burnout survivor (almost?).
+Alumni of SPbSPU, Synopsys, Sitronics, and Intel Labs. Burnout and depression survivor, kinda.
+
 Long story short: Hardware engineer turned CI/CD systems admin turned SWE turned community leader.
 
+**Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
 [Education](./education) |
 [More links](https://linktr.ee/onenashev)
 
+## My communities and projects
+
 **Jenkins** is first open source community I joined.
 No regrets!
-In [Jenkins](http://jenkins.io/) I am a community bulder, core maintainer, board member, and holder of other roles. 
-I am not a mother of dragons, but I am definitely a father of many bugs 😊
+In [Jenkins](http://jenkins.io/) I am a community bulder, core maintainer, board member, event officer, and holder of many roles. 
+I am not a mother of dragons, but I am definitely a father of bugs 😊
 My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
+Always [looking for contributors](https://www.jenkins.io/participate), code or not!
 
-**CDF**. 
-I have been a community ambassador in the [Continuous Delivery Foundation](https://cd.foundation/) since its inception.
+**Continuous Delivery Foundation**. 
+I have been a community ambassador at the [CDF](https://cd.foundation/) since its inception.
 In 2021 I was also elected to join the Technical Oversight Committee.
 There I facilitate technical programs among member projects (including Jenkins or Tekton),
 and joint projects with the CDF end users and members.
@@ -28,6 +33,7 @@ and joint projects with the CDF end users and members.
 **Open Hardware**.
 I am a big open hardware enthusiast,
 with some experience in RISC-V and OpenRISC ecosystems.
+I believe it will eat the world too 🚀
 I am a member of the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
 and a contributor to the [LibreCores](https://www.librecores.org/) project.
 I also have a PhD in hardware design.
