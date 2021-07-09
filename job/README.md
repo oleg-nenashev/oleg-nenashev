@@ -46,9 +46,12 @@ or a CTO office.
 
 I am not an open source zealot,
 I can work on proprietary and open core/ecosystem projects.
-M
 I am also not a Jenkins zealot, tools are just tools for me.
+I really love Jenkins for its extensibility and flexibility,
+but I know it comes at cost of UX and maintenability if you are not the expert.
+Closing the gap in the community :)
 I've used and ready to use many other CI/CD systems in my projects.
+
 
 At the same time I expect to keep contributing to the Jenkins community, the Continuous Delivery Foundation, and to Open Hardware space.
 Discussing boundaries is on my checklist for any serious opportunity discussion.
