@@ -47,12 +47,13 @@ Please use this data for events:
    Feel free to crop as needed:
 * **Bio**:
 Oleg is a community builder, core maintainer and board member in the Jenkins community.
-He is also a TOC member and community ambassador in the Continuous Delivery Foundation.
+He is also a TOC chair and community ambassador in the Continuous Delivery Foundation.
 Oleg is based in Neuchâtel, Switzerland. 
 Since 2008 he has worked in the areas of automation infrastructure and frameworks for mixed software-hardware projects.
 Oleg writes code, maintains Jenkins, mentors contributors, and organizes community events and Google Summer of Code in the project.
 He is a big fan of open hardware and embedded.
 He has a PhD degree in hardware design and volunteers in the Free and Open Source Silicon Foundation.
+* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate. He is a Technical Oversight Committee chair in the Continuous Delivery Foundation. He is a core maintainer and board member in Jenkins.
 
 ## Rider
 
