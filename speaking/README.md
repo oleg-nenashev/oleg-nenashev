@@ -40,7 +40,7 @@ Please use this data for events:
 * **Full name**: Oleg Nenashev
 * **Headline(s)**:
   * For Jenkins events: Jenkins Maintainer and Board Member 
-  * For CDF events: Technical Oversight Committee Member, CDF
+  * For CDF events: TOC Chair and Community Ambassador, Continuous Delivery Foundation
   * For working time events: Community Builder and Developer Advocate, Dynatrace (after Nov 01)
   * For hardware events: Contributor, FOSSi
 *  **Photo**: [here](/images/profile.jpg).
