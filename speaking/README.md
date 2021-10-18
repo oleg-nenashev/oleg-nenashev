@@ -47,12 +47,13 @@ Please use this data for events:
    Feel free to crop as needed:
 * **Bio**:
 Open-source software and hardware advocate, community builder working on open source programs at Dynatrace.
-Oleg focuses on cload automation and observability with Keptn. 
+Oleg focuses on cloud automation and observability with Keptn. 
 He is a TOC chair and community ambassador in the Continuous Delivery Foundation.
 Oleg is a core maintainer and board member in Jenkins where he writes code, mentors contributors, and organizes community events and Google Summer of Code in the project.
 Big fan of open hardware and embedded.
 Oleg has a PhD degree in hardware design and volunteers in the Free and Open Source Silicon Foundation.
 * **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate. He is a Technical Oversight Committee chair in the Continuous Delivery Foundation. He is a core maintainer and board member in Jenkins.
+* **Pronous**: he/him
 
 ## Rider
 
