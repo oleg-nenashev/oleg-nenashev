@@ -46,7 +46,7 @@ Please use this data for events:
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Community builder working on open source programs and Keptn community at the Dynatrace Innovation Lab.
+Oleg is working on open source programs and Keptn community at the Dynatrace Innovation Lab.
 He is a TOC chair and community ambassador in the Continuous Delivery Foundation.
 Oleg is a core maintainer and board member in Jenkins where he writes code, mentors contributors, and organizes community events and Google Summer of Code in the project.
 Open source software and open hardware advocate.
