@@ -1,8 +1,7 @@
 **Hello, world!** 👋
-I am an open source contributor, advocate, and community builder.
-Principal Engineer at [CloudBees](http://cloudbees.com/),
-community team.
-Alumni of SPbSPU, Synopsys, Sitronics, and Intel Labs.
+I am an open source contributor, advocate, and community builder at Dynatrace.
+I work on Keptn and Jenkins open-source projects.
+Alumni of CloudBees, SPbSPU, Synopsys, Sitronics, and Intel Labs.
 **TL;DR:** Hardware engineer turned CI/CD systems admin turned SWE turned open source community leader.
 
 **Quick links:**
@@ -22,6 +21,11 @@ I am not a mother of dragons, but I am definitely a father of bugs 😊
 My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
 Always [looking for contributors](https://www.jenkins.io/participate), code or not!
+
+**Keptn** joined in mid-2021 as a contributor to help with growing user and developer communities.
+Keptn is an event-driven orchestration server for cloud native applications.
+I think it's a very promising project, and I'm happy to participate.
+[More about Keptn](https://keptn.sh/)
 
 **Continuous Delivery Foundation**. 
 I have been a community ambassador at the [CDF](https://cd.foundation/) since its inception.
