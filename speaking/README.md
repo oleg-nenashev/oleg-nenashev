@@ -28,7 +28,7 @@ Recent talks (in English):
 
 * Evolution of open source CI/CD tools, keynote at the Open Source Summit India 2021 https://docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2zMTNYCYfmK-tp7Gj8/edit?usp=sharing
 * Under the hood of serverless Jenkins. Jenkinsfile Runner, DevOps Days Zurich 2019, https://devopsdays.org/events/2019-zurich/program/oleg-nenashev 
-* Docker and Jenkins [as Code], DevOps World 2019, https://devopsworld jenkinsworld2019lisbo.sched.com/event/UauW/docker-and-jenkins-as-code
+* Docker and Jenkins as Code, DevOps World 2019
 * Common Pitfalls in Jenkins Security and How to Avoid Them, DevOps World 2018 | Jenkins World, https://www.conferencecast.tv/speaker-40720-oleg-nenashev#.speakerPage-latest 
 * Leap from Java 8 to Java 11 in Jenkins. Our war story, JUG Lausanne, http://jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html 
 * Dependabot for Jenkins development, Jenkins Developer Meetup, https://www.youtube.com/watch?v=RXIJpjYlEC 
