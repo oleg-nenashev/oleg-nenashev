@@ -51,7 +51,7 @@ He is a TOC chair and community ambassador in the Continuous Delivery Foundation
 Oleg is a core maintainer and board member in Jenkins where he writes code, mentors contributors, and organizes community events and Google Summer of Code in the project.
 Open source software and open hardware advocate.
 Oleg has a PhD degree in hardware design and volunteers in the Free and Open Source Silicon Foundation.
-* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate wothing at the Dynatrace OSPO. He is a Technical Oversight Committee chair in the Continuous Delivery Foundation. He is a core maintainer in Jenkins and Keptn.
+* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate working at the Dynatrace OSPO. He is a Technical Oversight Committee chair in the Continuous Delivery Foundation. He is a core maintainer in Jenkins and Keptn.
 * **Pronous**: he/him
 
 ## Rider
