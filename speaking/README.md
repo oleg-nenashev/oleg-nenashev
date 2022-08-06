@@ -7,9 +7,8 @@
 [E-mail](mailto:o.v.nenashev+opportunities@gmail.com) |
 [More links](https://linktr.ee/onenashev)
 
-I am available for speaking at online and, in some cases,
-offline events.
-My topics include whatever Jenkins, Java for practitioners, CI/CD basics, open hardware,
+I am available for speaking at offline and, in some cases, online events.
+My topics include whatever Jenkins, Keptn, Java for practitioners, CI/CD basics, open hardware,
 and contributing to open source projects.
 Send me a message if you are interested!
 
@@ -23,6 +22,7 @@ Links:
 * SpeakerDeck: https://speakerdeck.com/onenashev/ 
 * SlideShare: https://www.slideshare.net/OlegNenashev/presentations
 * Blog on Jenkins: https://www.jenkins.io/blog/authors/oleg_nenashev/
+* Blog on Medium: https://medium.com/@onenashev
 
 Recent talks (in English):
 
@@ -57,3 +57,4 @@ Oleg has a PhD degree in hardware design and volunteers in the Free and Open Sou
 ## Rider
 
 I do not have one :P
+
