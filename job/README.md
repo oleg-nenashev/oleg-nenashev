@@ -5,13 +5,9 @@
 [E-mail](mailto:o.v.nenashev+opportunities@gmail.com) |
 [More links](https://linktr.ee/onenashev)
 
-| WARNING: I am **NOT** actively looking for a job at the moment. This page is provided for your information about my interests and self-development plans. Happy to help the open source communities! |
-| --- |
+## My availability
 
-## My current availability
-
-I am **NOT** actively looking for a job, bad luck if you are a company recruiter!
-At the same time, I am ready to discuss good opportunities within the area of my interests.
+I am ready to discuss good opportunities within the area of my interests.
 
 If you are from an open source community and looking for help or advice, feel free to reach out!
 My time might be limited, but I will see whether I could help.
