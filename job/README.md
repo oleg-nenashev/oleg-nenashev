@@ -17,7 +17,7 @@ For Jenkins related topics please use the
 
 ## My interests
 
-My main interests: Research, Developer Tooling, Continuous Integration and Delivery, Embedded Systems, and Digital Hardware.
+My main interests: Open Source Communities, Developer Relations, Developer Tooling, Observability, Continuous Integration and Delivery, Embedded Systems, and Digital Hardware.
 I am opinionated about climate change and interested in projects targeting this problem directly or via [sustainable development](https://en.wikipedia.org/wiki/Sustainable_development).
 I used to be a hardcore introvert engineer in the past.
 In 2021 I realized that I am more interested in working directly with end users and contributors, and helping them by facilitating changes and unblocking contributions.
