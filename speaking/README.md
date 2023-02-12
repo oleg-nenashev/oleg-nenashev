@@ -46,15 +46,14 @@ Please use this data for events:
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Oleg works on open source programs and Keptn community at the Dynatrace Open Source Program Office.
-He is a TOC chair and community ambassador in the Continuous Delivery Foundation.
-Oleg is a core maintainer and board member in Jenkins where he writes code, mentors contributors, and organizes community events and Google Summer of Code in the project.
-Open source software and open hardware advocate.
-Oleg has a PhD degree in hardware design and volunteers in the Free and Open Source Silicon Foundation.
-* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate working at the Dynatrace OSPO. He is a Technical Oversight Committee chair in the Continuous Delivery Foundation. He is a core maintainer in Jenkins and Keptn.
+Oleg is an open source and open hardware advocate who believe in open communities.
+He is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
+He is a technical oversight committee member in the Continuous Delivery Foundation.
+Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
+* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate. He is a core maintainer in Jenkins and Keptn, and a technical oversight committee member in the Continuous Delivery Foundation. 
 * **Pronous**: he/him
 
 ## Rider
 
-I do not have one :P
+I do not have one, just do not make me to do pre-recorded talks :P
 
