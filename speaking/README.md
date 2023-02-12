@@ -46,7 +46,7 @@ Please use this data for events:
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Oleg is an open source and open hardware advocate who believe in open communities.
+Oleg is an open source and open hardware advocate who believes in open communities.
 He is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
 He is a technical oversight committee member in the Continuous Delivery Foundation.
 Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
