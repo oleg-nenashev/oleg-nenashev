@@ -39,18 +39,19 @@ Please use this data for events:
 
 * **Full name**: Oleg Nenashev
 * **Headline(s)**:
+  * For WireMock and working time events: Community Builder and Developer Advocate, WireMock
   * For Jenkins events: Jenkins Maintainer and Board Member 
-  * For CDF events: TOC Chair and Community Ambassador, Continuous Delivery Foundation
-  * For working time events: Community Builder and Developer Advocate, Dynatrace (after Nov 01)
+  * For CDF events: TOC Member and Community Ambassador, Continuous Delivery Foundation
   * For hardware events: Contributor, FOSSi
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Oleg is an open source and open hardware advocate who believes in open communities.
+Oleg is a passionate open source and open hardware advocate who believes in open communities.
+Currently he works on building user and developer communities around WireMock and WireMock Cloud.
 He is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
-He is a technical oversight committee member in the Continuous Delivery Foundation.
+Oleg is a technical oversight committee member in the Continuous Delivery Foundation, and also a CNCF ambassador.
 Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
-* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate. He is a core maintainer in Jenkins and Keptn, and a technical oversight committee member in the Continuous Delivery Foundation. 
+* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate. He is a core maintainer in Jenkins and Keptn, and a TOUC member in the Continuous Delivery Foundation. Oleg is a CNCF ambassador
 * **Pronous**: he/him
 
 ## Rider
