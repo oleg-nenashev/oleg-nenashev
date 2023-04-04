@@ -51,7 +51,7 @@ Currently he works on building user and developer communities around WireMock an
 He is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
 Oleg is a technical oversight committee member in the Continuous Delivery Foundation, and also a CNCF ambassador.
 Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
-* **Short Bio**: Oleg is a community builder, FOSS and Open Hardware advocate. He is a core maintainer in Jenkins and Keptn, and a TOUC member in the Continuous Delivery Foundation. Oleg is a CNCF ambassador
+* **Short Bio**: Oleg is a community builder and open source advocate and consultant. He is a Jenkins and WireMock maintainer, and a CDF TOC member. Oleg is a CNCF ambassador too
 * **Pronous**: he/him
 
 ## Rider
