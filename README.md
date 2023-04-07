@@ -1,7 +1,7 @@
 **Hello, world!** 👋
-I am an open source contributor, advocate, and community builder at Dynatrace.
-I work on Keptn and Jenkins open-source projects.
-Alumni of CloudBees, SPbSPU, Synopsys, Sitronics, and Intel Labs.
+I am an open source contributor, advocate, and community builder at [WireMock Inc](https://www.wiremock.io/).
+I work on WireMock and Jenkins open-source projects, and also help with advocacy for WireMock Cloud.
+Alumni of Dynatrace, CloudBees, SPbSPU, Synopsys, Sitronics, and Intel Labs.
 **TL;DR:** Hardware engineer turned CI/CD systems admin turned SWE turned open source community leader.
 
 **Quick links:**
@@ -22,7 +22,11 @@ My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
 Always [looking for contributors](https://www.jenkins.io/participate), code or not!
 
-**Keptn** joined in mid-2021 as a contributor to help with growing user and developer communities.
+**WireMock** joined in 2023 as a contributor to help with growing user and developer communities.
+It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
+[More about Keptn](https://wiremock.org/)
+
+**Keptn**. I joined it in mid-2021 as a contributor.
 Keptn is an event-driven orchestration server for cloud native applications.
 I think it's a very promising project, and I'm happy to participate.
 [More about Keptn](https://keptn.sh/)
