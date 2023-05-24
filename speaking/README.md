@@ -46,12 +46,12 @@ Please use this data for events:
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Oleg is a passionate open source and open hardware advocate who believes in open communities.
-Currently he works on building user and developer communities around WireMock and WireMock Cloud.
-He is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
-Oleg is a technical oversight committee member in the Continuous Delivery Foundation, and also a CNCF ambassador.
+Oleg is a serial community builder currently working on WireMock and WireMock Cloud ecosystems.
+He's passionate open source software and open hardware advocate.
+Oleg is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
+He is a TOC member in the Continuous Delivery Foundation, and also a CDF and CNCF ambassador.
 Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
-* **Short Bio**: Oleg is a community builder and open source advocate and consultant. He is a Jenkins and WireMock maintainer, and a CDF TOC member. Oleg is a CNCF ambassador too
+* **Short Bio**: Oleg is a community builder, open source advocate and consultant, now at WireMock Inc. He is a Jenkins and WireMock maintainer, CDF TOC member and CNCF ambassador
 * **Pronous**: he/him
 
 ## Rider
