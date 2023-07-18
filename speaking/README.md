@@ -46,7 +46,7 @@ Please use this data for events:
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Oleg is a Oleg is a developer tools hacker, community builder consultant currently working on WireMock and WireMock Cloud ecosystems.
+Oleg is a developer tools hacker, community builder consultant currently working on WireMock and WireMock Cloud ecosystems.
 He's passionate open source software and open hardware advocate.
 Oleg is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
 He is a TOC member in the Continuous Delivery Foundation, and also a CDF and CNCF ambassador.
