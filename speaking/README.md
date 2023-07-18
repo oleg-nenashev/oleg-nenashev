@@ -53,6 +53,7 @@ He is a TOC member in the Continuous Delivery Foundation, and also a CDF and CNC
 Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
 * **Short Bio**: Oleg is a community builder, open source advocate and consultant, now at WireMock Inc. He is a Jenkins and WireMock maintainer, CDF TOC member and CNCF ambassador
 * **Pronous**: he/him
+* **Speaking Credentials:**  I am a CNCF and CDF ambassador. I spoke at conferences including Kubecon, DevOps World, JavaPoint, DevopsDays, Jenkins World, DevRelCon, Heisenbug, DevRelCon, FOSS Backstage, and at manz meetups across the world
 
 ## Rider
 
