@@ -24,7 +24,7 @@ Always [looking for contributors](https://www.jenkins.io/participate), code or n
 
 **WireMock** joined in 2023 as a contributor to help with growing user and developer communities.
 It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
-[More about Keptn](https://wiremock.org/)
+[More about WireMock](https://wiremock.org/)
 
 **Keptn**. I joined it in mid-2021 as a contributor.
 Keptn is an event-driven orchestration server for cloud native applications.
