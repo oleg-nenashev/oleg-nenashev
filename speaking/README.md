@@ -14,12 +14,12 @@ Send me a message if you are interested!
 
 You can find my recent talks and publications [here](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing).
 I generally publish my talks on Google Slides, but some can be found on Speakerdeck, GitHub or SlideShare.
+
 Links:
 
+* Google Slides: [links here](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
 * SpeakerDeck: https://speakerdeck.com/onenashev/ 
 * SlideShare: https://www.slideshare.net/OlegNenashev/presentations
-* Blog on Jenkins: https://www.jenkins.io/blog/authors/oleg_nenashev/
-* Blog on Medium: https://medium.com/@onenashev
 
 ## Speaker Profile
 
