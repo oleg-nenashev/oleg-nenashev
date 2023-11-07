@@ -38,7 +38,8 @@ Oleg is a developer tools hacker, community builder and consultant currently wor
 He's passionate open source software and open hardware advocate.
 Oleg is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
 He is a TOC member in the Continuous Delivery Foundation, and also a CDF and CNCF ambassador.
-Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
+Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation,
+and in a number of Ukrainian support and Russian anti-war organizations.
 * **Short Bio**: Oleg is a community builder, open source advocate and consultant, now at WireMock Inc. He is a Jenkins and WireMock maintainer, CDF TOC member and CNCF ambassador
 * **Pronous**: he/him
 * **Speaking Credentials:**  I am a CNCF and CDF ambassador, and a Testcontainers champion. I spoke at conferences including Kubecon, Devoxx, DevOps World, cdCon, JavaPoint, DevopsDays, Jenkins World, DevRelCon, Heisenbug, DevRelCon, FOSS Backstage, and at many meetups across the world
