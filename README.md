@@ -1,8 +1,8 @@
 **Hello, world!** 👋
 I am an open source contributor, advocate, and community builder at [WireMock Inc](https://www.wiremock.io/).
 I work on WireMock and Jenkins open-source projects, and also help with advocacy for WireMock Cloud.
-Alumni of Dynatrace, CloudBees, SPbSPU, Synopsys, Sitronics, and Intel Labs.
-**TL;DR:** Hardware engineer turned CI/CD systems admin turned SWE turned open source community leader.
+Alumni of Dynatrace, CloudBees, SPbSPU, Synopsys and Intel Labs.
+**TL;DR:** Hardware engineer turned CI/CD systems admin turned developer tools engineer turned open source community leader.
 
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
@@ -22,9 +22,12 @@ My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
 Always [looking for contributors](https://www.jenkins.io/participate), code or not!
 
-**WireMock** joined in 2023 as a contributor to help with growing user and developer communities.
+**WireMock.** I joined it in 2023 to help with growing user and developer communities.
 It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
 [More about WireMock](https://wiremock.org/)
+
+**Testcontainers.** I've been using Testcontainers since 2018, and in 2023 started actively contributing to the project.
+I'm a creator and maintainer of [Testcontainers for C/C++](https://github.com/testcontainers/testcontainers-c) and a contributor to other implementations and modules. 
 
 **Keptn**. I joined it in mid-2021 as a contributor.
 Keptn is an event-driven orchestration server for cloud native applications.
@@ -39,12 +42,11 @@ and joint projects with the CDF end users and members.
 [Full Statement](https://www.linkedin.com/feed/update/urn:li:activity:6804399697592123392/).
 
 **Open Hardware**.
-I am a big open hardware enthusiast,
-with some experience in RISC-V and OpenRISC ecosystems.
+I am an open hardware enthusiast, with some experience in RISC-V and OpenRISC ecosystems.
 I believe it will eat the world too 🚀
-I am a member of the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
+I volunteer in the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
 and a contributor to the [LibreCores](https://www.librecores.org/) project.
-I also have a PhD in hardware design.
+I also have a PhD degree in hardware design and electronics design automation.
 
 **Pet Projects**.
 I am a co-maintainer of [Windows Service Wrapper (WinSW)](https://github.com/winsw/winsw), not so active these days 😢

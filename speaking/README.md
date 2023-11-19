@@ -3,35 +3,26 @@
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
-[SpeakerDeck](https://speakerdeck.com/onenashev/) |
-[E-mail](mailto:o.v.nenashev+opportunities@gmail.com) |
+[Sessionize](https://sessionize.com/onenashev) |
 [More links](https://linktr.ee/onenashev)
 
-I am available for speaking at offline and, in some cases, online events.
-My topics include whatever Jenkins, Keptn, Java for practitioners, CI/CD basics, open hardware,
-and contributing to open source projects.
+I am available for speaking at in-person and, in some cases, online events.
+My topics include whatever Jenkins, Testcontainers, WireMock, Java and developer tools, CI/CD and observability, open hardware and open source community management.
+I am a CNCF/CDF ambassador and a Testcontainers champion.
 Send me a message if you are interested!
 
 ## My talks
 
-I generally publish my talks on Google Slides these days.
-In the past I used to publish them on Speakerdeck or SlideShare.
+You can find my recent talks and publications [here](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing).
+I generally publish my talks on Google Slides, but some can be found on Speakerdeck, GitHub or SlideShare.
+
 Links:
 
-* Google slides: upon request
+* [All talks and Publications](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
+* Sessionize: https://sessionize.com/onenashev
+* Google Slides: [links here](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
 * SpeakerDeck: https://speakerdeck.com/onenashev/ 
 * SlideShare: https://www.slideshare.net/OlegNenashev/presentations
-* Blog on Jenkins: https://www.jenkins.io/blog/authors/oleg_nenashev/
-* Blog on Medium: https://medium.com/@onenashev
-
-Recent talks (in English):
-
-* Evolution of open source CI/CD tools, keynote at the Open Source Summit India 2021 https://docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2zMTNYCYfmK-tp7Gj8/edit?usp=sharing
-* Under the hood of serverless Jenkins. Jenkinsfile Runner, DevOps Days Zurich 2019, https://devopsdays.org/events/2019-zurich/program/oleg-nenashev 
-* Docker and Jenkins as Code, DevOps World 2019
-* Common Pitfalls in Jenkins Security and How to Avoid Them, DevOps World 2018 | Jenkins World, https://www.conferencecast.tv/speaker-40720-oleg-nenashev#.speakerPage-latest 
-* Leap from Java 8 to Java 11 in Jenkins. Our war story, JUG Lausanne, http://jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html 
-* Dependabot for Jenkins development, Jenkins Developer Meetup, https://www.youtube.com/watch?v=RXIJpjYlEC 
 
 ## Speaker Profile
 
@@ -41,19 +32,20 @@ Please use this data for events:
 * **Headline(s)**:
   * For WireMock and working time events: Community Builder and Developer Advocate, WireMock
   * For Jenkins events: Jenkins Maintainer and Board Member 
-  * For CDF events: TOC Member and Community Ambassador, Continuous Delivery Foundation
+  * For CDF events: CNCF and CDF Community Ambassador, Continuous Delivery Foundation
   * For hardware events: Contributor, FOSSi
 *  **Photo**: [here](/images/profile.jpg).
    Feel free to crop as needed:
 * **Bio**:
-Oleg is a developer tools hacker, community builder consultant currently working on WireMock and WireMock Cloud ecosystems.
+Oleg is a developer tools hacker, community builder and consultant currently working on WireMock and WireMock Cloud ecosystems.
 He's passionate open source software and open hardware advocate.
 Oleg is a core maintainer and board member in the Jenkins project where he writes code, mentors contributors and organizes community events.
 He is a TOC member in the Continuous Delivery Foundation, and also a CDF and CNCF ambassador.
-Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation.
+Oleg has a PhD degree in electronics design and volunteers in the Free and Open Source Silicon Foundation,
+and in a number of Ukrainian support and Russian anti-war organizations.
 * **Short Bio**: Oleg is a community builder, open source advocate and consultant, now at WireMock Inc. He is a Jenkins and WireMock maintainer, CDF TOC member and CNCF ambassador
 * **Pronous**: he/him
-* **Speaking Credentials:**  I am a CNCF and CDF ambassador. I spoke at conferences including Kubecon, DevOps World, JavaPoint, DevopsDays, Jenkins World, DevRelCon, Heisenbug, DevRelCon, FOSS Backstage, and at many meetups across the world
+* **Speaking Credentials:**  I am a CNCF and CDF ambassador, and a Testcontainers champion. I spoke at conferences including Kubecon, Devoxx, DevOps World, cdCon, JavaPoint, DevopsDays, Jenkins World, DevRelCon, Heisenbug, DevRelCon, FOSS Backstage, and at many meetups across the world
 
 ## Rider
 
