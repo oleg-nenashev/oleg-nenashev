@@ -3,6 +3,7 @@
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
+[Sessionize](https://sessionize.com/onenashev) |
 [More links](https://linktr.ee/onenashev)
 
 I am available for speaking at in-person and, in some cases, online events.
@@ -17,6 +18,8 @@ I generally publish my talks on Google Slides, but some can be found on Speakerd
 
 Links:
 
+* [All talks and Publications](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
+* Sessionize: https://sessionize.com/onenashev
 * Google Slides: [links here](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
 * SpeakerDeck: https://speakerdeck.com/onenashev/ 
 * SlideShare: https://www.slideshare.net/OlegNenashev/presentations
