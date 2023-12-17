@@ -1,8 +1,9 @@
 name: Continuous Integration
 
 on:
-  push:
-    branches: [ "main" ]
+  # We have deploy there
+  # push:
+  #  branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
