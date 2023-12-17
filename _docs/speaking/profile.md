@@ -1,18 +1,16 @@
 # Speaker Profile
 
-Please use this data for events:
+Please use the data below for the events.
 
-* **Full name**: Oleg Nenashev
-* **Headline(s)**:
-  * For working time events: Community Builder and Developer Advocate, WireMock
-  * For Jenkins community events: Jenkins Core Maintainer
-  * For hardware events: Contributor, FOSSi
-*  **Photo**: [here](/images/profile.jpg).
-   Feel free to crop as needed
-* **Bio**:
+- Full name: Oleg Nenashev
+- Photo: [here](../images/profile.jpg). Feel free to crop as needed
+- Pronouns: he/him
 
-* **Short Bio**: 
-* **Pronous**: he/him
+## Headline(s)
+
+- For working time events: Community Builder and Developer Advocate, WireMock
+- For Jenkins community events: Jenkins Core Maintainer
+- For hardware events: Contributor, FOSSi
 
 ## Bio
 

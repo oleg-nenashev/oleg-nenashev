@@ -27,7 +27,7 @@ It is a flexible open source tool for building mock APIs and testing your client
 [More about WireMock](https://wiremock.org/)
 
 **Testcontainers.** I've been using Testcontainers since 2018, and in 2023 started actively contributing to the project.
-I'm a creator and maintainer of [Testcontainers for C/C++](https://github.com/testcontainers/testcontainers-c) and a contributor to other implementations and modules. 
+I'm a creator and maintainer of [Testcontainers for C/C++](https://github.com/testcontainers/testcontainers-c) and a contributor to other implementations and modules.
 
 **Keptn**. I joined it in mid-2021 as a contributor.
 Keptn is an event-driven orchestration server for cloud native applications.

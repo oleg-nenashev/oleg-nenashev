@@ -6,10 +6,10 @@
 * Major: Automation and Control (Russian classifier - 220200) 
 * Thesis: Development of methods and tools for reengineering of digital hardware defined by HDL specifications.
 
-# Files
+## Files
 
 * [Thesis](./thesis.pdf)
-* [Slides from the thesis defence](./defence-slides.pdf)
+* [Slides from the thesis defense](./defence-slides.pdf)
 
 ## Abstract
 

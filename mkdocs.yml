@@ -44,6 +44,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+    - toc.integrate
   font:
     text: DM Sans
     code: Roboto Mono
