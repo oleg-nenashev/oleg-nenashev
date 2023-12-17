@@ -31,3 +31,8 @@ Coming soon
 Найдены ошибки в программном обеспечении PSoC Designer для аналоговой подсистемы микросхем CYWUSB6953.
 Разработана модификация протокола WirelessUSB.
 Разработаны описания лабораторных работ на базе созданных проектов.
+
+## Publications
+
+1. Baltrukov N, Nenashev O, Lavrov A, Kalugin M. Programmable Systems on Chip. Cypress Semiconductor. (Baltrukov N, ed.). Saint Petersburg: SPBSTU; 2009
+2. Nenashev O. Modification of Cypress WirelessUSB protocol in order to provide grid network topology. In: Proceedings of XXXVIII SPBSTU Week of Science. Saint Petersburg: SPBSTU; 2009
