@@ -13,7 +13,7 @@ The video recordings are referenced in these YouTube playlists:
 ## Talks on Sessionize
 
 Here are the talks I submit to conferences and hence
-keep on Sessionize:
+keep them on Sessionize:
 
 <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/f7153696-71f0-4088-861f-74886f7e3df0/0x0x3fb393x"></script>
 
