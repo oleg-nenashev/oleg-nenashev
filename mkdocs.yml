@@ -1,7 +1,6 @@
 site_name: Oleg Nenashev - Self-Documentation
 site_description: >-
   Whatever stuff about Oleg.
-
 copyright: Copyright &copy; 2023 - Oleg Nenashev
 docs_dir: _docs
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
@@ -99,6 +98,7 @@ plugins:
   - search
   - autorefs
   - macros
+  - mkdocs-pdf
   # OpenGraphs
   - social:
       # custom_layouts_dir is commercial feature
@@ -124,3 +124,4 @@ markdown_extensions:
       alternate_style: true
   - toc:
       permalink: '#'
+  - attr_list

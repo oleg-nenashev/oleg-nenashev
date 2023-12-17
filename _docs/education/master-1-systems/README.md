@@ -31,3 +31,9 @@ All other features (including HDL’s input-output) should be implemented in ext
 
 Prototype of programmable reengineering toolkit was developed as a part of the research.
 Results of conducted experiments confirm applicability of the proposed model and system architecture.
+
+## Slides
+
+## Slides
+
+![Alt text](./defense-slides.pdf){ type=application/pdf style="min-height:50vh;width:100%" }
