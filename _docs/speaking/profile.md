@@ -32,7 +32,3 @@ I am a CNCF and CDF ambassador, and a Testcontainers champion.
 I spoke at conferences including Kubecon, Devoxx, DevOps World, cdCon, JavaPoint,
 DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage,
 and at many meetups across the world
-
-## Rider
-
-I do not have one, just do not make me to do pre-recorded talks :P
