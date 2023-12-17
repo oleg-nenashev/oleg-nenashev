@@ -6,11 +6,11 @@
 * Thesis: Reengineering of digital hardware, and embedding test modules and interfaces into devices described by multilevel models
 * Keywords: hardware representation models, methodologies for the automated synthesis of integrated circuit testing and built-in self-test components, prototyping of automated hardware reengineering toolkits
 
-# Files
+## Files
 
 * [Extended Abstract](./extended-abstract.pdf)
 * [Thesis](./thesis.pdf)
-* [Slides from the thesis defence](./defence-slides.pdf)
+* [Slides from the thesis defense](./defence-slides.pdf)
 
 ## Abstract (English)
 

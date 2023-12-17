@@ -1,4 +1,4 @@
-# BSc Degree 
+# BSc Degree
 
 * University: [Peter the Great St.Petersburg Polytechnic University (SPbPU)](https://english.spbstu.ru/)
 * Department: [Computer systems and program technologies](http://kspt.icc.spbstu.ru/)
