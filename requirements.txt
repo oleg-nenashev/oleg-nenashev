@@ -10,7 +10,9 @@ mkdocs-multirepo-plugin==0.6.3
 mkdocs-redirects==1.2.1
 mkdocs-extra-sass-plugin==0.1.0
 mkdocs-render-swagger-plugin===0.1.1
+mkdocs-pdf==0.1.1
 livereload==2.6.3
+lxml==4.9.3
 click==8.1.7
 dacite==1.8.1
 ghp-import==2.1.0
