@@ -1,4 +1,4 @@
-site_name: Oleg Nenashev - Self-Documentation
+site_name: Oleg Nenashev. Self-Documentation
 site_description: >-
   Whatever stuff about Oleg.
 copyright: Copyright &copy; 2023 - Oleg Nenashev
@@ -79,8 +79,10 @@ extra:
     #property: TODO
   
 nav:
+  - ">whoami": README.md
   - Open Source:
-      - Overview: open-source/README.md
+    - My Projects: open-source/projects/README.md
+    - My Organizations: open-source/organizations/README.md
   - Public Speaking:
     - Overview: speaking/README.md 
     - My talks: speaking/talks.md
