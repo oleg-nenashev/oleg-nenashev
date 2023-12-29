@@ -1,14 +1,13 @@
 # Want to hire me? Need my help in a community?
 
 **Quick links:**
-[My resume](https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing) | 
+[My resume](https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
-[E-mail](mailto:o.v.nenashev+opportunities@gmail.com) |
 [More links](https://linktr.ee/onenashev)
 
 ## My availability
 
-I am ready to discuss good opportunities within the area of my interests:
+I am ready to discuss consulting opportunities within the area of my interests:
 sustainability, open research, CI/CD and cloud native systems.
 
 If you are from an open source community and looking for help or advice, feel free to reach out!
