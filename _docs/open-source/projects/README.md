@@ -2,7 +2,9 @@
 
 ## Jenkins
 
-<img align="right" width="128" src="jenkins/logo.png">
+<a href="https://www.jenkins.io/" target="_blank">
+<img align="right" width="128" src="jenkins/logo.png" alt="Jenkins Logo">
+</a>
 
 [Jenkins](http://jenkins.io/) is the first open source community I joined.
 No regrets, it has been a great experience!
@@ -14,22 +16,32 @@ Always [looking for contributors](https://www.jenkins.io/participate), code or n
 
 ## Testcontainers
 
-<img align="right" width="128" src="testcontainers/logo.png">
+<a href="https://testcontainers.com/" target="_blank">
+<img align="right" width="128" src="testcontainers/logo.png" alt="Testcontainers Logo">
+</a>
 
 I've been using Testcontainers since 2018, and in 2023 started actively contributing to the project.
 I'm a creator and maintainer of [Testcontainers for C/C++](https://github.com/testcontainers/testcontainers-c) and a contributor to other implementations and modules.
+I am a [Testcontainers Champion](https://testcontainers.com/community-champions/oleg-nenashev/)
+doing presentations on modern integration testing for
+software, hardware and embedded projects.
 
 ## WireMock
 
-<img align="right" width="128" src="wiremock/logo.svg">
+<a href="https://wiremock.org/" target="_blank">
+<img align="right" width="128" src="wiremock/logo.svg" alt="WireMock Logo">
+</a>
 
 I joined WireMock in 2023 to help with growing user and developer communities.
+Now I am a co-maintainer of the WireMock core (aka _WireMock for Java_) and its Testcontainers modules.
 It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
 [More about WireMock](https://wiremock.org/)
 
 ## Windows Service Wrapper
 
-<img align="right" width="128" src="winsw/logo.png">
+<a href="https://github.com/winsw/winsw" target="_blank">
+<img align="right" width="128" src="winsw/logo.png" alt="WinSW Logo">
+</a>
 
 I am a co-maintainer of [Windows Service Wrapper (WinSW)](https://github.com/winsw/winsw), not so active these days 😢
 
@@ -40,7 +52,9 @@ with major stability improvements.
 
 ## FaaScinator
 
-<img align="right" width="128" src="faascinator/logo.png">
+<a href="https://github.com/oleg-nenashev/FaaScinator" target="_blank">
+<img align="right" width="128" src="faascinator/logo.png" alt="FaaScinator Logo">
+</a>
 
 In June 2021 I've also started the [FaaScinator project](https://github.com/oleg-nenashev/FaaScinator) -
 a tool that converts Java CLI apps to FaaS containers and OpenFaaS templates,
@@ -50,7 +64,9 @@ powered by Quarkus, OpenFaaS, picocli and a few other projects.
 
 ### Keptn
 
-<img align="right" width="128" src="keptn/logo.png">
+<a href="https://keptn.sh/latest/" target="_blank">
+<img align="right" width="128" src="keptn/logo.png" alt="Keptn Logo">
+</a>
 
 I joined Keptn in mid-2021 as a contributor.
 Keptn v1 was an event-driven orchestration and automation server for cloud native applications.
@@ -63,7 +79,9 @@ Keptn Lifecycle Toolkit.
 
 ### LibreCores
 
-<img align="right" width="128" src="librecores/logo.png">
+<a href="https://github.com/librecores" target="_blank">
+<img align="right" width="128" src="librecores/logo.png" alt="LibreCores Logo">
+</a>
 
 LibreCores was a community hub for open-source digital hardware,
 created under the umbrella of the [Free and Open Source Silicon Foundation](https://fossi-foundation.org/).
