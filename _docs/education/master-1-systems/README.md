@@ -34,6 +34,4 @@ Results of conducted experiments confirm applicability of the proposed model and
 
 ## Slides
 
-## Slides
-
 ![Alt text](./defense-slides.pdf){ type=application/pdf style="min-height:50vh;width:100%" }

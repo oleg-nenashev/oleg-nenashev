@@ -91,11 +91,14 @@ nav:
   - Work:
     - Want to hire me?: job/README.md
     - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing
-  - More Links:
+  - Academia:
     - Education: education/README.md
-    - Linktree: https://linktr.ee/onenashev
-    - Let's meet: https://calendly.com/onenashev/virtual-coffee
-    - GitHub Sponsors: https://github.com/sponsors/oleg-nenashev
+    - PhD (Electronics): education/phd/README.md
+    - Master (Systems): education/master-1-systems/README.md
+    - Secondary Master (Economics): education/master-2-economics/README.md
+  - Contacts:
+    - Contacts: contacts.md
+    
 
 plugins:
   - search
