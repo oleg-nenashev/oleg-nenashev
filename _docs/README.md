@@ -5,6 +5,11 @@ I work on Jenkins, WireMock and Testcontainers open-source projects, and also do
 Alumni of CloudBees, SPbSPU, SynopsysDynatrace, and Intel Labs.
 **TL;DR:** Hardware engineer turned CI/CD systems admin turned developer tools engineer turned open source community leader.
 
+I am Russian, and I stand with Ukraine in the outgoing war.
+I contribute to the military and humanitarian support for Ukraine,
+and also participate in the Russian anti-war organizations.
+**`#StandWithUkraine`**
+
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
