@@ -7,9 +7,9 @@ Alumni of Dynatrace, CloudBees, SPbSPU, Synopsys and Intel Labs.
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
-[Public Speaking](./speaking) |
-[Education](./education) |
-[Want to hire me?](./job) |
+[Public Speaking](./_docs/speaking/README.md) |
+[Education](./_docs/education/README.md) |
+[Want to hire me?](./_docs/job/README.md) |
 [More links](https://linktr.ee/onenashev)
 
 ## My communities and projects
@@ -29,12 +29,7 @@ It is a flexible open source tool for building mock APIs and testing your client
 **Testcontainers.** I've been using Testcontainers since 2018, and in 2023 started actively contributing to the project.
 I'm a creator and maintainer of [Testcontainers for C/C++](https://github.com/testcontainers/testcontainers-c) and a contributor to other implementations and modules.
 
-**Keptn**. I joined it in mid-2021 as a contributor.
-Keptn is an event-driven orchestration server for cloud native applications.
-I think it's a very promising project, and I'm happy to participate.
-[More about Keptn](https://keptn.sh/)
-
-**Continuous Delivery Foundation**. 
+**Continuous Delivery Foundation**.
 I have been a community ambassador at the [CDF](https://cd.foundation/) since its inception.
 In 2021 I was also elected to join the Technical Oversight Committee.
 There I facilitate technical programs among member projects (including Jenkins or Tekton),
