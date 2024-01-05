@@ -74,9 +74,8 @@ extra:
       link: https://www.instagram.com/asciidwarf/
       name: Instagram
   analytics:
-    # FIXME: Update when in Production
-    #provider: google
-    #property: TODO
+    provider: google
+    property: G-MQM735FFJW
   
 nav:
   - ">whoami": README.md
