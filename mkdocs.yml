@@ -82,6 +82,7 @@ nav:
   - Open Source:
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
+    - FaaScinator: faascinator/README.md
   - Public Speaking:
     - Overview: speaking/README.md 
     - My talks: speaking/talks.md
@@ -112,7 +113,14 @@ plugins:
 #      cleanup: false
 #      keep_docs_dir: true
 #      nav_repos:
-        
+  - multirepo:
+    # TODO: Change to True once works
+      cleanup: false
+      keep_docs_dir: true
+      nav_repos:
+      - name: faascinator
+        import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
+        imports: [ README.md, docs/* ]   
   - redirects:
       redirect_maps:
         
