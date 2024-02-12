@@ -23,8 +23,8 @@ and in a number of Ukrainian support and Russian anti-war organizations.
 
 ## Short Bio
 
-Oleg is a community builder, open source advocate and consultant, now at WireMock Inc.
-He is a Jenkins and WireMock maintainer, CDF TOC member and CNCF ambassador
+Oleg is a community builder, open source advocate and consultant, now at Gradle.
+He is a Jenkins and WireMock maintainer, CDF TOC member and CNCF ambassador.
 
 ## Speaking Credentials
 
