@@ -1,7 +1,7 @@
 **Hello, world!** 👋
-I am an open source contributor, advocate, and community builder at [WireMock Inc](https://www.wiremock.io/).
-I work on WireMock and Jenkins open-source projects, and also help with advocacy for WireMock Cloud.
-Alumni of Dynatrace, CloudBees, SPbSPU, Synopsys and Intel Labs.
+I am an open source contributor, advocate, and community builder.
+Now I am with Gradle, working on the [Gradle Build Tool](https://gradle.org/).
+Alumni of WireMock, Dynatrace, CloudBees, SPbSPU, Synopsys and Intel Labs.
 **TL;DR:** Hardware engineer turned CI/CD systems admin turned developer tools engineer turned open source community leader.
 
 **Quick links:**
