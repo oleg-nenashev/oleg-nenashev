@@ -5,7 +5,7 @@ copyright: Copyright &copy; 2023 - Oleg Nenashev
 docs_dir: _docs
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
 repo_name: Oleg's self-documentation site
-edit_uri: edit/main/
+edit_uri: edit/main/_docs/
 site_url: https://oleg-nenashev.github.io/oleg-nenashev
 
 # Build
