@@ -90,14 +90,14 @@ nav:
           - Google Test: testcontainers-c/demo/google-test/README.md
           - WireMock Module: testcontainers-c/demo/wiremock/README.md
         Contributing: testcontainers-c/CONTRIBUTING.md
+  - Consulting:
+    - Want to hire me?: job/README.md
+    - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing      
   - Public Speaking:
     - Overview: speaking/README.md 
     - My talks: speaking/talks.md
     - Speaker Profile: speaking/profile.md
     - Invite me as a speaker: speaking/invite-me.md
-  - Work:
-    - Want to hire me?: job/README.md
-    - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing
   - Academia:
     - Education: education/README.md
     - PhD (Electronics): education/phd/README.md
