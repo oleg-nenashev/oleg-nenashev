@@ -28,3 +28,6 @@ jobs:
     
       - name: Build the docs
         run: mkdocs build
+        env:
+          FULL_BUILD: true
+
