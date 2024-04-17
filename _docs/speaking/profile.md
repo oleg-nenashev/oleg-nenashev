@@ -8,7 +8,7 @@ Please use the data below for the events.
 
 ## Headline(s)
 
-- For working time events: Community Builder and Developer Advocate, WireMock
+- For working time events: Community Builder and Developer Advocate, Gradle
 - For Jenkins community events: Jenkins Core Maintainer
 - For hardware events: Contributor, FOSSi
 
