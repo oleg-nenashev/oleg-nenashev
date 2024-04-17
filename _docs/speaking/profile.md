@@ -3,14 +3,19 @@
 Please use the data below for the events.
 
 - Full name: Oleg Nenashev
-- Photo: [here](../images/profile.jpg). Feel free to crop as needed
 - Pronouns: he/him
+- Location: Neuchâtel, Switzerland
 
 ## Headline(s)
 
 - For working time events: Community Builder and Developer Advocate, Gradle
 - For Jenkins community events: Jenkins Core Maintainer
 - For hardware events: Contributor, FOSSi
+
+## Profile pic
+
+You can take one of the pictures from [this album](https://photos.app.goo.gl/yx6QZ9BAZCfiv7vu9).
+Feel free to crop as needed!
 
 ## Bio
 
