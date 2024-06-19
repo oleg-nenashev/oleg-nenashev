@@ -28,9 +28,10 @@ nav:
           - Google Test: testcontainers-c/demo/google-test/README.md
           - WireMock Module: testcontainers-c/demo/wiremock/README.md
         Contributing: testcontainers-c/CONTRIBUTING.md
-  - Consulting:
-    - Want to hire me?: job/README.md
-    - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing      
+  - Professional:
+    - Consulting: consulting/README.md
+    - Part-time Work: work/README.md
+    - Public C.V.: work/cv.md
   - Public Speaking:
     - Overview: speaking/README.md
     - My talks: speaking/talks.md
@@ -41,6 +42,7 @@ nav:
     - PhD (Electronics): education/phd/README.md
     - Master (Systems): education/master-1-systems/README.md
     - Secondary Master (Economics): education/master-2-economics/README.md
+    - Bachelor (Systems): education/bachelor/README.md
   - Contacts:
     - Contacts: contacts.md
 
@@ -62,10 +64,15 @@ plugins:
           nav_repos:
           - name: faascinator
             import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
-            imports: [ README.md, docs/* ] 
+            imports: [ README.md, docs/* ]
           - name: testcontainers-c
             import_url: 'https://github.com/testcontainers/testcontainers-c?branch=main&edit_uri=/blob/main/'
             imports: [ "*.md", docs/*, demo/* ]
+  - redirects:
+      redirect_maps:
+        'job/README.md': "work/README.md"
+        'cv.md': 'work/cv.md'
+        'resume.md': 'work/cv.md'
 
 # Markdown
 markdown_extensions:

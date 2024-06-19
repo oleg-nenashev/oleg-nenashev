@@ -10,13 +10,9 @@
 
 * [Extended Abstract (Rus)](./extended-abstract.pdf)
 * [Thesis (Rus)](./thesis.pdf)
-* [Slides from the thesis defense (Rus)](./defence-slides.pdf)
+* [Slides from the thesis defense (Rus)](./defense-slides.pdf)
 
 ## Abstract (English)
-
-TODO: Coming soon
-
-## Abstract (Russian)
 
 TODO: Coming soon
 

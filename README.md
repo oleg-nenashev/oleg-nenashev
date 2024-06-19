@@ -1,20 +1,27 @@
 # Hello, world! 👋
 
-I am a community builder, open source contributor and advocate.
+I am a open source community builder and DevRel consultant.
+Hardware engineer turned CI/CD infra maintainer turned developer tools engineer turned open source contributor and  community builder.
+I wear many hats:
+Jenkins core maintainer,
+CNCF/CDF Ambassador,
+Testcontainers Champion.
+I'm also a former CDF TOC chair, Jenkins and OpenAPI Initiative governance board member.
+
 I work on Gradle, Jenkins, WireMock and Testcontainers open-source projects, and also do open source consulting.
 Alumni of CloudBees, SPbSPU, Synopsys, WireMock, Dynatrace, and Intel Labs.
-**TL;DR:** Hardware engineer turned CI/CD systems admin turned developer tools engineer turned open source community leader.
 
+I live in Switzerland.
 I am Russian, and I stand with Ukraine in the outgoing war.
 I contribute to the military and humanitarian support for Ukraine,
 and also participate in the Russian anti-war organizations.
-**`#StandWithUkraine`**
+**`#StandWithUkraine`** **`#RussiansAgainstPutin`**
 
 **Quick links:**
 [Twitter](https://twitter.com/oleg_nenashev) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
-[Public Speaking](./speaking) |
-[Want to hire me?](./job) |
+[Public Speaking](./speaking/README.md) |
+[Want to hire me?](./consulting/README.md) |
 [More links](https://linktr.ee/onenashev)
 
 ![My personal card](./images/header.png)
@@ -34,7 +41,7 @@ And yes, I am a big supporter of [InnerSource](https://innersourcecommons.org/).
 
 **Jenkins** is the first open source community I joined.
 No regrets, it has been a great experience!
-In [Jenkins](http://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles. 
+In [Jenkins](http://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles.
 I am not a mother of dragons, but I am definitely a father of bugs 😊
 My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
@@ -63,13 +70,13 @@ I also have a PhD degree in hardware design and electronics design automation.
 
 **Pet Projects**.
 I am a co-maintainer of [Windows Service Wrapper (WinSW)](https://github.com/winsw/winsw), not so active these days 😢
-In June 2021 I've also started the [FaaScinator project](https://github.com/oleg-nenashev/FaaScinator) - 
+In June 2021 I've also started the [FaaScinator project](https://github.com/oleg-nenashev/FaaScinator) -
 a tool that converts Java CLI apps to FaaS containers and OpenFaaS templates, powered by Quarkus.
 
 ## Self-documentation
 
 - [Open Source](./open-source/projects/README.md)
-- [Work](./job/README.md)
+- [Work](./work/README.md) and [Consulting](./consulting/README.md)
 - [Public Speaking](./speaking/README.md)
 - [Education](./education/README.md)
 - [Photography](https://www.instagram.com/asciidwarf/)

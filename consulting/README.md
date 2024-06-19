@@ -1,8 +1,13 @@
 # Want to hire me? Want to grow your community?
 
+I am available for consulting projects and ad-hoc advisory.
+While I continue to [work part-time](../work/README.md),
+my contract allows independent consulting opportunities
+in the areas of open-source communities, CI/CD and other areas.
+
 **Quick links:**
-[My resume](https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
+[C.V.](../work/cv.md) |
 [More links](https://linktr.ee/onenashev)
 
 ## My Availability
@@ -25,15 +30,12 @@ research divisions, OSPOs, or CTO offices as an advisor.
 
 ## Pro Bono Consulting
 
-If you are from an open source community and looking for help or advice, feel free to reach out!
+If you are from an open source community and looking for help or advice,
+feel free to reach out!
 Let's grab a [virtual coffee](https://calendly.com/onenashev/virtual-coffee).
-My time might be limited, but I will see whether I can help.
-Company non competition agreements may apply.
-For Jenkins related topics please use the
-[public community channels](https://www.jenkins.io/participate/connect/) when possible.
+My time is limited, but I will see whether I can help.
+Company and client non-competition agreements may apply.
 
 ## My resume
 
-You can find my curriculum vitae [here](https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing).
-Nowadays it is available as public and sometimes live Google Doc.
-Resume as Code is coming soon!
+You can find my curriculum vitae [here](../work/cv.md)
