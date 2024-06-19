@@ -25,9 +25,11 @@ jobs:
      
       - name: Install dependencies
         # Note: https://squidfunk.github.io/mkdocs-material/insiders is a private repo we use for experiments
-        run: >
+        env:
+          PIP_TOKEN: ${{ secrets.MKDOCS_MATERIAL_GITHUB_TOKEN }}
+        run: |
           pip install -r .devcontainer/requirements.txt
-          pip install git+https://${secrets.MKDOCS_MATERIAL_GITHUB_TOKEN}@github.com/oleg-nenashev/mkdocs-material-insiders.git@9.5.27-insiders-4.53.11
+          pip install git+https://${PIP_TOKEN}@github.com/oleg-nenashev/mkdocs-material-insiders.git@9.5.27-insiders-4.53.11
     
       - name: Build the docs
         run: mkdocs build
