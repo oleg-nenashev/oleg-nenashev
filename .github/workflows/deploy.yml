@@ -24,6 +24,11 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: write
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -39,20 +44,27 @@ jobs:
         with:
           python-version: "3.10"
    
-      - name: Install dependencies
-        # Note: https://squidfunk.github.io/mkdocs-material/insiders is a private repo we use for experiments
-        env:
-          PIP_TOKEN: ${{ secrets.MKDOCS_MATERIAL_GITHUB_TOKEN }}
-        run: |
-          pip install -r .devcontainer/requirements.txt
-          pip install git+https://${PIP_TOKEN}@github.com/oleg-nenashev/mkdocs-material-insiders.git@9.5.27-insiders-4.53.11
-  
-      - name: Build the docs site
-        run: mkdocs build
-        env:
-          FULL_BUILD: true
-          INSIDERS: true
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v2 
+        with:
+            registry: ghcr.io
+            username: ${{ github.repository_owner }}
+            password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build in the dev container image
+        uses: devcontainers/ci@v0.3
+        with:
+            imageName: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
+            cacheFrom: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
+            push: always
+            runCmd: |
+              pip install git+https://${PIP_TOKEN}@github.com/oleg-nenashev/mkdocs-material-insiders.git@9.5.27-insiders-4.53.11
+              mkdocs build
+            env: |
+              PIP_TOKEN=${{ secrets.MKDOCS_MATERIAL_GITHUB_TOKEN }}
+              FULL_BUILD=true
+              INSIDERS=true
+        
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
