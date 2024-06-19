@@ -1,9 +1,13 @@
-site_name: Oleg Nenashev. Self-Documentation
+site_name: Oleg Nenashev
 site_description: >-
-  Whatever stuff about Oleg.
-copyright: Copyright &copy; 2024 - Oleg Nenashev. The content and the license are licensed under CC BY 4.0
+  Oleg is a community builder, open source advocate, and DevRel consultant.
+  He is a Jenkins core maintainer, CNCF Ambassador, Testcontainers Champion, and a former CDF TOC chair.
+  This is his personal site.
+copyright: >-
+  Copyright &copy; 2024 - Oleg Nenashev.
+  The content and the license are licensed under CC BY 4.0
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
-repo_name: Oleg's self-documentation site
+repo_name: GitHub Repo
 edit_uri: edit/main/
 site_url: https://oleg-nenashev.github.io/oleg-nenashev
 
