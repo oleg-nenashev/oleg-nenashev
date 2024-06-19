@@ -1,7 +1,7 @@
 site_name: Oleg Nenashev. Self-Documentation
 site_description: >-
   Whatever stuff about Oleg.
-copyright: Copyright &copy; 2023 - Oleg Nenashev
+copyright: Copyright &copy; 2024 - Oleg Nenashev. The content and the license are licensed under CC BY 4.0
 docs_dir: _docs
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
 repo_name: Oleg's self-documentation site
@@ -76,7 +76,7 @@ extra:
   analytics:
     provider: google
     property: G-MQM735FFJW
-  
+
 nav:
   - ">whoami": README.md
   - Open Source:
@@ -105,7 +105,7 @@ nav:
     - Secondary Master (Economics): education/master-2-economics/README.md
   - Contacts:
     - Contacts: contacts.md
-    
+
 
 plugins:
   - search
@@ -128,7 +128,7 @@ plugins:
           - name: testcontainers-c
             import_url: 'https://github.com/testcontainers/testcontainers-c?branch=main&edit_uri=/blob/main/'
             imports: [ "*.md", docs/*, demo/* ]
-        
+
 # Markdown
 markdown_extensions:
   - pymdownx.highlight:
