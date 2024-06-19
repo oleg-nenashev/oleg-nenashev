@@ -35,5 +35,5 @@ jobs:
         run: mkdocs build
         env:
           FULL_BUILD: true
-          INSIDERS: 1
+          INSIDERS: true
 
