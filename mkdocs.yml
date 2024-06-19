@@ -2,14 +2,82 @@ site_name: Oleg Nenashev. Self-Documentation
 site_description: >-
   Whatever stuff about Oleg.
 copyright: Copyright &copy; 2024 - Oleg Nenashev. The content and the license are licensed under CC BY 4.0
-docs_dir: _docs
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
 repo_name: Oleg's self-documentation site
-edit_uri: edit/main/_docs/
+edit_uri: edit/main/
 site_url: https://oleg-nenashev.github.io/oleg-nenashev
 
 # Build
 site_dir: _site
+docs_dir: .
+
+nav:
+  - ">whoami": README.md
+  - Open Source:
+    - My Projects: open-source/projects/README.md
+    - My Organizations: open-source/organizations/README.md
+    - FaaScinator: faascinator/README.md
+    - Testcontainers for C/C++:
+        Overview: testcontainers-c/README.md
+        Demos:
+          - Generic Container: testcontainers-c/demo/generic-container/README.md
+          - Google Test: testcontainers-c/demo/google-test/README.md
+          - WireMock Module: testcontainers-c/demo/wiremock/README.md
+        Contributing: testcontainers-c/CONTRIBUTING.md
+  - Consulting:
+    - Want to hire me?: job/README.md
+    - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing      
+  - Public Speaking:
+    - Overview: speaking/README.md 
+    - My talks: speaking/talks.md
+    - Speaker Profile: speaking/profile.md
+    - Invite me as a speaker: speaking/invite-me.md
+  - Academia:
+    - Education: education/README.md
+    - PhD (Electronics): education/phd/README.md
+    - Master (Systems): education/master-1-systems/README.md
+    - Secondary Master (Economics): education/master-2-economics/README.md
+  - Contacts:
+    - Contacts: contacts.md
+
+
+plugins:
+  - search
+  - autorefs
+  - macros
+  - mkdocs-pdf
+  # OpenGraphs
+  - social
+  - same-dir
+  - group:
+      enabled: !ENV [FULL_BUILD, true]
+      plugins:
+      - multirepo:
+          # TODO: Change to True once works
+          cleanup: false
+          keep_docs_dir: true
+          nav_repos:
+          - name: faascinator
+            import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
+            imports: [ README.md, docs/* ] 
+          - name: testcontainers-c
+            import_url: 'https://github.com/testcontainers/testcontainers-c?branch=main&edit_uri=/blob/main/'
+            imports: [ "*.md", docs/*, demo/* ]
+
+# Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: '#'
+  - attr_list
 
 # Theme
 theme:
@@ -76,70 +144,3 @@ extra:
   analytics:
     provider: google
     property: G-MQM735FFJW
-
-nav:
-  - ">whoami": README.md
-  - Open Source:
-    - My Projects: open-source/projects/README.md
-    - My Organizations: open-source/organizations/README.md
-    - FaaScinator: faascinator/README.md
-    - Testcontainers for C/C++:
-        Overview: testcontainers-c/README.md
-        Demos:
-          - Generic Container: testcontainers-c/demo/generic-container/README.md
-          - Google Test: testcontainers-c/demo/google-test/README.md
-          - WireMock Module: testcontainers-c/demo/wiremock/README.md
-        Contributing: testcontainers-c/CONTRIBUTING.md
-  - Consulting:
-    - Want to hire me?: job/README.md
-    - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing      
-  - Public Speaking:
-    - Overview: speaking/README.md 
-    - My talks: speaking/talks.md
-    - Speaker Profile: speaking/profile.md
-    - Invite me as a speaker: speaking/invite-me.md
-  - Academia:
-    - Education: education/README.md
-    - PhD (Electronics): education/phd/README.md
-    - Master (Systems): education/master-1-systems/README.md
-    - Secondary Master (Economics): education/master-2-economics/README.md
-  - Contacts:
-    - Contacts: contacts.md
-
-
-plugins:
-  - search
-  - autorefs
-  - macros
-  - mkdocs-pdf
-  # OpenGraphs
-  - social
-  - group:
-      enabled: !ENV [FULL_BUILD, true]
-      plugins:
-      - multirepo:
-          # TODO: Change to True once works
-          cleanup: false
-          keep_docs_dir: true
-          nav_repos:
-          - name: faascinator
-            import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
-            imports: [ README.md, docs/* ] 
-          - name: testcontainers-c
-            import_url: 'https://github.com/testcontainers/testcontainers-c?branch=main&edit_uri=/blob/main/'
-            imports: [ "*.md", docs/*, demo/* ]
-
-# Markdown
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - toc:
-      permalink: '#'
-  - attr_list
