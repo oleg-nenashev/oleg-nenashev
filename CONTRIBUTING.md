@@ -7,6 +7,14 @@ feel free to reuse and contribute.
 If you want to work together and build a template on the top of Material for MkDocs,
 let me know :)
 
+## Quick Start
+
+For the local development without full rebuild:
+
+```shell
+FULL_BUILD=false mkdocs serve
+```
+
 ## Under the Hood
 
 The site is built with [MkDocs](https://www.mkdocs.org/),

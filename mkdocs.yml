@@ -28,7 +28,7 @@ nav:
     - Want to hire me?: job/README.md
     - Public C.V.: https://docs.google.com/document/d/17nQnjqXoV9Irij_CX4XE87VoUXMHqY1MWVh2H7zry_8/edit?usp=sharing      
   - Public Speaking:
-    - Overview: speaking/README.md 
+    - Overview: speaking/README.md
     - My talks: speaking/talks.md
     - Speaker Profile: speaking/profile.md
     - Invite me as a speaker: speaking/invite-me.md
@@ -46,7 +46,6 @@ plugins:
   - autorefs
   - macros
   - mkdocs-pdf
-  # OpenGraphs
   - social
   - same-dir
   - group:
