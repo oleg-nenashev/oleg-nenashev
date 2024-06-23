@@ -28,7 +28,7 @@ nav:
           - Google Test: testcontainers-c/demo/google-test/README.md
           - WireMock Module: testcontainers-c/demo/wiremock/README.md
         Contributing: testcontainers-c/CONTRIBUTING.md
-  - Professional:
+  - Work & Consulting:
     - Consulting: consulting/README.md
     - Part-time Work: work/README.md
     - Public C.V.: work/cv.md
@@ -130,8 +130,8 @@ theme:
   font:
     text: DM Sans
     code: Roboto Mono
-  #favicon: TODO
-  #logo: TODO
+  favicon: images/logo/beaver_icon_64.ico
+  logo: images/logo/beaver_icon.png
   icon:
     repo: fontawesome/brands/github
 

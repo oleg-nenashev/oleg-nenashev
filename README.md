@@ -2,11 +2,11 @@
 
 I am a open source community builder and DevRel consultant.
 Hardware engineer turned CI/CD infra maintainer turned developer tools engineer turned open source contributor and  community builder.
-I wear many hats:
+Some of my hats:
 Jenkins core maintainer,
 CNCF/CDF Ambassador,
 Testcontainers Champion.
-I'm also a former CDF TOC chair, Jenkins and OpenAPI Initiative governance board member.
+I'm also a former CD Foundation TOC chair, Jenkins and OpenAPI Initiative governance board member.
 
 I work on Gradle, Jenkins, WireMock and Testcontainers open-source projects, and also do open source consulting.
 Alumni of CloudBees, SPbSPU, Synopsys, WireMock, Dynatrace, and Intel Labs.
@@ -47,19 +47,12 @@ My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
 Always [looking for contributors](https://www.jenkins.io/participate), code or not!
 
-**WireMock.** I joined it in 2023 to help with growing user and developer communities.
-It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
-[More about WireMock](https://wiremock.org/)
-
 **Testcontainers.** I've been using Testcontainers since 2018, and in 2023 started actively contributing to the project.
 I'm a creator and maintainer of [Testcontainers for C/C++](https://github.com/testcontainers/testcontainers-c) and a contributor to other implementations and modules.
 
-**Continuous Delivery Foundation**.
-I have been a community ambassador at the [CDF](https://cd.foundation/) since its inception.
-In 2021 I was also elected to join the Technical Oversight Committee.
-There I facilitate technical programs among member projects (including Jenkins or Tekton),
-and joint projects with the CDF end users and members.
-[Full Statement](https://www.linkedin.com/feed/update/urn:li:activity:6804399697592123392/).
+**WireMock.** I joined it in 2023 to help with growing user and developer communities.
+It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
+[More about WireMock](https://wiremock.org/)
 
 **Open Hardware**.
 I am an open hardware enthusiast, with some experience in RISC-V and OpenRISC ecosystems.
