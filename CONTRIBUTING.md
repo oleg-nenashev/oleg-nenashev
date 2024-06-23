@@ -12,7 +12,7 @@ let me know :)
 For the local development without full rebuild:
 
 ```shell
-FULL_BUILD=false mkdocs serve
+FULL_BUILD=false INSIDERS=false mkdocs serve
 ```
 
 ## Under the Hood

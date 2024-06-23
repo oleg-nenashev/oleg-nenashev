@@ -135,6 +135,9 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+extra_css:
+  - assets/css/theme.css
+
 extra:
   social:
     - icon: fontawesome/brands/github
