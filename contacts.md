@@ -20,4 +20,4 @@ Let's meet! [Virtual Coffee](https://calendly.com/onenashev/)
 
 ## GitHub Sponsors
 
-GitHub Sponsors: https://github.com/sponsors/oleg-nenashev
+GitHub Sponsors: [@oleg-nenashev](https://github.com/sponsors/oleg-nenashev)

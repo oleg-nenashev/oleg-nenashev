@@ -12,10 +12,10 @@ Please use the data below for the events.
 - For Jenkins community events: Jenkins Core Maintainer
 - For hardware events: Contributor, FOSSi
 
-## Profile pic
+## Profile Pic
 
 You can take one of the pictures from [this album](https://photos.app.goo.gl/yx6QZ9BAZCfiv7vu9).
-Feel free to crop as needed!
+Feel free to crop as needed.
 
 ## Bio
 
@@ -36,4 +36,4 @@ He is a Jenkins core maintainer, CNCF Ambassador, Testcontainers Champion, and a
 I am a CNCF and CDF ambassador, and a Testcontainers champion.
 I spoke at conferences including Kubecon, Devoxx, DevOps World, cdCon, JavaPoint,
 DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage,
-and at many meetups across the world
+and at many meetups across the world.

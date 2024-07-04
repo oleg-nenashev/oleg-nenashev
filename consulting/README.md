@@ -22,7 +22,7 @@ You can also find my contacts [here](../contacts.md).
 
 !!! quote "Testimonial - Software Developer Advocate Consultant at WireMock Inc."
 
-    During his assignment Mr. Nenashev... quadrupled community GitHub contributions to WireMock in 9 months, ..
+    During his assignment Mr. Nenashev... quadrupled community GitHub contributions to WireMock in 9 months...
   
     The client states that Mr. Nenashev has played a pivotal role in fostering open-source collaboration and community growth;
     his initiatives extended beyond mere developer advocacy and code contributions.
@@ -40,7 +40,7 @@ With 15+ years of experience in developer tools and automation projects, and wea
 
 In my consulting work, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that #StandWithUkraine. Pro-bono consulting for nonprofits and foundations is possible, too.
 
-My consulting areas include but not limited too:
+My consulting areas include but not limited to:
 
 - Advisory roles for building and growing open source communities and ecosystems, in particular community management, developer relations and advocacy
 - Automation, CI/CD and automation tools in Java, Golang, C/C++ and .NET technology stacks. It is not just about developer tools, I’m experienced with cloud native projects, automotive and embedded systems. I prefer GitHub Actions, Jenkins or Dagger, but have experience with other systems too
