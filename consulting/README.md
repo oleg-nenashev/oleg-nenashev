@@ -9,15 +9,18 @@ description: >
 # Want to hire me? Want to grow your community?
 
 I am available for consulting projects and ad-hoc advisory.
-While I continue to [work part-time](../work/README.md),
+While I continue to work part-time,
 my contract permits independent consulting opportunities
-in the areas of open-source communities, CI/CD and other areas.
-
+in the areas of open-source communities, CI/CD and developer tools, sustainability and green tech.
 If you're looking for guidance and expertise in these areas, I'd love to connect and explore the opportunities. Let's build something great together!
+
+If you are interested,
+[let's have a virtual coffee ☕](https://calendly.com/onenashev/virtual-coffee).
+You can also find my contacts [here](../contacts.md).
 
 !!! quote "Testimonial - Software Developer Advocate Consultant at WireMock Inc."
 
-    During his assignment Mr. Nenashev... quadrupled community GitHub contributions to WireMock in 9 months,
+    During his assignment Mr. Nenashev... quadrupled community GitHub contributions to WireMock in 9 months, ..
   
     The client states that Mr. Nenashev has played a pivotal role in fostering open-source collaboration and community growth;
     his initiatives extended beyond mere developer advocacy and code contributions.
@@ -26,22 +29,14 @@ If you're looking for guidance and expertise in these areas, I'd love to connect
     and onboarded many 3rd-party projects to the main GitHub organization.
     His efforts helped to expand the WireMock ecosystem, particularly in the Golang and Python technology stacks
     
-    _ - work certificate from Helvetic Payroll for the mission at [WireMock Inc](https://www.wiremock.io/) as a Software Developer Advocate Consultant,
-    from April 1st 2023 until January 7th 2024_
-
-## My Availability
-
-At the moment, I am looking for part-time consulting projects,
-with up to several hours per week.
-I can also take on short intense projects during my time in lieu time-offs.
-
-If you are interested,
-[let's have a virtual coffee ☕](https://calendly.com/onenashev/virtual-coffee).
-You can also find my contacts [here](../contacts.md).
+    // Work certificate for the mission at [WireMock Inc.](https://www.wiremock.io/) as a Software Developer Advocate Consultant,
+    from April 2023 to January 2024
 
 ## How Can I Help?
 
-With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion, now I focus on community building, all kinds of project automation, developer relations and advocacy across multiple areas and technology stacks. In my work as a consultant/advisor, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that #StandWithUkraine. Pro-bono consulting for nonprofits and foundations is possible, too.
+With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion, now I focus on community building, all kinds of project automation, developer relations and advocacy across multiple areas and technology stacks.
+
+In my consulting work, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that #StandWithUkraine. Pro-bono consulting for nonprofits and foundations is possible, too.
 
 My consulting areas include but not limited too:
 
@@ -58,11 +53,16 @@ or adopting [InnerSource](https://en.wikipedia.org/wiki/Inner_source) in your co
 Hence I would be interested in joining
 research divisions, OSPOs, or CTO offices as an advisor.
 
+## My Availability
+
+At the moment, I am looking for part-time consulting projects,
+with up to several hours per week.
+I can also take on short intense projects during my time in lieu time-offs.
+
 ## Pro Bono Consulting
 
-If you are from an open source community and looking for help or advice,
+If you are from an open source community or a non-profit organization and looking for help or advice,
 feel free to reach out!
-Let's grab a [virtual coffee](https://calendly.com/onenashev/virtual-coffee).
 My time is limited, but I will see whether I can help.
 Company and client non-competition agreements may apply.
 
