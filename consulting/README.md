@@ -3,7 +3,9 @@ description: >
   I am available for consulting projects and ad-hoc advisory
   in the areas of open source communities, DevRel,
   developer tools and automation.
-  In particular, interested in green tech and sustainability. 
+social:
+  cards_layout_options:
+    title: Open Source and DevRel Consulting
 ---
 
 # Want to hire me? Want to grow your community?
