@@ -47,6 +47,7 @@ My consulting areas include but not limited to:
 - Observability and developer productivity, especially in the areas of CI/CD and build tools.  I got some experience with OpenTelemetry, developer portals, and (too?) many cloud native tools
 - Custom feature, integrations and fixes for the open source projects which I maintain or contribute to: Jenkins, Jenkinsfile Runner, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others
 - Technical documentation at scale, documentation engines and customization for them, especially AsciiDocs, MkDocs, Hugo or Jekyll
+- Community analytics, including GrimoireLab, LFX Insights or Common Room
 
 It is also interesting to help enterprises to transform by
 starting DevRel programs,
