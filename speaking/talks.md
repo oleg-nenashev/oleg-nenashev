@@ -18,7 +18,7 @@ The video recordings are referenced in these YouTube playlists:
 
 - [My Talks in English](https://www.youtube.com/playlist?list=PLjeqY6So152Cq2MAiiJkzHC5hfrxDiSgF)
 - [My Talks in Russian](https://www.youtube.com/playlist?list=PLjeqY6So152BJ4JCmsHEXiDt5FGidVVaE)
-- [My Talks in French](https://www.youtube.com/watch?v=pToRVRTI-Zs&list=PLjeqY6So152BomQwr7QPXXNA8420w_Nms](https://www.youtube.com/playlist?list=PLjeqY6So152BomQwr7QPXXNA8420w_Nms)
+- [My Talks in French](https://www.youtube.com/playlist?list=PLjeqY6So152BomQwr7QPXXNA8420w_Nms)
 - [My Video Interviews and Fireside Chats](https://www.youtube.com/playlist?list=PLjeqY6So152BIV-wM1zsq9vvV6qWfwX0N)
 
 ## More Talks
