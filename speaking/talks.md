@@ -4,11 +4,6 @@
 [Sessionize](https://sessionize.com/onenashev) |
 [Speaker Deck](https://speakerdeck.com/onenashev/)
 
-I generally publish my talks on Google Slides,
-but some can be found on Speaker Deck, GitHub or SlideShare.
-The video recordings are referenced in these YouTube playlists:
-[ENG](https://www.youtube.com/playlist?list=PLjeqY6So152Cq2MAiiJkzHC5hfrxDiSgF),
-[RUS](https://www.youtube.com/playlist?list=PLjeqY6So152BJ4JCmsHEXiDt5FGidVVaE).
 
 ## Talks on Sessionize
 
@@ -17,22 +12,31 @@ keep them on Sessionize:
 
 <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/f7153696-71f0-4088-861f-74886f7e3df0/0x0x3fb393x"></script>
 
-## Other talks
+## Recordings
+
+The video recordings are referenced in these YouTube playlists:
+
+- [My Talks in English](https://www.youtube.com/playlist?list=PLjeqY6So152Cq2MAiiJkzHC5hfrxDiSgF)
+- [My Talks in Russian](https://www.youtube.com/playlist?list=PLjeqY6So152BJ4JCmsHEXiDt5FGidVVaE)
+- [My Talks in French](https://www.youtube.com/watch?v=pToRVRTI-Zs&list=PLjeqY6So152BomQwr7QPXXNA8420w_Nms](https://www.youtube.com/playlist?list=PLjeqY6So152BomQwr7QPXXNA8420w_Nms)
+- [My Video Interviews and Fireside Chats](https://www.youtube.com/playlist?list=PLjeqY6So152BIV-wM1zsq9vvV6qWfwX0N)
+
+## More Talks
 
 Not all sessions are available on Sessionize.
+I have already stopped giving most of Jenkins talks though I can refresh some upon request.
 I often give specialized talks for different technology stacks
-(e.g. Golang, C++ or .NET)
+(e.g. Java/JVM, Golang, Cloud Native, Embedded, C++ or .NET)
 for my clients and at local meetups,
 and do not normally submit them to bigger events.
-But you can see these talks in
+But you can see these talks and references in
 [this Google Doc](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing).
 
 <iframe width="950" height="600" src="https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing"></iframe>
 
 ## Links
 
-* [All talks and Publications](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
-* Sessionize: https://sessionize.com/onenashev
-* SpeakerDeck: https://speakerdeck.com/onenashev/
-* Google Slides: [links here](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
-* SlideShare: https://www.slideshare.net/OlegNenashev/presentations
+* [All Talks and Publications](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
+* [Sessionize](https://sessionize.com/onenashev)
+* [SpeakerDeck](https://speakerdeck.com/onenashev/)
+* [SlideShare](https://www.slideshare.net/OlegNenashev/presentations)
