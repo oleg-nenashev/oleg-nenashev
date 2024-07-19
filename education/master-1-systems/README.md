@@ -3,7 +3,7 @@
 * University: [Peter the Great St.Petersburg Polytechnic University (SPbPU)](https://english.spbstu.ru/)
 * Department: [Computer systems and program technologies](http://kspt.icc.spbstu.ru/)
 * Research Group: Electronic Design Automation Lab
-* Major: Automation and Control (Russian classifier - 220200) 
+* Major: Automation and Control (Russian classifier - 220200)
 * Thesis: Development of methods and tools for reengineering of digital hardware defined by HDL specifications.
 
 ## Files
@@ -35,3 +35,10 @@ Results of conducted experiments confirm applicability of the proposed model and
 ## Slides
 
 ![Alt text](./defense-slides.pdf){ type=application/pdf style="min-height:50vh;width:100%" }
+
+## Publications
+
+* Nenashev O. Automated synthesis of in-circuit testing components with use of programmable hardware reengineering tools. In: *Proceedings of the Youth Science Symposium*. Vol 1\. Saint Petersburg: SPBSTU; 2012:37-42
+* Nenashev O. Automated test instrumentation and BIST insertion with usage of automated reengineering toolkit. In: *Proceedings of XIIIth International Conference “Fundamental and Applied Research in Russia"*. Vol 2\. Saint Petersburg: SPBSTU; 2012:46-49
+* Nenashev O. Developing a programmable toolkit for automated structural redundancy insertion. In: *Proceedings of XXXIX SPBSTU Week of Science*. Vol 5\. Saint Petersburg: SPBSTU; 2010:46-47
+* Baltrukov N, Nenashev O, Lavrov A, Kalugin M. *Programmable Systems on Chip. Cypress Semiconductor*. (Baltrukov N, ed.). Saint Petersburg: SPBSTU; 2009
