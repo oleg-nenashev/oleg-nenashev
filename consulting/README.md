@@ -60,7 +60,7 @@ research divisions, OSPOs, or CTO offices as an advisor.
 
 At the moment, I am looking for part-time consulting projects,
 with up to several hours per week.
-I can also take on short intense projects during my time in lieu time-offs.
+I can also take on short intense projects during my in lieu time-offs.
 
 ## Pro Bono Consulting
 
