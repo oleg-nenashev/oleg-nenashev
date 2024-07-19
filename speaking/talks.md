@@ -31,11 +31,12 @@ and do not normally submit them to bigger events.
 
 ### Management, Open Source and Culture
 
-* Open roadmaps for your open communities. Not a success story, but you may have it
-  * FOSS Backstage 2023, DevopsDays Zurich 2024 \- [Video](https://www.youtube.com/watch?v=yVO2-uZbeQU), [Slides](https://docs.google.com/presentation/d/1FUT22AquMBsPfardaVJgxLjK8twNbA7e/edit?usp=sharing\&ouid=104704987056219028407\&rtpof=true\&sd=true)
-* Mentorship Programs. Growing new team and community leaders
+* [Open roadmaps for your open communities. Not a success story, but you may have it](https://sessionize.com/s/onenashev/open-roadmaps-for-your-open-communities.-not-a-suc/58364)
+  * FOSS Backstage 2023, DevopsDays Zurich 2024
+  * [Video](https://www.youtube.com/watch?v=yVO2-uZbeQU), [Slides (Ignite)](https://speakerdeck.com/onenashev/ignite-open-roadmaps-for-your-open-communities)
+* [Mentorship Programs. Growing new team and community leaders](https://sessionize.com/s/onenashev/mentorship-programs.-growing-new-team-and-communit/47625)
   * Presented at: DevopsDays Zurich 2022, Community over Code EU 2024
-  * [devopsdays.org/events/2022-zurich/program/oleg-nenashev](https://devopsdays.org/events/2022-zurich/program/oleg-nenashev)
+  * [Slides](https://speakerdeck.com/onenashev/mentorship-programs-growing-new-team-and-community-leaders),
 * Evolution of open-source CI/CD tools
   * Presented at: cdCon 2022, Heisenbug 2022, Open Source Summit India 2021 (Keynote)
   * Slides: [docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2z MTNYCYfmK-tp7Gj8/edit?usp=sharing](https://docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2zMTNYCYfmK-tp7Gj8/edit?usp=sharing)
@@ -46,56 +47,61 @@ and do not normally submit them to bigger events.
 
 ### Gradle and Gradle Build Tool
 
-* Modern Java app CI/CD observability with OTel, Quarkus and Gradle
-  * Talk and links: [https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831](https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831)
+* [Modern Java app CI/CD observability with OTel, Quarkus and Gradle](https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831)
   * Presented at: Kubecon | Cloud Native Con EU 2024
-* Leveraging Kotlin and Gradle in the WireMock project and its community
-  * Talk and links: [https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900](https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900)
+  * [Slides](https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle),
+    [Video](https://www.youtube.com/watch?v=qyYfcsu99aY)
+* [Leveraging Kotlin and Gradle in the WireMock project and its community](https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900)
+  * Presented at: Devoxx France 2024
+  * [Slides (in French)](https://speakerdeck.com/onenashev/devoxxfr-comment-nous-utilisons-kotlin-et-gradle-pour-faire-evoluer-la-communaute-wiremock),
+    [Video](https://www.youtube.com/watch?v=pToRVRTI-Zs)
 * Troubleshooting Gradle on your CI Instances
   * Was about to be presented at JAX Mainz 2024
 
 ### WireMock and Testcontainers
 
-* Fake it until you \`make it\`. API Integration testing with Testcontainers and WireMock
+* [Fake it until you \`make it\`. API Integration testing with Testcontainers and WireMock](https://sessionize.com/s/onenashev/fake-it-until-you-make-it.-api-integration-testing/67137)
   * Presented at: Devoxx BE, JCON, API World, JUG.ch, Java Israel
   * Solo version: [Slides](https://docs.google.com/presentation/d/1E7i31yC--u7mG1UHX6ZrLF2MaNa10TYB23\_MmaYyFl4/edit?usp=sharing) (API World),
   * Pair version (Devoxx BE): [Slides](https://docs.google.com/presentation/d/1NcDSI243v1I\_Mdguou-Hdq723RhDU6TzRycRjJBRnR0/edit?usp=sharing), [Video](https://www.youtube.com/watch?v=eFILbyaMI2A)
-* Mocks as Code. Modeling services in configuration management flows
-  * [https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022](https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022)
+* [Mocks as Code. Modeling services in configuration management flows](https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022)
   * Presented at: DevopsDays Geneva 2024
-* Strange Quarks, Mocking Quarks \- Modeling API services in Quarkus In high-density environments
-  * Page: [https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365](https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365)
-  * Presented at: Turkish Java Meetup, April 2024  
+  * [Slides (Workshop)](https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt)
+* [Strange Quarks, Mocking Quarks \- Modeling API services in Quarkus In high-density environments](https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365)
+  * Presented at: Turkish Java Meetup, Red Hat Engineering Day
+  * [Slides](https://speakerdeck.com/onenashev/quarkus-gradle-wiremock-dev-services-for-gradle-projects),
+    [Video](https://www.youtube.com/watch?v=Lf15C0Jl3Yk)
 * API Integration Testing of Embedded projects with Testcontainers and WireMock  
-  * Presented at: QA\&Test 2023\. [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)  
+  * Presented at: QA\&Test 2023\
+  * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)  
 * WireMock8s \- Mocking APIs in Kubernetes  
   * Presented at the CNCF Basel Meetup (June 2023\)  
   * [Video](https://youtu.be/1D-BbC6AQWA?feature=shared), [Slides](https://docs.google.com/presentation/d/16M4mUV7YGblww1bFLC3L29G08wIVTIUA8RP-tuYlcU8/edit?usp=sharing)  
 * Advanced Code Coverage with Jenkins and API Mocking  
-  * Presented at: \[90DaysOfDevOps 2024\], Mercedes Benz FOSS Friday  
+  * Presented at: Mercedes Benz FOSS Friday  
   * [Slides](https://docs.google.com/presentation/d/1Y\_AwKn4qPbjjnUaAlvtLrx71FwfFJEbtmoXi2IonrsM/edit?usp=sharing)  
 * Testcontainers and API mocking with WireMock for C/C++  
-  * C/C++ Meetup Zurich  
-* Testcontainers and API mocking for Golang projects  
-  * [Sessionize Page](https://sessionize.com/s/onenashev/testcontainers-and-api-mocking-for-golang-projects/93404)  
-* Want a cup of Java? API and Data Mocking for Python projects  
-  * [https://sessionize.com/s/onenashev/want-a-cup-of-java-api-and-data-mocking-for-python/93401](https://sessionize.com/s/onenashev/want-a-cup-of-java-api-and-data-mocking-for-python/93401)
+  * Presented at: C/C++ Meetup Zurich
+  * [Slides](https://speakerdeck.com/onenashev/testcontainers_wiremock_cpp),
+    [Video](https://www.youtube.com/watch?v=dBjjFDZS5FM)
+* [Testcontainers and API mocking for Golang projects](https://sessionize.com/s/onenashev/testcontainers-and-api-mocking-for-golang-projects/93404)  
+* [Want a cup of Java? API and Data Mocking for Python projects](https://sessionize.com/s/onenashev/want-a-cup-of-java-api-and-data-mocking-for-python/93401)
 
 ### Jenkins
 
 Note: I delivered more than 50 talks on Jenkins, there are just a few recent ones.
 DM me if you want to discuss any specific area, I still remember some bits :wink:
 
-* Cloud Native(?) Jenkins. How we failed to make Jenkins cloud native and what we learned
-  * Presented at: CNCF Bilbao 2023, Cloud Native Rejekts EU 2024
-  * Talk link: [https://sessionize.com/s/onenashev/cloud-friendly-jenkins.-how-we-failed-to-make-jenk/80447](https://sessionize.com/s/onenashev/cloud-friendly-jenkins.-how-we-failed-to-make-jenk/80447)
-* Advanced Code Coverage with Jenkins and API Mocking
-  * [https://sessionize.com/s/onenashev/advanced-code-coverage-with-jenkins-and-api-mockin/70786](https://sessionize.com/s/onenashev/advanced-code-coverage-with-jenkins-and-api-mockin/70786)
+* [Cloud Native(?) Jenkins. How we failed to make Jenkins cloud native and what we learned](https://sessionize.com/s/onenashev/cloud-friendly-jenkins.-how-we-failed-to-make-jenk/80447)
+  * Presented at: CNCF Bilbao 2023, Cloud Native Rejekts EU 2024, Cloud Native Bern
+  * [Slides](https://speakerdeck.com/onenashev/cloud-friendly-jenkins-retro)
+* [Advanced Code Coverage with Jenkins and API Mocking](https://sessionize.com/s/onenashev/advanced-code-coverage-with-jenkins-and-api-mockin/70786)
   * Presented at: 90 Days of DevOps 2024
+  * [Talk Summary](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2024/day26.md), [Slides](https://speakerdeck.com/onenashev/advanced-code-coverage-with-jenkins-github-and-api-mocking), [Video](https://www.youtube.com/watch?v=ZBaQ71CI_lI)
 * cdCon 2022 \- Jenkins 2022 and Beyond
   * [Video](https://www.youtube.com/watch?v=7l-eaqLrcZk)
 * DevopsDays Zurich 2019 \- Under the hood of serverless Jenkins. Jenkinsfile Runner
-  * [https://devopsdays.org/events/2019-zurich/program/oleg-nenashev](https://devopsdays.org/events/2019-zurich/program/oleg-nenashev)
+  * [Conference Page](https://devopsdays.org/events/2019-zurich/program/oleg-nenashev)
 * DevOps World 2019 \- Docker and Jenkins \[as Code\]
   * [devopsworldjenkinsworld2019lisbo.sched.com/event/UauW/docker-and-jenkins-as-code](https://devopsworldjenkinsworld2019lisbo.sched.com/event/UauW/docker-and-jenkins-as-code)
 * Jenkins World 2018 \- Common Pitfalls in Jenkins Security and How to Avoid Them
@@ -143,16 +149,21 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 * ./jq for data science newcomers
   * Swiss Data Science Center meetup
   * [Slides](https://docs.google.com/presentation/d/1bKVrFgS6LCNCqffLWHmEKQfyjZSq8qPoPP7-lIg3QZE/edit?usp=sharing)
-* Updating is impossible, keep it? Managing dependencies in CI/CD. Techtrain
-  * JUG.ru online meetup, 2020
+* Updating is impossible, keep it? Managing dependencies in CI/CD
+  * Techtrain Conference, JUG.ru online meetup, 2020
   * [Slides in Russian](https://drive.google.com/file/d/1x9mrCOSSYgvsLDENtxxBcnm\_KhV2ooz0/view?usp=share\_link)
 * Dependabot for Jenkins plugin development
   * Presented at: Jenkins Online Meetup 2019
   * [Slides](https://docs.google.com/presentation/d/1YbuiqyP1McNuo-Vc3wjpIBOXE3RUTZ-R/edit?usp=sharing\&ouid=104704987056219028407\&rtpof=true\&sd=true)
+* GrimoireLab as Code. Ready-to-fly GitHub analytics
+  * Presented at: CHAOSScon 2024
+  * [Slides](https://speakerdeck.com/onenashev/grimoirelab-as-code)
 
 ### Embedded and Hardware
 
-* API Integration Testing of Embedded projects with Testcontainers and WireMock. Presented at: QA\&Test 2023, [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
+* API Integration Testing of Embedded projects with Testcontainers and WireMock.
+  * Presented at: QA\&Test 2023
+  * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
 * State of LibreCores CI, 2017\. Conference talk presented at the: ORCONF 2017; September 9, 2017; Hebden Bridge, UK. [https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
 * Managing Embedded System test infrastructures with Docker and Jenkins. Presented at: Embedded Conference Scandinavia; 2017; Stockholm, Sweden. [delegia.com/app/Data/ ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf](http://www.delegia.com/app/Data/ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf)
 * LibreCores CI. Project Overview. Conference talk presented at: ORCONF 2016; Bologna, Italy. [speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
