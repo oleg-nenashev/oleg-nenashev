@@ -134,6 +134,13 @@ theme:
   font:
     text: DM Sans
     code: Roboto Mono
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Dark Mode
   favicon: images/logo/beaver_icon_64.ico
   logo: images/logo/beaver_icon.png
   icon:
