@@ -18,7 +18,7 @@ TODO: Coming soon
 
 ## Slides
 
-![Alt text](./defense-slides.pdf){ type=application/pdf style="min-height:50vh;width:100%" }
+![PhD Slides](./defense-slides.pdf){ type=application/pdf style="min-height:50vh;width:100%" }
 
 ## Publications
 
