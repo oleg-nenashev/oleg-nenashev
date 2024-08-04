@@ -100,24 +100,30 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * [Talk Summary](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2024/day26.md), [Slides](https://speakerdeck.com/onenashev/advanced-code-coverage-with-jenkins-github-and-api-mocking), [Video](https://www.youtube.com/watch?v=ZBaQ71CI_lI)
 * cdCon 2022 \- Jenkins 2022 and Beyond
   * [Video](https://www.youtube.com/watch?v=7l-eaqLrcZk)
-* DevopsDays Zurich 2019 \- Under the hood of serverless Jenkins. Jenkinsfile Runner
-  * [Conference Page](https://devopsdays.org/events/2019-zurich/program/oleg-nenashev)
-* DevOps World 2019 \- Docker and Jenkins \[as Code\]
-  * [devopsworldjenkinsworld2019lisbo.sched.com/event/UauW/docker-and-jenkins-as-code](https://devopsworldjenkinsworld2019lisbo.sched.com/event/UauW/docker-and-jenkins-as-code)
-* Jenkins World 2018 \- Common Pitfalls in Jenkins Security and How to Avoid Them
+*  Under the hood of serverless Jenkins. Jenkinsfile Runner
+  * Presented at: DevopsDays Zurich 2019, DevOops 2019
+  * [Slides](https://speakerdeck.com/onenashev/under-the-hood-of-serverless-jenkins-jenkinsfile-runner)
+*  Docker and Jenkins \[as Code\]
+  * Presented at: DevOps World 2019, Day of Jenkins 2019 - Copenhagen, CloudBees Webinars
+  * [Slides](https://speakerdeck.com/onenashev/dw-jw-2019-docker-and-jenkins-as-code), [Video](https://www.youtube.com/watch?v=J0d-CbJKAwU)
+* Common Pitfalls in Jenkins Security and How to Avoid Them
+  * Presented at: Jenkins World 2018
   * [conferencecast.tv/speaker-40720-oleg-nenashev\#.speakerPage-latest](https://www.conferencecast.tv/speaker-40720-oleg-nenashev\#.speakerPage-latest)
 * Leap from Java 8 to Java 11 in Jenkins. Our \*.war story \- JUG Lausanne
   * [jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html](http://jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html)
 
 ### Observability, OpenTelemetry and CDEvents
 
+* [Modern Java app CI/CD observability with OTel, Quarkus and Gradle](https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831)
+  * Presented at: Kubecon | Cloud Native Con EU 2024
+  * [Slides](https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle), [Video](https://www.youtube.com/watch?v=qyYfcsu99aY)
 * Continuous Observability: Shedding Light on CI/CD Pipelines
-  * OpenObservability Talks \- [Video](https://www.youtube.com/watch?v=FEbyddZFNeo)
+  * Presented at: OpenObservability Talks
+  * [Video](https://www.youtube.com/watch?v=FEbyddZFNeo)
 * CDEvents in Jenkins and Keptn
   * Presented at: CDF Mini-Summit 2022 at Kubecon EU 2022
   * [Slides](https://docs.google.com/presentation/d/1VRQexpEk9y9tZmcMnRhBO5tblxXCBVSV/edit?usp=sharing\&ouid=104704987056219028407\&rtpof=true\&sd=true), [Video](https://youtu.be/ubYa\_UvZzp0?feature=shared\&t=1289)
-* Open Observability for everyone. How and Why?
-  * [https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366](https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366)
+* [Open Observability for everyone. How and Why?](https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366)
 * Sh\!pIt \- OpenTelemetry in your CI/CD. Speakers: Gerhard Lazu (GitHub); Cyrille Le Clerc (Elastic), and Oleg Nenashev (CloudBees)
   * [https://changelog.com/shipit/27](https://changelog.com/shipit/27)
 
@@ -131,12 +137,9 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 ### Keptn v1
 
 * Thank you Keptn Obvious\! Making SLOs observable with Keptn and Prometheus
-  * French edition at Devoxx FR 2022:
-    * [https://cfp.devoxx.fr/2022/talk/LYD-3093/Merci\_Keptn\_Obvious\!\_SLOs\_observables\_avec\_Prometheus\_et\_Keptn](https://cfp.devoxx.fr/2022/talk/LYD-3093/Merci\_Keptn\_Obvious\!\_SLOs\_observables\_avec\_Prometheus\_et\_Keptn)
-    * Slides: [https://docs.google.com/presentation/d/1GF6DVE7KJ XjdfsyepRW4IfKkM8dOca9KbEoTAfb8KPA/edit?usp=sharing](https://docs.google.com/presentation/d/1GF6DVE7KJXjdfsyepRW4IfKkM8dOca9KbEoTAfb8KPA/edit?usp=sharing)
+  * French edition at Devoxx FR 2022: [Slides](https://docs.google.com/presentation/d/1GF6DVE7KJXjdfsyepRW4IfKkM8dOca9KbEoTAfb8KPA/edit?usp=sharing)
 * Open Source @ Siemens 2022 \- Getting app observability to the next stage (with Keptn)
-  * Slides: [opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf](https://opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf)
-  * Video: [youtu.be/XZOK7gCTOS0](https://youtu.be/XZOK7gCTOS0)
+  * [Slides](https://opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf), [Video](https://youtu.be/XZOK7gCTOS0)
 
 ### Developer Tools in General
 
@@ -163,12 +166,21 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 * API Integration Testing of Embedded projects with Testcontainers and WireMock.
   * Presented at: QA\&Test 2023
   * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
-* State of LibreCores CI, 2017\. Conference talk presented at the: ORCONF 2017; September 9, 2017; Hebden Bridge, UK. [Slides](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
-* Managing Embedded System test infrastructures with Docker and Jenkins. Presented at: Embedded Conference Scandinavia; 2017; Stockholm, Sweden. [delegia.com/app/Data/ ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf](http://www.delegia.com/app/Data/ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf)
-* LibreCores CI. Project Overview. Conference talk presented at: ORCONF 2016; Bologna, Italy. [Slides](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
-* Automating Hardware Projects with Jenkins. Presented at: ORCONF 2016; Bologna, Italy. [Slides](https://speakerdeck.com/onenashev/orconf2016-automating-hw-projects-with-jenkins), [Blog](https://www.jenkins.io/blog/2016/04/07/pipeline-for-runs-on-hardware/)
-* Jenkins-Based Continuous Integration for Heterogeneous Hardware and Software Projects. Jenkins User Conference 2015, London. [Video](https://www.youtube.com/watch?v=D9Wxvex8o4E)
-* Integrating Jenkins with verification flows of Embedded Systems. Conference talk presented at the: Embedded Testing Conference 2015; November 4, 2015; Munich. [http://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html](http://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html)
+* State of LibreCores CI, 2017
+  * Presented at: ORCONF 2017
+  * [Slides](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
+* Managing Embedded System test infrastructures with Docker and Jenkins
+  * Presented at: Embedded Conference Scandinavia; 2017; Stockholm.
+  * [Slides](http://www.delegia.com/app/Data/ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf)
+* LibreCores CI. Project Overview
+  * Presented at: ORCONF 2016; Bologna, Italy.
+  * [Slides](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
+* Automating Hardware/Embedded Projects with Jenkins.
+  * Presented at: ORCONF 2016, [Embedded Testing Conference 2015; Munich](http://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html)
+  * [Slides](https://speakerdeck.com/onenashev/orconf2016-automating-hw-projects-with-jenkins), [Blog](https://www.jenkins.io/blog/2016/04/07/pipeline-for-runs-on-hardware/)
+* Jenkins-Based Continuous Integration for Heterogeneous Hardware and Software Projects.
+  * Presented at: Jenkins User Conference 2015, London.
+  * [Video](https://www.youtube.com/watch?v=D9Wxvex8o4E), [Slides](https://speakerdeck.com/onenashev/software-projects)
 
 ## Podcasts and Interviews
 
