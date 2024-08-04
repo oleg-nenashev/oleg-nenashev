@@ -129,15 +129,16 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 
 ### OpenFeature
 
-* OpenFeature \- Standardizing Feature Flagging for Everyone
+* OpenFeature \- Making feature flags a commodity
   * Presented at: Data on Kubernetes Meetup
-  * [Slides](https://docs.google.com/presentation/d/1xRwkWaEMVxSK1Kp8t\_vxNtn3QChMm\_inajbTgOXlFOE/edit?usp=sharing)
+  * [Slides](https://speakerdeck.com/onenashev/openfeature-intro),
+    [Video](https://www.youtube.com/watch?v=aSJcUB0MuIQ)
 * Feature Flags management and OpenFeature BoF \- DevopsDays Zurich 2022
 
 ### Keptn v1
 
 * Thank you Keptn Obvious\! Making SLOs observable with Keptn and Prometheus
-  * French edition at Devoxx FR 2022: [Slides](https://docs.google.com/presentation/d/1GF6DVE7KJXjdfsyepRW4IfKkM8dOca9KbEoTAfb8KPA/edit?usp=sharing)
+  * French edition at Devoxx FR 2022: [Slides](https://speakerdeck.com/onenashev/keptn-obvious-fr)
 * Open Source @ Siemens 2022 \- Getting app observability to the next stage (with Keptn)
   * [Slides](https://opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf), [Video](https://youtu.be/XZOK7gCTOS0)
 
