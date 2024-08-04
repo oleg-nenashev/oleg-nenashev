@@ -147,7 +147,6 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * Presented at: Devoxx BE 2023, Voxxed Days Zurich 2024, and other conferences
   * [Video](https://www.youtube.com/watch?v=EBmcx\_gAts8), [Slides](https://docs.google.com/presentation/d/1MrTQy1iRmRHDXqnxFGYvOrNgoEJU9NYSMI1AM3iMPhw/edit?usp=sharing)
 * ./jq for data science newcomers
-  * Swiss Data Science Center meetup
   * [Slides](https://docs.google.com/presentation/d/1bKVrFgS6LCNCqffLWHmEKQfyjZSq8qPoPP7-lIg3QZE/edit?usp=sharing)
 * Updating is impossible, keep it? Managing dependencies in CI/CD
   * Techtrain Conference, JUG.ru online meetup, 2020
@@ -164,28 +163,25 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 * API Integration Testing of Embedded projects with Testcontainers and WireMock.
   * Presented at: QA\&Test 2023
   * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
-* State of LibreCores CI, 2017\. Conference talk presented at the: ORCONF 2017; September 9, 2017; Hebden Bridge, UK. [https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
+* State of LibreCores CI, 2017\. Conference talk presented at the: ORCONF 2017; September 9, 2017; Hebden Bridge, UK. [Slides](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
 * Managing Embedded System test infrastructures with Docker and Jenkins. Presented at: Embedded Conference Scandinavia; 2017; Stockholm, Sweden. [delegia.com/app/Data/ ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf](http://www.delegia.com/app/Data/ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf)
-* LibreCores CI. Project Overview. Conference talk presented at: ORCONF 2016; Bologna, Italy. [speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
-* Automating Hardware Projects with Jenkins. Presented at: ORCONF 2016; Bologna, Italy: [speakerdeck.com/onenashev/orconf2016-automating-hw-projects-with-jenkins](https://speakerdeck.com/onenashev/orconf2016-automating-hw-projects-with-jenkins)
-* Automating test runs on hardware with Pipeline as Code, jenkins.io blog, 2016, [https://www.jenkins.io/blog/2016/04/07/pipeline-for-runs-on-hardware/](https://www.jenkins.io/blog/2016/04/07/pipeline-for-runs-on-hardware/)
-* Jenkins-Based Continuous Integration for Heterogeneous Hardware and Software Projects. Jenkins User Conference 2015, London. [https://www.cloudbees.com/jenkins/juc-2015/abstracts/europe/02-01-1130-nenashev](https://www.cloudbees.com/jenkins/juc-2015/abstracts/europe/02-01-1130-nenashev)
+* LibreCores CI. Project Overview. Conference talk presented at: ORCONF 2016; Bologna, Italy. [Slides](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
+* Automating Hardware Projects with Jenkins. Presented at: ORCONF 2016; Bologna, Italy. [Slides](https://speakerdeck.com/onenashev/orconf2016-automating-hw-projects-with-jenkins), [Blog](https://www.jenkins.io/blog/2016/04/07/pipeline-for-runs-on-hardware/)
+* Jenkins-Based Continuous Integration for Heterogeneous Hardware and Software Projects. Jenkins User Conference 2015, London. [Video](https://www.youtube.com/watch?v=D9Wxvex8o4E)
 * Integrating Jenkins with verification flows of Embedded Systems. Conference talk presented at the: Embedded Testing Conference 2015; November 4, 2015; Munich. [http://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html](http://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html)
 
 ## Podcasts and Interviews
 
-* SustainOSS \#167 \- Paul Berschick & Oleg Nenashev
-  * [https://podcast.sustainoss.org/167](https://podcast.sustainoss.org/167)
-* Data on Kubernetes \- OpenFeature \- Making feature flags a commodity
-  * [listennotes.com/podcasts/data-on-kubernetes/dok-talks-146-openfeature-UdCYgIixHfr](https://www.listennotes.com/podcasts/data-on-kubernetes/dok-talks-146-openfeature-UdCYgIixHfr/)
-*  Mentoring in open source: my journey so far \- Dynatrace Blog, 2022
-  * [engineering.dynatrace.com/blog/mentoring-in-open-source-my-journey-so-far](https://engineering.dynatrace.com/blog/mentoring-in-open-source-my-journey-so-far/)
-* Sh\!pIt \- OpenTelemetry in your CI/CD. Speakers: Gerhard Lazu; Cyrille Le Clerc, and Oleg Nenashev
-  * [https://changelog.com/shipit/27](https://changelog.com/shipit/27)
-* Sustainable Open Source Design, 2021 \- Open Source Design in Jenkins and the community around it: [https://sosdesign.sustainoss.org/13](https://sosdesign.sustainoss.org/13)
-* Razbor Poletov (eng The Debrief) \- Cloud Native Jenkins (in Russian)
-  * [https://razborpoletov.com/2018/09/episode-184.html](https://razborpoletov.com/2018/09/episode-184.html)
-* Mastering Embedded Systems, 2016 \- Riding Jenkins with Oleg Nenashev, [https://embeddedsuccess.com/riding-jenkins-with-oleg-nenashev-mes027/](https://embeddedsuccess.com/riding-jenkins-with-oleg-nenashev-mes027/)
+See the recordings of the video interviews [here](https://www.youtube.com/playlist?list=PLjeqY6So152BIV-wM1zsq9vvV6qWfwX0N).
+
+* [Google Summer of Code with Kotlin Foundation | KotlinConfersations'24](https://www.youtube.com/watch?v=ZPJwdYtSOHw&list=PLjeqY6So152BIV-wM1zsq9vvV6qWfwX0N&index=1&t=1s)
+* [SustainOSS \#167 \- Paul Berschick & Oleg Nenashev](https://podcast.sustainoss.org/167)
+* [Data on Kubernetes \- OpenFeature \- Making feature flags a commodity](https://www.listennotes.com/podcasts/data-on-kubernetes/dok-talks-146-openfeature-UdCYgIixHfr/)
+* [Mentoring in open source: my journey so far \- Dynatrace Blog](https://engineering.dynatrace.com/blog/mentoring-in-open-source-my-journey-so-far/) (2022)
+* [Sh\!pIt \- OpenTelemetry in your CI/CD. Speakers: Gerhard Lazu; Cyrille Le Clerc, and Oleg Nenashev](https://changelog.com/shipit/27)
+* [Sustainable Open Source Design, 2021 \- Open Source Design in Jenkins and the community around it](https://sosdesign.sustainoss.org/13)
+* [Razbor Poletov (eng The Debrief) \- Cloud Native Jenkins ](https://razborpoletov.com/2018/09/episode-184.html) (2018, in Russian)
+* [Mastering Embedded Systems \- Riding Jenkins with Oleg Nenashev](https://embeddedsuccess.com/riding-jenkins-with-oleg-nenashev-mes027/) (2016)
 
 ## Links
 
