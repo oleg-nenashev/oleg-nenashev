@@ -27,3 +27,10 @@ h2, h3, h4 {
     color: var(--theme-main);
     font-weight: bold;
 }
+
+/* Dark Mode */
+[data-md-color-scheme="slate"] {
+    --md-hue: 210;
+    --theme-main: #f8f8f8;
+    --theme-main-lite: rgb(138, 151, 206);
+}
