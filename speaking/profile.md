@@ -16,7 +16,7 @@ Please use the data below for the events.
 
 By default, please use [this photo](./profile/main.png)
 
-<img src="./profile/main.png" alt="Profile Pic" width="400"/>
+<img src="./main.png" alt="Profile Pic" width="400"/>
 
 You also can take one of the pictures from [this album](https://photos.app.goo.gl/yx6QZ9BAZCfiv7vu9).
 Feel free to crop as needed.
