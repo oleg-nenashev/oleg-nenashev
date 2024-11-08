@@ -12,15 +12,6 @@ Please use the data below for the events.
 - For Jenkins community events: Jenkins Core Maintainer
 - For hardware events: Contributor, FOSSi
 
-## Profile Pic
-
-By default, please use [this photo](./profile/main.png)
-
-<img src="./main.png" alt="Profile Pic" width="300"/>
-
-You also can take one of the pictures from [this album](https://photos.app.goo.gl/yx6QZ9BAZCfiv7vu9).
-Feel free to crop as needed.
-
 ## Bio
 
 Oleg is a developer tools hacker, community builder, and DevRel consultant.
@@ -35,9 +26,18 @@ as well as in Ukrainian support and Russian anti-war organizations.
 Oleg is a community builder, open source advocate, and DevRel consultant.
 He is a Jenkins core maintainer, CNCF Ambassador, Testcontainers Champion, and a former CDF TOC chair.
 
+## Profile Pic
+
+By default, please use [this photo](./profile/main.png)
+
+<img src="./main.png" alt="Profile Pic" width="300"/>
+
+You also can take one of the pictures from [this album](https://photos.app.goo.gl/yx6QZ9BAZCfiv7vu9).
+Feel free to crop as needed.
+
 ## Speaking Credentials
 
 I am a CNCF and CDF ambassador, and a Testcontainers champion.
-I spoke at conferences including Kubecon, Devoxx, DevOps World, cdCon, JavaPoint,
-DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage,
-and at many meetups across the world.
+I spoke at conferences including Kubecon | CloudNativeCon, Devoxx, DevOps World, Community over Code, cdCon, JavaPoint,
+DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage, KCDs,
+and many meetups across the world.
