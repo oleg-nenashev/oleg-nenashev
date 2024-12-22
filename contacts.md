@@ -9,6 +9,7 @@
 Social media:
 
 - GitHub [@oleg-nenashev](https://github.com/oleg-nenashev) |
+- Bluesky: [@asciidwarf.bsky.social](https://bsky.app/profile/asciidwarf.bsky.social)
 - X/Twitter: [@oleg_nenashev](https://twitter.com/oleg_nenashev) |
 - LinkedIn: [@onenashev](https://www.linkedin.com/in/onenashev/) |
 - Mastodon: [fosstodon.org/@asciidwarf](https://fosstodon.org/@asciidwarf) |
