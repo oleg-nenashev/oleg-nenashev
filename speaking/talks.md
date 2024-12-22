@@ -24,7 +24,7 @@ The video recordings are referenced in these YouTube playlists:
 
 Not all sessions are available on Sessionize.
 I have already stopped giving most of Jenkins talks though I can refresh some upon request.
-I often give specialized talks for different technology stacks
+I often deliver specialized talks and workshops for different technology stacks
 (e.g. Java/JVM, Golang, Cloud Native, Embedded, C++ or .NET)
 for my clients and at local meetups,
 and do not normally submit them to bigger events.
@@ -37,13 +37,12 @@ and do not normally submit them to bigger events.
 * [Mentorship Programs. Growing new team and community leaders](https://sessionize.com/s/onenashev/mentorship-programs.-growing-new-team-and-communit/47625)
   * Presented at: DevopsDays Zurich 2022, Community over Code EU 2024
   * [Slides](https://speakerdeck.com/onenashev/mentorship-programs-growing-new-team-and-community-leaders),
-* Evolution of open-source CI/CD tools
+* [R]Evolution of open-source CI/CD tools
   * Presented at: cdCon 2022, Heisenbug 2022, Open Source Summit India 2021 (Keynote)
   * Slides: [docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2z MTNYCYfmK-tp7Gj8/edit?usp=sharing](https://docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2zMTNYCYfmK-tp7Gj8/edit?usp=sharing)
 * Guerilla\* Developer Relations. How to start DevRel and turn around culture in a legacy enterprise company?
   * Presented at: DevRelCon 2021
   * Slides: [docs.google.com/presentation/d/1QAd\_MmwymEnldc7gCXfL wbnO2UdRA\_41mSQyyLgcI2A/edit?usp=sharing](https://docs.google.com/presentation/d/1QAd\_MmwymEnldc7gCXfLwbnO2UdRA\_41mSQyyLgcI2A/edit?usp=sharing)
-* Sustainable Open Source Design, 2021 \- Open Source Design in Jenkins and the community around it: [https://sosdesign.sustainoss.org/13](https://sosdesign.sustainoss.org/13)
 
 ### Gradle and Gradle Build Tool
 
@@ -71,21 +70,23 @@ and do not normally submit them to bigger events.
   * Presented at: Turkish Java Meetup, Red Hat Engineering Day
   * [Slides](https://speakerdeck.com/onenashev/quarkus-gradle-wiremock-dev-services-for-gradle-projects),
     [Video](https://www.youtube.com/watch?v=Lf15C0Jl3Yk)
-* API Integration Testing of Embedded projects with Testcontainers and WireMock  
-  * Presented at: QA\&Test 2023\
-  * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)  
-* WireMock8s \- Mocking APIs in Kubernetes  
-  * Presented at the CNCF Basel Meetup (June 2023\)  
-  * [Video](https://youtu.be/1D-BbC6AQWA?feature=shared), [Slides](https://docs.google.com/presentation/d/16M4mUV7YGblww1bFLC3L29G08wIVTIUA8RP-tuYlcU8/edit?usp=sharing)  
-* Advanced Code Coverage with Jenkins and API Mocking  
-  * Presented at: Mercedes Benz FOSS Friday  
-  * [Slides](https://docs.google.com/presentation/d/1Y\_AwKn4qPbjjnUaAlvtLrx71FwfFJEbtmoXi2IonrsM/edit?usp=sharing)  
-* Testcontainers and API mocking with WireMock for C/C++  
+* API Integration Testing of Embedded projects with Testcontainers and WireMock
+  * Presented at: QA&Test 2023
+  * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
+* WireMock8s \- Mocking APIs in Kubernetes
+  * Presented at the CNCF Basel Meetup (June 2023)
+  * [Video](https://youtu.be/1D-BbC6AQWA?feature=shared), [Slides](https://docs.google.com/presentation/d/16M4mUV7YGblww1bFLC3L29G08wIVTIUA8RP-tuYlcU8/edit?usp=sharing)
+* Testcontainers and API mocking with WireMock for C/C++
   * Presented at: C/C++ Meetup Zurich
   * [Slides](https://speakerdeck.com/onenashev/testcontainers_wiremock_cpp),
     [Video](https://www.youtube.com/watch?v=dBjjFDZS5FM)
-* [Testcontainers and API mocking for Golang projects](https://sessionize.com/s/onenashev/testcontainers-and-api-mocking-for-golang-projects/93404)  
+* [Testcontainers and API mocking for Golang projects](https://sessionize.com/s/onenashev/testcontainers-and-api-mocking-for-golang-projects/93404)
 * [Want a cup of Java? API and Data Mocking for Python projects](https://sessionize.com/s/onenashev/want-a-cup-of-java-api-and-data-mocking-for-python/93401)
+
+### API Management and OpenAPI
+
+- [OpenAPI extensibility - the Good, the Bad and the YAMLy](https://sessionize.com/s/onenashev/openapi-extensibility-the-good-the-bad-and-the-yam/84549)
+- [Moonwalk the OpenAPI talk. Developer Experience and OpenAPI 4](https://speakerdeck.com/onenashev/openapi-moonwalk-and-developer-experience)
 
 ### Jenkins
 
@@ -98,17 +99,15 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 * [Advanced Code Coverage with Jenkins and API Mocking](https://sessionize.com/s/onenashev/advanced-code-coverage-with-jenkins-and-api-mockin/70786)
   * Presented at: 90 Days of DevOps 2024
   * [Talk Summary](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2024/day26.md), [Slides](https://speakerdeck.com/onenashev/advanced-code-coverage-with-jenkins-github-and-api-mocking), [Video](https://www.youtube.com/watch?v=ZBaQ71CI_lI)
-* cdCon 2022 \- Jenkins 2022 and Beyond
-  * [Video](https://www.youtube.com/watch?v=7l-eaqLrcZk)
+* Jenkins 2022 and Beyond - cdCon 2022 ([Video](https://www.youtube.com/watch?v=7l-eaqLrcZk))
 *  Under the hood of serverless Jenkins. Jenkinsfile Runner
   * Presented at: DevopsDays Zurich 2019, DevOops 2019
   * [Slides](https://speakerdeck.com/onenashev/under-the-hood-of-serverless-jenkins-jenkinsfile-runner)
 *  Docker and Jenkins \[as Code\]
   * Presented at: DevOps World 2019, Day of Jenkins 2019 - Copenhagen, CloudBees Webinars
   * [Slides](https://speakerdeck.com/onenashev/dw-jw-2019-docker-and-jenkins-as-code), [Video](https://www.youtube.com/watch?v=J0d-CbJKAwU)
-* Common Pitfalls in Jenkins Security and How to Avoid Them
-  * Presented at: Jenkins World 2018
-  * [conferencecast.tv/speaker-40720-oleg-nenashev\#.speakerPage-latest](https://www.conferencecast.tv/speaker-40720-oleg-nenashev\#.speakerPage-latest)
+* Common Pitfalls in Jenkins Security and How to Avoid Them ([video](https://www.youtube.com/watch?v=YufZHjO0hd4))
+  * Presented at: Jenkins World 2018, Jenkins User Conference 2017 - Oslo and Gothenburg
 * Leap from Java 8 to Java 11 in Jenkins. Our \*.war story \- JUG Lausanne
   * [jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html](http://jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html)
 
@@ -124,25 +123,18 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * Presented at: CDF Mini-Summit 2022 at Kubecon EU 2022
   * [Slides](https://docs.google.com/presentation/d/1VRQexpEk9y9tZmcMnRhBO5tblxXCBVSV/edit?usp=sharing\&ouid=104704987056219028407\&rtpof=true\&sd=true), [Video](https://youtu.be/ubYa\_UvZzp0?feature=shared\&t=1289)
 * [Open Observability for everyone. How and Why?](https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366)
-* Sh\!pIt \- OpenTelemetry in your CI/CD. Speakers: Gerhard Lazu (GitHub); Cyrille Le Clerc (Elastic), and Oleg Nenashev (CloudBees)
-  * [https://changelog.com/shipit/27](https://changelog.com/shipit/27)
+   Open Source @ Siemens 2022 \- Getting app observability to the next stage (with Keptn)
+  * [Slides](https://opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf), [Video](https://youtu.be/XZOK7gCTOS0)
+* [Sh\!pIt #27 \- OpenTelemetry in your CI/CD](https://changelog.com/shipit/27) with Gerhard Lazu (GitHub) and Cyrille Le Clerc (Elastic)
 
 ### OpenFeature
 
 * OpenFeature \- Making feature flags a commodity
-  * Presented at: Data on Kubernetes Meetup
+  * Presented at: Data on Kubernetes Meetup, DevopsDays Zurich 2022 BoF
   * [Slides](https://speakerdeck.com/onenashev/openfeature-intro),
     [Video](https://www.youtube.com/watch?v=aSJcUB0MuIQ)
-* Feature Flags management and OpenFeature BoF \- DevopsDays Zurich 2022
 
-### Keptn v1
-
-* Thank you Keptn Obvious\! Making SLOs observable with Keptn and Prometheus
-  * French edition at Devoxx FR 2022: [Slides](https://speakerdeck.com/onenashev/keptn-obvious-fr)
-* Open Source @ Siemens 2022 \- Getting app observability to the next stage (with Keptn)
-  * [Slides](https://opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf), [Video](https://youtu.be/XZOK7gCTOS0)
-
-### Developer Tools in General
+### Other Tools
 
 * OpenAPI extensibility \- the Good, the Bad and the YAMLy
   * [https://sessionize.com/s/onenashev/openapi-extensibility-the-good-the-bad-and-the-yam/84549](https://sessionize.com/s/onenashev/openapi-extensibility-the-good-the-bad-and-the-yam/84549)
@@ -150,6 +142,8 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 * Automate your Changelogs with Release Drafter
   * Presented at: Devoxx BE 2023, Voxxed Days Zurich 2024, and other conferences
   * [Video](https://www.youtube.com/watch?v=EBmcx\_gAts8), [Slides](https://docs.google.com/presentation/d/1MrTQy1iRmRHDXqnxFGYvOrNgoEJU9NYSMI1AM3iMPhw/edit?usp=sharing)
+* Thank you Keptn Obvious\! Making SLOs observable with Keptn and Prometheus
+  * French edition at Devoxx FR 2022: [Slides](https://speakerdeck.com/onenashev/keptn-obvious-fr)
 * ./jq for data science newcomers
   * [Slides](https://docs.google.com/presentation/d/1bKVrFgS6LCNCqffLWHmEKQfyjZSq8qPoPP7-lIg3QZE/edit?usp=sharing)
 * Updating is impossible, keep it? Managing dependencies in CI/CD
@@ -198,7 +192,5 @@ See the recordings of the video interviews [here](https://www.youtube.com/playli
 
 ## Links
 
-* [All Talks and Publications](https://docs.google.com/document/d/1ivtWiedTZeLP3ct1im7NAcnXPdFLrsBeuF5Gx0w3Byc/edit?usp=sharing)
-* [Sessionize](https://sessionize.com/onenashev)
-* [SpeakerDeck](https://speakerdeck.com/onenashev/)
-* [SlideShare](https://www.slideshare.net/OlegNenashev/presentations)
+* [My Sessionize Profile](https://sessionize.com/onenashev)
+* [My Speaker Deck](https://speakerdeck.com/onenashev/)
