@@ -1,3 +1,14 @@
+---
+title: Oleg Nenashev - Public Spealing
+description: >
+    I'm alwayshappy to speak about open source projects, community building, Java, Developer tools,
+    observability and developer productivity topics.
+social:
+    cards_layout: default/only/image
+    cards_layout_options:
+        background_image: images/gallery/2023_devoxx_be.jpg
+---
+
 # Public Speaking
 
 I am a CNCF/CDF ambassador and a Testcontainers champion.
