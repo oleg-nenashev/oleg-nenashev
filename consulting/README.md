@@ -4,7 +4,7 @@ description: >
   in the areas of open source communities, DevRel, developer tools and automation.
 social:
   cards_layout_options:
-    title: Oleg Nenashev - DevRel and Developer Productivity Consulting
+    title: DevRel and Developer Productivity Consulting
 ---
 
 # Want to hire me? Want to grow your community?
