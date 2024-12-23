@@ -28,7 +28,3 @@ I studied at the [Saint Petersburg State Polytechnic University](https://english
 
 * High School: [Saint Petersburg Lyceum 239](https://en.wikipedia.org/wiki/Saint_Petersburg_Lyceum_239), STEM, 2003-2005
 * Before: [Saint Petersburg Lyceum 126 "Akme"](http://l126.ru/), STEM, 1995-2003
-
-## Courses and certifications
-
-TODO: To be added later
