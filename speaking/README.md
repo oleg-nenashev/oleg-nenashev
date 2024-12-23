@@ -1,8 +1,8 @@
 ---
-title: Oleg Nenashev - Public Spealing
+title: Oleg Nenashev - Public Speaking
 description: >
-    I'm alwayshappy to speak about open source projects, community building, Java, Developer tools,
-    observability and developer productivity topics.
+    I speak about open source projects, community building, Java, Developer tools,
+    observability and developer productivity.
 social:
     cards_layout: default/only/image
     cards_layout_options:
