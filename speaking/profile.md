@@ -38,6 +38,6 @@ Feel free to crop as needed.
 ## Speaking Credentials
 
 I am a CNCF and CDF ambassador, and a Testcontainers champion.
-I spoke at conferences including Kubecon | CloudNativeCon, Devoxx, DevOps World, Community over Code, cdCon, JavaPoint,
-DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage, KCDs,
+I spoke at 100+ conferences including Devoxx, Kubecon | CloudNativeCon, DevOps World, Community over Code, cdCon, JavaPoint,
+DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage, APIDays, CHAOSSCon, KCDs,
 and many meetups across the world.
