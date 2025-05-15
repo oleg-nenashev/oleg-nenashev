@@ -3,11 +3,13 @@
         "CNCF",
         "Devoxx",
         "Dynatrace",
+        "faascinator",
         "FOSS",
         "GrimoireLab",
         "Heisenbug",
-        "Microcks",
+        "Keptn",
         "Kubecon",
+        "Microcks",
         "mkdocs",
         "Multirepo",
         "Nenashev",
@@ -18,6 +20,8 @@
         "Reengineering",
         "Rejekts",
         "Sessionize",
+        "Testcontainers",
         "toolkits",
+        "wiremock"
     ]
 }
