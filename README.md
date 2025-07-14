@@ -39,7 +39,7 @@ And yes, I am a big supporter of [InnerSource](https://innersourcecommons.org/).
 
 **Jenkins** is the first open source community I joined.
 No regrets, it has been a great experience!
-In [Jenkins](http://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles.
+In [Jenkins](https://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles.
 I am not a mother of dragons, but I am definitely a father of bugs 😊
 My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.

@@ -171,7 +171,7 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * Presented at: ORCONF 2016; Bologna, Italy.
   * [Slides](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
 * Automating Hardware/Embedded Projects with Jenkins.
-  * Presented at: ORCONF 2016, [Embedded Testing Conference 2015; Munich](http://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html)
+  * Presented at: ORCONF 2016, [Embedded Testing Conference 2015; Munich](https://www.embedded-testing.de/archiv/vortragsunterlagen-2015.html)
   * [Slides](https://speakerdeck.com/onenashev/orconf2016-automating-hw-projects-with-jenkins), [Blog](https://www.jenkins.io/blog/2016/04/07/pipeline-for-runs-on-hardware/)
 * Jenkins-Based Continuous Integration for Heterogeneous Hardware and Software Projects.
   * Presented at: Jenkins User Conference 2015, London.
