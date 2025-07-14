@@ -6,7 +6,7 @@
 <img align="right" width="128" src="jenkins/logo.png" alt="Jenkins Logo">
 </a>
 
-[Jenkins](http://jenkins.io/) is the first open source community I joined.
+[Jenkins](https://jenkins.io/) is the first open source community I joined.
 No regrets, it has been a great experience!
 I am a community builder, core maintainer, board member, event officer, and holder of many roles.
 I am not a mother of dragons, but I am definitely a father of bugs 😊

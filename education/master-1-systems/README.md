@@ -1,7 +1,7 @@
 # MSc Degree - Hardware and Software co-design
 
-* University: [Peter the Great St.Petersburg Polytechnic University (SPbPU)](https://english.spbstu.ru/)
-* Department: [Computer systems and program technologies](http://kspt.icc.spbstu.ru/)
+* University: [St.Petersburg Polytechnic University (SPbPU)](https://english.spbstu.ru/)
+* Department: Computer Systems and Program Technologies
 * Research Group: Electronic Design Automation Lab
 * Major: Automation and Control (Russian classifier - 220200)
 * Thesis: Development of methods and tools for reengineering of digital hardware defined by HDL specifications.
@@ -9,7 +9,7 @@
 ## Files
 
 * [Thesis](./thesis.pdf)
-* [Slides from the thesis defense](./defence-slides.pdf)
+* [Slides from the thesis defense](./defense-slides.pdf)
 
 ## Abstract
 

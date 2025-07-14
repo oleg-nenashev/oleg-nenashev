@@ -19,7 +19,7 @@ I studied at the [Saint Petersburg State Polytechnic University](https://english
 
 ## Internships
 
-2011-2012, [Intel Labs](https://www.intel.com/content/www/us/en/research/overview.html), Systems on Chip and Embedded Processor architectures.
+2011-2012, Intel Labs, Systems on Chip and Embedded Processor architectures research division.
 
 * Research in areas of embedded processor cores and memory, almost completely under NDA
 * Related article: [Intel demos real-time code compression for die shrinkage, power saving](https://www.theregister.com/2013/06/25/intel_direct_compressed_execution/)
@@ -27,4 +27,4 @@ I studied at the [Saint Petersburg State Polytechnic University](https://english
 ## School
 
 * High School: [Saint Petersburg Lyceum 239](https://en.wikipedia.org/wiki/Saint_Petersburg_Lyceum_239), STEM, 2003-2005
-* Before: [Saint Petersburg Lyceum 126 "Akme"](http://l126.ru/), STEM, 1995-2003
+* Before: Saint Petersburg Lyceum 126 "Akme", STEM, 1995-2003

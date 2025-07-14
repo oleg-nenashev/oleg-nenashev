@@ -39,7 +39,7 @@ And yes, I am a big supporter of [InnerSource](https://innersourcecommons.org/).
 
 **Jenkins** is the first open source community I joined.
 No regrets, it has been a great experience!
-In [Jenkins](http://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles.
+In [Jenkins](https://jenkins.io/) I am a community builder, core maintainer, board member, event officer, and holder of many roles.
 I am not a mother of dragons, but I am definitely a father of bugs 😊
 My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
@@ -55,8 +55,8 @@ It is a flexible open source tool for building mock APIs and testing your client
 **Open Hardware**.
 I am an open hardware enthusiast, with some experience in RISC-V and OpenRISC ecosystems.
 I believe it will eat the world too 🚀
-I volunteer in the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
-and a contributor to the [LibreCores](https://www.librecores.org/) project.
+I used to volunteer in the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
+and contribute to the [LibreCores](https://github.com/librecores) project.
 I also have a PhD degree in hardware design and electronics design automation.
 
 **Pet Projects**.
@@ -77,7 +77,8 @@ a tool that converts Java CLI apps to FaaS containers and OpenFaaS templates, po
 - Social media:
   [GitHub](https://github.com/oleg-nenashev) |
   [Twitter](https://twitter.com/oleg_nenashev) |
+  [Bluesky](https://bsky.app/profile/asciidwarf.bsky.social) |
   [LinkedIn](https://www.linkedin.com/in/onenashev/) |
-  [Mastodon](https://fosstodon.org/@asciidwarf) |
+  [Mastodon](https://fosstodon.org/@onenashev) |
   [Instagram](https://www.instagram.com/asciidwarf/)
 - [Let's have a virtual coffee ☕](https://calendly.com/onenashev/virtual-coffee)

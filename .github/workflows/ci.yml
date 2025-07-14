@@ -29,7 +29,7 @@ jobs:
           python-version: "3.10"
 
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2 
+        uses: docker/login-action@v2
         with:
             registry: ghcr.io
             username: ${{ github.repository_owner }}
@@ -48,3 +48,26 @@ jobs:
               PIP_TOKEN=${{ secrets.MKDOCS_MATERIAL_GITHUB_TOKEN }}
               FULL_BUILD=true
               INSIDERS=true
+
+      - name: Lint the static site
+        uses: anishathalye/proof-html@v2.2.1
+        with:
+          directory: ./_site
+          enforce_https: true
+          check_favicon: true
+          check_opengraph: true
+          tokens: |
+            {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
+          ignore_url: |
+             https://fonts.gstatic.com
+             https://www.linkedin.com/in/onenashev
+             https://linkedin.com/in/onenashev
+             https://www.linkedin.com/in/onenashev/
+             https://linkedin.com/in/onenashev/
+             https://www.instagram.com/asciidwarf
+             https://bsky.app/profile/asciidwarf.bsky.social
+             https://fosstodon.org/@onenashev
+             https://calendly.com/onenashev/
+             https://medium.com/@onenashev
+
+
