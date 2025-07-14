@@ -67,7 +67,7 @@ plugins:
           nav_repos:
           - name: faascinator
             import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
-            imports: [ README.md, docs/* ]
+            imports: [ "*.md", docs/* ]
           - name: testcontainers-c
             import_url: 'https://github.com/testcontainers/testcontainers-c?branch=main&edit_uri=/blob/main/'
             imports: [ "*.md", docs/*, demo/* ]
