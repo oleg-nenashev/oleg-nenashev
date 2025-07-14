@@ -1,7 +1,7 @@
 # PhD Degree - Hardware Design
 
-* University: [Peter the Great St.Petersburg Polytechnic University (SPbPU)](https://english.spbstu.ru/)
-* Department: [Computer systems and program technologies](http://kspt.icc.spbstu.ru/)
+* University: [St.Petersburg State Polytechnic University (SPbPU)](https://english.spbstu.ru/)
+* Department: Computer Systems and Program Technologies
 * Research Group: Electronic Design Automation Lab (EDA Lab)
 * Thesis: Reengineering of digital hardware, and embedding test modules and interfaces into devices described by multilevel models
 * Keywords: hardware representation models, methodologies for the automated synthesis of integrated circuit testing and built-in self-test components, prototyping of automated hardware reengineering toolkits
@@ -12,9 +12,40 @@
 * [Thesis (Rus)](./thesis.pdf)
 * [Slides from the thesis defense (Rus)](./defense-slides.pdf)
 
-## Abstract (English)
+## Results
 
-TODO: Coming soon
+New model for hardware representation:
+
+* A multilevel model of the architecture of single-chip digital devices with fixed inter-element connections has been proposed.
+  This model differs from existing approaches by combining formalisms for describing architectures at both the physical and semantic levels.
+  Such an approach enables the reengineering of devices from arbitrary initial descriptions.
+* A universal model of the architecture for embedded subsystems of on-chip testing and self-diagnostics in single-chip digital devices has been developed. Unlike existing models, it is applicable to reengineering tasks, enabling the unification of methods and tools for the analysis and synthesis of digital computing and control systems.
+
+Scientific Contributions of the Dissertation:
+
+* A methodology for developing domain-specific models of single-chip digital devices based on the proposed hybrid metamodel has been created.
+  This methodology is distinguished by the combination of applied algorithms, which expands the class of reengineering problems that can be addressed.
+* An algorithm for reverse engineering of single-chip digital device architectures has been developed.
+  It is distinguished from existing solutions by its use of a combination of descriptions in high-level abstraction languages and physical implementation levels,
+  thereby broadening the range of architectures subject to recovery.
+* Methods for synthesizing test subsystems for digital systems-on-chip have been developed.
+  These methods differ from known approaches by allowing the creation of testing tools based on a set of controllable and observable signals,
+  thus reducing the labor intensity of test infrastructure development.
+* A methodology for parallel verification of a digital device model and its physical prototype has been introduced.
+  It is distinguished by the absence of a requirement for processor cores, enabling verification of non-programmable single-chip digital devices.
+
+Practical Results:
+
+* The proposed models and methods can be applied in the design of new development tools and electronic design automation (EDA) systems
+  aimed at diagnostics, analysis, and architectural modification.
+  The dissertation provides case studies demonstrating the application of the developed models and methods to specific reengineering tasks.
+* The Programmable Hardware Reengineering Toolkit (PHRT toolkit), developed as part of the research,
+  have been evaluated by Synopsys SPB LLC (a Synopsys Inc. representative office)
+  and SDC LLC for reengineering and on-chip testing tasks during the design of complex digital systems-on-chip.
+ This is confirmed by official implementation reports.
+* The research results have been integrated into the academic curriculum of the course "Hardware Design of Computing Systems" at the 
+  Department of Computer Systems and Software Engineering, Institute of Computer Science and Technology, St. Petersburg State Polytechnic University.
+  This is also confirmed by an official implementation report.
 
 ## Slides
 
