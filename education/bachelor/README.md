@@ -9,7 +9,6 @@
 ## Files
 
 * [Thesis](./thesis.pdf)
-* [Slides from the thesis defense](./defence-slides.pdf)
 
 ## Abstract (English)
 
