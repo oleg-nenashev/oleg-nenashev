@@ -77,7 +77,8 @@ a tool that converts Java CLI apps to FaaS containers and OpenFaaS templates, po
 - Social media:
   [GitHub](https://github.com/oleg-nenashev) |
   [Twitter](https://twitter.com/oleg_nenashev) |
+  [Bluesky](https://bsky.app/profile/asciidwarf.bsky.social) |
   [LinkedIn](https://www.linkedin.com/in/onenashev/) |
-  [Mastodon](https://fosstodon.org/@asciidwarf) |
+  [Mastodon](https://fosstodon.org/@onenashev) |
   [Instagram](https://www.instagram.com/asciidwarf/)
 - [Let's have a virtual coffee ☕](https://calendly.com/onenashev/virtual-coffee)

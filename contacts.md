@@ -12,7 +12,7 @@ Social media:
 - Bluesky: [@asciidwarf.bsky.social](https://bsky.app/profile/asciidwarf.bsky.social)
 - X/Twitter: [@oleg_nenashev](https://twitter.com/oleg_nenashev) |
 - LinkedIn: [@onenashev](https://www.linkedin.com/in/onenashev/) |
-- Mastodon: [fosstodon.org/@asciidwarf](https://fosstodon.org/@asciidwarf) |
+- Mastodon: [](https://fosstodon.org/@onenashev) |
 - Instagram: [@asciidwarf](https://www.instagram.com/asciidwarf/)
 
 ## Virtual Coffee
