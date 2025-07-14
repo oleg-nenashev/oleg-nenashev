@@ -109,7 +109,7 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 * Common Pitfalls in Jenkins Security and How to Avoid Them ([video](https://www.youtube.com/watch?v=YufZHjO0hd4))
   * Presented at: Jenkins World 2018, Jenkins User Conference 2017 - Oslo and Gothenburg
 * Leap from Java 8 to Java 11 in Jenkins. Our \*.war story \- JUG Lausanne
-  * [jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html](http://jugl.ch/2018/11/14/Leap-from-Java-8-to-Java-11-in-Jenkins-Our-war-story.html)
+  * [Slides](https://speakerdeck.com/onenashev/leap-from-java-8-to-java-11-in-jenkins-our-war-story)
 
 ### Observability, OpenTelemetry and CDEvents
 
@@ -121,7 +121,7 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * [Video](https://www.youtube.com/watch?v=FEbyddZFNeo)
 * CDEvents in Jenkins and Keptn
   * Presented at: CDF Mini-Summit 2022 at Kubecon EU 2022
-  * [Slides](https://docs.google.com/presentation/d/1VRQexpEk9y9tZmcMnRhBO5tblxXCBVSV/edit?usp=sharing\&ouid=104704987056219028407\&rtpof=true\&sd=true), [Video](https://youtu.be/ubYa\_UvZzp0?feature=shared\&t=1289)
+  * [Slides](https://speakerdeck.com/onenashev/cdevents-in-jenkins-and-keptn-whats-next), [Video](https://youtu.be/ubYa\_UvZzp0?feature=shared\&t=1289)
 * [Open Observability for everyone. How and Why?](https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366)
    Open Source @ Siemens 2022 \- Getting app observability to the next stage (with Keptn)
   * [Slides](https://opensource.siemens.com/events/2022/slides/Oleg\_Nenashev\_Keptn.pdf), [Video](https://youtu.be/XZOK7gCTOS0)
@@ -165,8 +165,8 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * Presented at: ORCONF 2017
   * [Slides](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
 * Managing Embedded System test infrastructures with Docker and Jenkins
-  * Presented at: Embedded Conference Scandinavia; 2017; Stockholm.
-  * [Slides](http://www.delegia.com/app/Data/ProjectImages/9774/2017%20Abstracts/07T2\_1630\_OlegNenashev.pdf)
+  * Presented at: Embedded Conference Scandinavia 2017; CloudBees Automotive Day 2018
+  * [Slides](https://speakerdeck.com/onenashev/managing-embedded-system-test-infrastructures-with-docker-and-jenkins)
 * LibreCores CI. Project Overview
   * Presented at: ORCONF 2016; Bologna, Italy.
   * [Slides](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)
