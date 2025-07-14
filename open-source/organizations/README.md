@@ -32,8 +32,8 @@ It actively encourages the community’s growth and is helping to maintain the o
 
 I am an open hardware enthusiast, with some experience in RISC-V and OpenRISC ecosystems.
 I believe it will eat the world too 🚀
-I volunteer in the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
-and a contributor to the [LibreCores](https://www.librecores.org/) project.
+I used to volunteer in the [Free and Open Source Silicon (FOSSi) Foundation](https://www.fossi-foundation.org/)
+and contribute to the [LibreCores](https://github.com/librecores) project.
 I also have a PhD degree in hardware design and electronics design automation.
 
 ## API Neuchatel
