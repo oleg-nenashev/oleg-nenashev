@@ -60,3 +60,5 @@ jobs:
             {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
           ignore_url: |
              https://fonts.gstatic.com
+             https://www.linkedin.com/in/onenashev/
+
