@@ -42,12 +42,10 @@ jobs:
             cacheFrom: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
             push: never
             runCmd: |
-              pip install git+https://${PIP_TOKEN}@github.com/oleg-nenashev/mkdocs-material-insiders.git@9.5.27-insiders-4.53.11
               mkdocs build
             env: |
               PIP_TOKEN=${{ secrets.MKDOCS_MATERIAL_GITHUB_TOKEN }}
               FULL_BUILD=true
-              INSIDERS=true
 
       - name: Lint the static site
         uses: anishathalye/proof-html@v2.2.1
