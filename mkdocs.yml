@@ -40,10 +40,10 @@ nav:
     - Invite me as a speaker: speaking/invite-me.md
   - Academia:
     - Education: education/README.md
-    - PhD (Electronics): education/phd/README.md
-    - Master (Systems): education/master-1-systems/README.md
+    - PhD (Electronics & EDA): education/phd/README.md
+    - Master (Computer Systems): education/master-1-systems/README.md
     - Secondary Master (Economics): education/master-2-economics/README.md
-    - Bachelor (Systems): education/bachelor/README.md
+    - Bachelor (Computer Systems): education/bachelor/README.md
   - Contacts:
     - Contacts: contacts.md
 
