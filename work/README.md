@@ -1,7 +1,7 @@
 # Want to hire me? Want to grow your community?
 
 **Quick links:**
-[Consulting](../consulting/README.md)
+[Consulting](../consulting/README.md) |
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
 [More links](https://linktr.ee/onenashev)
 

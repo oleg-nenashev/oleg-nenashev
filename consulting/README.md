@@ -1,23 +1,17 @@
 ---
+title: Community Building, DevRel & Developer Productivity Consulting
 description: >
-  I am available for consulting projects and ad-hoc advisory
-  in the areas of open source communities, DevRel, developer tools and automation.
-social:
-  cards_layout_options:
-    title: DevRel and Developer Productivity Consulting
+  Consulting and advisory in open source communities, developer tools and automation, and DevRel.
+  15+ years of experience. Pro-bono for nonprofits.
 ---
 
-# Want to hire me? Want to grow your community?
-
-I am available for consulting projects and ad-hoc advisory.
-While I continue to work part-time,
-my contract permits independent consulting opportunities
-in the areas of open-source communities, CI/CD and developer tools, sustainability and green tech.
+With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion, 
+now I focus on community building, automation and developer productivity, across multiple areas and technology stacks.
+I provide consulting and advisory in the same domains.
 If you're looking for guidance and expertise in these areas, I'd love to connect and explore the opportunities. Let's build something great together!
 
 If you are interested,
-[let's have a virtual coffee ☕](https://calendly.com/onenashev/virtual-coffee).
-You can also find my contacts [here](../contacts.md).
+you can also find my contacts [here](../contacts.md).
 
 !!! quote "Testimonial - Software Developer Advocate Consultant at WireMock Inc."
 
@@ -33,23 +27,40 @@ You can also find my contacts [here](../contacts.md).
     // Work certificate for the mission at [WireMock Inc.](https://www.wiremock.io/) as a Software Developer Advocate Consultant,
     from April 2023 to January 2024
 
-## How Can I Help?
+## My Availability
 
-With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion, now I focus on community building, automation and developer productivity,
-across multiple areas and technology stacks.
+I am open to new consulting projects.
 
-In my consulting work, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that #StandWithUkraine. Pro-bono consulting for nonprofits and foundations is possible, too.
+* Available for full-time and part-time projects starting in Autumn 2025
+* I am ready to take on new fractional and advisory roles
+
+## Consulting Areas
 
 My consulting areas include but not limited to:
 
 ### Community Building
 
+I've been active in open source communities since 2012,
+including many community leadership roles.
+If you are interested to build and grow your open source community or open ecosystem,
+let me know!
+
 - Building and growing open source communities and ecosystems
 - Organizing and hosting meetups, webinars and hackathons
 - Technical documentation at scale, docs engines and customization for them, especially AsciiDocs, MkDocs, Hugo or Jekyll
-- Community analytics, including GrimoireLab, LFX Insights or Common Room
-- DevOps and InnerSource transformation
-- Starting Open Source Programs and OSPOs
+- Setting up Community Analytics and sales/field insights, including GrimoireLab, LFX Insights or Common Room
+- Community Program Management, and technical partnerships
+- Starting new Open Source projects, programs and OSPOs
+
+### Developer Relations
+
+Apart from community building, I can help with many other areas of Developer Relations,
+including fractional Developer Advocate positions.
+
+- Developer Advocacy for your products and open source projects
+- Building a DevRel strategy for your product and the team
+- Organizing workshops and conference talks at key industry events
+- Content creation (see my [technical publications](../speaking/publications.md) or [my talks](../speaking/talks.md))
 
 ### Developer Productivity
 
@@ -58,17 +69,9 @@ My consulting areas include but not limited to:
 - Observability and Developer Productivity, especially in the areas of CI/CD and build tools.
   I have experience with OpenTelemetry, developer portals, and (too?) many cloud native tools.
 - Custom features, integrations and fixes for the open source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.
+- DevOps and InnerSource transformation
 
-### Developer Relations
-
-Apart from community building, I can help with many other areas of Developer Relations, 
-including fractional Developer Advocate positions.
-
-- Developer Advocacy for your products and open source projects
-- Building a DevRel strategy for your product and the team
-- Organizing workshops and conference talks at key industry events
-
-### Jenkins
+### Jenkins Consulting
 
 I have 8+ years experience of creating large-scale CI/CD systems with Jenkins,
 for software, hardware and embedded projects.
@@ -82,15 +85,15 @@ I have experience with many areas of the ecosystem.
 - All kinds of integrations between Jenkins and other tools
 - Custom development for tools like Jenkinsfile Runner
 
-## My Availability
-
-At the moment, I am building a new list of projects towards Autumn 2025.
 
 ## Pro Bono Consulting
 
+In my consulting work, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that `#StandWithUkraine`. 
+Pro-bono consulting for nonprofits and foundations is possible, too.
+
 If you are from an open source community or a non-profit organization and looking for help or advice,
-feel free to reach out!
-My time is limited, but I will see whether I can help.
+I am available to do pro-bono consulting, subject to availabiltiy.
+Feel free to [reach out](../contacts.md)!
 Company and client non-competition agreements may apply.
 
 ## My Resume and Portfolio
