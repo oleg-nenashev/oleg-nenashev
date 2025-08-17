@@ -2,12 +2,11 @@
 
 ## Main Resume
 
-The C.V. below is focused on the Developer Productivity Engineer,
-Open Source Community builder and DevRel consultant roles.
-If you want to get information slices for other roles,
-I can provide them on-demand.
+The C.V. below is focused on Community Builder, Developer Productivity and DevRel consultant roles.
+If you want to get information slices for other roles, for example as a Java Engineer or Documentation Architect,
+I can provide them upon request.
 
-![Resume](./CV_Oleg_Nenashev_Community_Builder.pdf){ type=application/pdf style="min-height:50vh;width:100%" }
+![Resume](./CV_Oleg_Nenashev_Community_Builder.pdf){ type=application/pdf style="min-height:60vh;width:100%" }
 
 [Download as PDF](./CV_Oleg_Nenashev_Community_Builder.pdf)
 

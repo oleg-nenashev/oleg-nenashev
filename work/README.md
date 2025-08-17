@@ -5,9 +5,13 @@
 [LinkedIn](https://www.linkedin.com/in/onenashev/) |
 [More links](https://linktr.ee/onenashev)
 
+While I currently focus on a consulting career and part-time projects,
+I am open to part-time and, in some conditions, even full-time jobs in
+result-oriented companies with startup and/or open source culture.
+
 ## Current Work
 
-I am a part-time Lead Developer Advocate at Gradle Inc.
+I am a part-time Lead Developer Advocate at Gradle, Inc.
 Member of Gradle’s DevRel and Education team working on the Gradle Build Tool advocacy, user and developer communities.
 
 ## Alumni
