@@ -31,8 +31,8 @@ you can also find my contacts [here](../contacts.md).
 
 I am open to new consulting projects.
 
-* Available for full-time and part-time projects starting in Autumn 2025
-* I am ready to take on new fractional and advisory roles
+* Available for new projects starting in Autumn 2025
+* I am ready to take on new fractional and advisory Community Builder roles
 
 ## Consulting Areas
 
@@ -60,12 +60,13 @@ including fractional Developer Advocate positions.
 - Developer Advocacy for your products and open source projects
 - Building a DevRel strategy for your product and the team
 - Organizing workshops and conference talks at key industry events
-- Content creation (see my [technical publications](../speaking/publications.md) or [my talks](../speaking/talks.md))
+- Content creation and public speaking (see my [technical publications](../speaking/publications.md) or [my talks](../speaking/talks.md))
 
 ### Developer Productivity
 
 - Automation, developer tools and CI/CD in Java/Maven, Golang, cloud native and .NET technology stacks.
   I prefer GitHub Actions, Jenkins, Argo CD or Dagger, but have experience with other systems too.
+- Artificial Intelligence and Generative AI for developer productivity. In particular, better documentation processing for LLMs and RAG.
 - Observability and Developer Productivity, especially in the areas of CI/CD and build tools.
   I have experience with OpenTelemetry, developer portals, and (too?) many cloud native tools.
 - Custom features, integrations and fixes for the open source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.
