@@ -5,7 +5,9 @@ site_description: >-
   This is his personal site.
 copyright: >-
   Copyright &copy; 2025 - Oleg Nenashev.
-  The content and the license are licensed under CC BY 4.0
+  The content and assets in the main repo are licensed under CC BY 4.0.
+  The imported content might have different licenses.
+  Trademarked names, project and company logos belong to their respective owners.
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
 repo_name: GitHub Repo
 edit_uri: edit/main/
