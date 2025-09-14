@@ -31,21 +31,21 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
           submodules: "true"
       
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.10"
    
       - name: Login to GitHub Container Registry
-        uses: docker/login-action@v2 
+        uses: docker/login-action@v3 
         with:
             registry: ghcr.io
             username: ${{ github.repository_owner }}
@@ -65,7 +65,7 @@ jobs:
         
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           name: github-pages
           path: "_site/"

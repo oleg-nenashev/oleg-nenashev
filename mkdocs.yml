@@ -4,8 +4,10 @@ site_description: >-
   He is a Jenkins core maintainer, CNCF Ambassador, Testcontainers Champion, and a former CDF TOC chair.
   This is his personal site.
 copyright: >-
-  Copyright &copy; 2024 - 2025 Oleg Nenashev.
-  The content and the site configuration are licensed under CC BY 4.0
+  Copyright &copy; 2025 - Oleg Nenashev.
+  The content and assets in the main repo are licensed under CC BY 4.0.
+  The imported content might have different licenses.
+  Trademarked names, project and company logos belong to their respective owners.
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
 repo_name: GitHub Repo
 edit_uri: edit/main/
