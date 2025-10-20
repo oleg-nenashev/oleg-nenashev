@@ -6,9 +6,6 @@
 
 ## Talks on Sessionize
 
-Here are the talks I submit to conferences and hence
-keep them on Sessionize:
-
 <script type="text/javascript" src="https://sessionize.com/api/speaker/sessions/f7153696-71f0-4088-861f-74886f7e3df0/0x0x3fb393x"></script>
 
 ## Recordings
@@ -23,11 +20,11 @@ The video recordings are referenced in these YouTube playlists:
 ## More Talks
 
 Not all sessions are available on Sessionize.
-I have already stopped giving most of Jenkins talks though I can refresh some upon request.
+I have already stopped giving most of the Jenkins talks, though I can refresh some upon request.
 I often deliver specialized talks and workshops for different technology stacks
 (e.g. Java/JVM, Golang, Cloud Native, Embedded, C++ or .NET)
 for my clients and at local meetups,
-and do not normally submit them to bigger events.
+and they are not listed here.
 
 ### Management, Open Source and Culture
 
@@ -40,22 +37,22 @@ and do not normally submit them to bigger events.
 * [R]Evolution of open-source CI/CD tools
   * Presented at: cdCon 2022, Heisenbug 2022, Open Source Summit India 2021 (Keynote)
   * Slides: [docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2z MTNYCYfmK-tp7Gj8/edit?usp=sharing](https://docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2zMTNYCYfmK-tp7Gj8/edit?usp=sharing)
-* Guerilla\* Developer Relations. How to start DevRel and turn around culture in a legacy enterprise company?
+* Guerilla\* Developer Relations. How to start DevRel and turn around the culture in a legacy enterprise company?
   * Presented at: DevRelCon 2021
   * Slides: [docs.google.com/presentation/d/1QAd\_MmwymEnldc7gCXfL wbnO2UdRA\_41mSQyyLgcI2A/edit?usp=sharing](https://docs.google.com/presentation/d/1QAd\_MmwymEnldc7gCXfLwbnO2UdRA\_41mSQyyLgcI2A/edit?usp=sharing)
 
-### Gradle and Gradle Build Tool
+### Gradle Build Tool
 
-* [Modern Java app CI/CD observability with OTel, Quarkus and Gradle](https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831)
+NOTE: _Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc._
+
+* Modern Java app CI/CD observability with OTel, Quarkus, and Gradle Build Tool
   * Presented at: Kubecon | Cloud Native Con EU 2024
-  * [Slides](https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle),
-    [Video](https://www.youtube.com/watch?v=qyYfcsu99aY)
-* [Leveraging Kotlin and Gradle in the WireMock project and its community](https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900)
+  * [Video](https://www.youtube.com/watch?v=qyYfcsu99aY)
+* [Leveraging Kotlin and Gradle Build Tool in the WireMock project](https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900)
   * Presented at: Devoxx France 2024
   * [Slides (in French)](https://speakerdeck.com/onenashev/devoxxfr-comment-nous-utilisons-kotlin-et-gradle-pour-faire-evoluer-la-communaute-wiremock),
     [Video](https://www.youtube.com/watch?v=pToRVRTI-Zs)
-* Troubleshooting Gradle on your CI Instances
-  * Was about to be presented at JAX Mainz 2024
+* Troubleshooting Gradle Build Tool on your CI Instances
 
 ### WireMock and Testcontainers
 
@@ -194,3 +191,5 @@ See the recordings of the video interviews [here](https://www.youtube.com/playli
 
 * [My Sessionize Profile](https://sessionize.com/onenashev)
 * [My Speaker Deck](https://speakerdeck.com/onenashev/)
+
+
