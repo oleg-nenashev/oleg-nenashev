@@ -179,6 +179,7 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 See the recordings of the video interviews [here](https://www.youtube.com/playlist?list=PLjeqY6So152BIV-wM1zsq9vvV6qWfwX0N).
 
 * [Google Summer of Code with Kotlin Foundation | KotlinConfersations'24](https://www.youtube.com/watch?v=ZPJwdYtSOHw&list=PLjeqY6So152BIV-wM1zsq9vvV6qWfwX0N&index=1&t=1s)
+* [Jenkins / WireMock Interview | Craft of Open Source Podcast by Flagsmith](https://www.flagsmith.com/podcast/jenkins-wiremock)
 * [SustainOSS \#167 \- Paul Berschick & Oleg Nenashev](https://podcast.sustainoss.org/167)
 * [Data on Kubernetes \- OpenFeature \- Making feature flags a commodity](https://www.listennotes.com/podcasts/data-on-kubernetes/dok-talks-146-openfeature-UdCYgIixHfr/)
 * [Mentoring in open source: my journey so far \- Dynatrace Blog](https://engineering.dynatrace.com/blog/mentoring-in-open-source-my-journey-so-far/) (2022)
