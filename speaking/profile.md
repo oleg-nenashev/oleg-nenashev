@@ -8,7 +8,7 @@ Please use the data below for the events.
 
 ## Headline(s)
 
-- For professional events: Community Builder and DevRel Consultant
+- For professional events: Community Builder and DevRel Consultant, Independent
 - For Jenkins community events: Jenkins Core Maintainer
 - For open hardware events: Contributor, FOSSi
 
@@ -20,6 +20,8 @@ Oleg is a CNCF Ambassador and Testcontainers Champion.
 He is a former Jenkins Board member, Kotlin Foundation Ecosystem Committee Member, and CDF TOC Chair.
 Oleg has a PhD in electronics design and volunteers in the Free and Open Source Silicon Foundation,
 as well as in Ukrainian support and Russian anti-war organizations.
+
+Disclaimer: Unless explicitly specified, the presentations and opinions do not represent Oleg's employers or clients
 
 ## Short Bio
 
@@ -41,3 +43,4 @@ I am a CNCF and CDF ambassador and a Testcontainers champion.
 I spoke at 100+ conferences, including Devoxx, Kubecon | CloudNativeCon, DevOps World, Community over Code, cdCon, JavaPoint,
 DevopsDays, Jenkins World, DevRelCon, Heisenbug, FOSS Backstage, APIDays, CHAOSSCon, KCDs,
 and many meetups across the world.
+Some of my presentations and talks are listed on https://oleg-nenashev.github.io/oleg-nenashev/speaking/talks/ 
