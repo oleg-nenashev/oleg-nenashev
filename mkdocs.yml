@@ -23,13 +23,6 @@ nav:
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
     - FaaScinator: faascinator/README.md
-    - Testcontainers for C/C++:
-        Overview: testcontainers-c/README.md
-        Demos:
-          - Generic Container: testcontainers-c/demo/generic-container/README.md
-          - Google Test: testcontainers-c/demo/google-test/README.md
-          - WireMock Module: testcontainers-c/demo/wiremock/README.md
-        Contributing: testcontainers-c/CONTRIBUTING.md
   - Work & Consulting:
     - Consulting: consulting/README.md
     - Work: work/README.md
@@ -70,14 +63,12 @@ plugins:
           - name: faascinator
             import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
             imports: [ "*.md", docs/* ]
-          - name: testcontainers-c
-            import_url: 'https://github.com/testcontainers/testcontainers-c?branch=main&edit_uri=/blob/main/'
-            imports: [ "*.md", docs/*, demo/* ]
   - redirects:
       redirect_maps:
         'job/README.md': "work/README.md"
         'cv.md': 'work/cv.md'
         'resume.md': 'work/cv.md'
+        'testcontainers-c/README.md': 'https://testcontainers.github.io/testcontainers-native/'
 
 # Markdown
 markdown_extensions:
