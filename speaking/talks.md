@@ -36,10 +36,10 @@ and they are not listed here.
   * [Slides](https://speakerdeck.com/onenashev/mentorship-programs-growing-new-team-and-community-leaders),
 * [R]Evolution of open-source CI/CD tools
   * Presented at: cdCon 2022, Heisenbug 2022, Open Source Summit India 2021 (Keynote)
-  * Slides: [docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2z MTNYCYfmK-tp7Gj8/edit?usp=sharing](https://docs.google.com/presentation/d/1gZXU8FhkncUwVeQIfQSI9U8Ho2zMTNYCYfmK-tp7Gj8/edit?usp=sharing)
+  * [Slides](https://speakerdeck.com/onenashev/revolution-of-open-source-cicd-tools)
 * Guerilla\* Developer Relations. How to start DevRel and turn around the culture in a legacy enterprise company?
   * Presented at: DevRelCon 2021
-  * Slides: [docs.google.com/presentation/d/1QAd\_MmwymEnldc7gCXfL wbnO2UdRA\_41mSQyyLgcI2A/edit?usp=sharing](https://docs.google.com/presentation/d/1QAd\_MmwymEnldc7gCXfLwbnO2UdRA\_41mSQyyLgcI2A/edit?usp=sharing)
+  * [Slides](https://speakerdeck.com/onenashev/guerilla-devrel)
 
 ### Gradle Build Tool
 
@@ -58,8 +58,8 @@ NOTE: _Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are regist
 
 * [Fake it until you \`make it\`. API Integration testing with Testcontainers and WireMock](https://sessionize.com/s/onenashev/fake-it-until-you-make-it.-api-integration-testing/67137)
   * Presented at: Devoxx BE, JCON, API World, JUG.ch, Java Israel
-  * Solo version: [Slides](https://docs.google.com/presentation/d/1E7i31yC--u7mG1UHX6ZrLF2MaNa10TYB23\_MmaYyFl4/edit?usp=sharing) (API World),
-  * Pair version (Devoxx BE): [Slides](https://docs.google.com/presentation/d/1NcDSI243v1I\_Mdguou-Hdq723RhDU6TzRycRjJBRnR0/edit?usp=sharing), [Video](https://www.youtube.com/watch?v=eFILbyaMI2A)
+  * Solo version, with Quarkus: [Slides](https://speakerdeck.com/onenashev/fake-it-until-you-make-it-its-with-wiremock-testcontainers-and-quarkus),
+  * Pair version (Devoxx BE), with Spring Boot: [Slides](https://speakerdeck.com/onenashev/devoxx-be-fake-it-until-you-make-it-with-testcontainers-and-wiremock-spring-boot-edition), [Video](https://www.youtube.com/watch?v=eFILbyaMI2A)
 * [Mocks as Code. Modeling services in configuration management flows](https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022)
   * Presented at: DevopsDays Geneva 2024
   * [Slides (Workshop)](https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt)
@@ -69,16 +69,20 @@ NOTE: _Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are regist
     [Video](https://www.youtube.com/watch?v=Lf15C0Jl3Yk)
 * API Integration Testing of Embedded projects with Testcontainers and WireMock
   * Presented at: QA&Test 2023
-  * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
+  * [Slides](https://speakerdeck.com/onenashev/integration-and-api-testing-for-embedded-projects)
 * WireMock8s \- Mocking APIs in Kubernetes
   * Presented at the CNCF Basel Meetup (June 2023)
-  * [Video](https://youtu.be/1D-BbC6AQWA?feature=shared), [Slides](https://docs.google.com/presentation/d/16M4mUV7YGblww1bFLC3L29G08wIVTIUA8RP-tuYlcU8/edit?usp=sharing)
+  * [Video](https://youtu.be/1D-BbC6AQWA?feature=shared), [Slides](https://speakerdeck.com/onenashev/wiremock8s-mocking-your-apis-in-kubernetes)
 * Testcontainers and API mocking with WireMock for C/C++
   * Presented at: C/C++ Meetup Zurich
   * [Slides](https://speakerdeck.com/onenashev/testcontainers_wiremock_cpp),
     [Video](https://www.youtube.com/watch?v=dBjjFDZS5FM)
 * [Testcontainers and API mocking for Golang projects](https://sessionize.com/s/onenashev/testcontainers-and-api-mocking-for-golang-projects/93404)
+  * Presented at: PlatformCon 2025
+  * [Slides](https://speakerdeck.com/onenashev/testcontainers-for-your-golang-projects), [Video](https://www.youtube.com/watch?v=9F6hGhmedKk)
 * [Want a cup of Java? API and Data Mocking for Python projects](https://sessionize.com/s/onenashev/want-a-cup-of-java-api-and-data-mocking-for-python/93401)
+  * Presented at: PyData Lausanne
+  * [Slides](https://speakerdeck.com/onenashev/api-and-data-mocking-for-python)
 
 ### API Management and OpenAPI
 
@@ -138,17 +142,17 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
   * Presented at: API Days Paris 2023
 * Automate your Changelogs with Release Drafter
   * Presented at: Devoxx BE 2023, Voxxed Days Zurich 2024, and other conferences
-  * [Video](https://www.youtube.com/watch?v=EBmcx\_gAts8), [Slides](https://docs.google.com/presentation/d/1MrTQy1iRmRHDXqnxFGYvOrNgoEJU9NYSMI1AM3iMPhw/edit?usp=sharing)
+  * [Video](https://www.youtube.com/watch?v=EBmcx\_gAts8), [Slides](https://speakerdeck.com/onenashev/automate-your-changelogs-release-drafter)
 * Thank you Keptn Obvious\! Making SLOs observable with Keptn and Prometheus
   * French edition at Devoxx FR 2022: [Slides](https://speakerdeck.com/onenashev/keptn-obvious-fr)
 * ./jq for data science newcomers
-  * [Slides](https://docs.google.com/presentation/d/1bKVrFgS6LCNCqffLWHmEKQfyjZSq8qPoPP7-lIg3QZE/edit?usp=sharing)
+  * [Slides](https://speakerdeck.com/onenashev/jq-and-yq-for-data-science-quick-introduction)
 * Updating is impossible, keep it? Managing dependencies in CI/CD
   * Techtrain Conference, JUG.ru online meetup, 2020
   * [Slides in Russian](https://drive.google.com/file/d/1x9mrCOSSYgvsLDENtxxBcnm\_KhV2ooz0/view?usp=share\_link)
 * Dependabot for Jenkins plugin development
   * Presented at: Jenkins Online Meetup 2019
-  * [Slides](https://docs.google.com/presentation/d/1YbuiqyP1McNuo-Vc3wjpIBOXE3RUTZ-R/edit?usp=sharing\&ouid=104704987056219028407\&rtpof=true\&sd=true)
+  * [Slides](https://speakerdeck.com/onenashev/joker-2019-tame-your-dependencies-with-dependabot)
 * GrimoireLab as Code. Ready-to-fly GitHub analytics
   * Presented at: CHAOSScon 2024
   * [Slides](https://speakerdeck.com/onenashev/grimoirelab-as-code)
@@ -157,7 +161,7 @@ DM me if you want to discuss any specific area, I still remember some bits :wink
 
 * API Integration Testing of Embedded projects with Testcontainers and WireMock.
   * Presented at: QA\&Test 2023
-  * [Slides](https://docs.google.com/presentation/d/1Web3B9nyjNK8drG-a8L1YarKD\_HWKSqclTtrquvMDEs/edit?usp=sharing)
+  * [Slides](https://speakerdeck.com/onenashev/integration-and-api-testing-for-embedded-projects)
 * State of LibreCores CI, 2017
   * Presented at: ORCONF 2017
   * [Slides](https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci).
