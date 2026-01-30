@@ -48,7 +48,7 @@ jobs:
               FULL_BUILD=true
 
       - name: Lint the static site
-        uses: anishathalye/proof-html@v2.2.1
+        uses: anishathalye/proof-html@v2.2.3
         with:
           directory: ./_site
           enforce_https: true
