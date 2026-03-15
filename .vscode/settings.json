@@ -23,6 +23,7 @@
         "Sessionize",
         "Testcontainers",
         "toolkits",
-        "wiremock"
+        "wiremock",
+        "ORCONF"
     ]    
 }

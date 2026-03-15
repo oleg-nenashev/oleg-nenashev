@@ -15,6 +15,12 @@ For the local development without full rebuild:
 FULL_BUILD=false mkdocs serve
 ```
 
+Full build with dependencies:
+
+```shell
+GENERATE_PDF=true mkdocs build
+```
+
 ## Under the Hood
 
 The site is built with [MkDocs](https://www.mkdocs.org/),
