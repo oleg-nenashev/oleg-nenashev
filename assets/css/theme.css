@@ -41,6 +41,16 @@ h2, h3, h4 {
     gap: 1.5rem;
     align-items: flex-start;
     margin: 2rem 0;
+    padding: 1.5rem;
+    background: #e9ecef;
+    border-radius: 16px;
+    border: 1px solid #dee2e6;
+}
+
+[data-md-color-scheme="slate"] .hat-main-layout {
+    background: transparent;
+    border: none;
+    padding: 0;
 }
 
 @media (max-width: 768px) {
@@ -54,7 +64,7 @@ h2, h3, h4 {
 .choose-hat-panel {
     flex: 0 0 250px;
     width: 100%;
-    background: var(--md-card-bg-color, #ffffff);
+    background: #f8f9fa;
     border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
     border-radius: 12px;
     padding: 1.25rem 1rem;
@@ -381,7 +391,7 @@ h2, h3, h4 {
 .hat-details-container {
     margin-top: 1rem;
     width: 100%;
-    background: var(--md-card-bg-color, #ffffff);
+    background: #f8f9fa;
     border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
     border-radius: 12px;
     padding: 1.5rem 2rem;
