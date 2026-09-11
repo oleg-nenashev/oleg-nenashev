@@ -34,3 +34,142 @@ h2, h3, h4 {
     --theme-main: #f8f8f8;
     --theme-main-lite: rgb(138, 151, 206);
 }
+
+/* Hat Selector & Carousel Styles */
+.hat-selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 1.5rem 0 1rem 0;
+    position: relative;
+}
+
+.hat-selector-track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px 4px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hat-card {
+    flex: 0 1 200px;
+    min-width: 170px;
+    height: 110px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+    opacity: 0.7;
+    user-select: none;
+    background-repeat: no-repeat;
+    background-position: center bottom 10px;
+    background-size: contain, cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hat-card:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+}
+
+.hat-card.active {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25), 0 0 0 3px var(--theme-main-lite, #3d89c7);
+}
+
+/* Hat Background Images with Different Colors */
+.hat-card.hat-blue {
+    background-image: 
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60"><path d="M10 46 C 10 42, 25 40, 50 40 C 75 40, 90 42, 90 46 C 90 50, 75 52, 50 52 C 25 52, 10 50, 10 46 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 40 C 30 18, 38 10, 50 10 C 62 10, 70 18, 68 40 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 36 C 42 39, 58 39, 68 36 C 69 40, 67 41, 50 41 C 33 41, 31 40, 32 36 Z" fill="rgba(255,255,255,0.4)"/></svg>'),
+        linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.hat-card.hat-purple {
+    background-image: 
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60"><path d="M10 46 C 10 42, 25 40, 50 40 C 75 40, 90 42, 90 46 C 90 50, 75 52, 50 52 C 25 52, 10 50, 10 46 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 40 C 30 18, 38 10, 50 10 C 62 10, 70 18, 68 40 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 36 C 42 39, 58 39, 68 36 C 69 40, 67 41, 50 41 C 33 41, 31 40, 32 36 Z" fill="rgba(255,255,255,0.4)"/></svg>'),
+        linear-gradient(135deg, #581c87, #a855f7);
+}
+
+.hat-card.hat-emerald {
+    background-image: 
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60"><path d="M10 46 C 10 42, 25 40, 50 40 C 75 40, 90 42, 90 46 C 90 50, 75 52, 50 52 C 25 52, 10 50, 10 46 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 40 C 30 18, 38 10, 50 10 C 62 10, 70 18, 68 40 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 36 C 42 39, 58 39, 68 36 C 69 40, 67 41, 50 41 C 33 41, 31 40, 32 36 Z" fill="rgba(255,255,255,0.4)"/></svg>'),
+        linear-gradient(135deg, #064e3b, #10b981);
+}
+
+.hat-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    line-height: 1.3;
+}
+
+.hat-nav-btn {
+    background: var(--theme-main, #06518E);
+    color: #ffffff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    opacity: 0.85;
+    flex-shrink: 0;
+}
+
+.hat-nav-btn:hover {
+    opacity: 1;
+    background: var(--theme-main-lite, #3d89c7);
+}
+
+/* Hat Details Container Below */
+.hat-details-container {
+    margin-top: 1.5rem;
+    background: var(--md-card-bg-color, #ffffff);
+    border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    min-height: 140px;
+    transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+[data-md-color-scheme="slate"] .hat-details-container {
+    background: var(--md-default-bg-color--slate, #1e2129);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.hat-details-panel {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.hat-details-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

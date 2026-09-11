@@ -1,0 +1,33 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>
+    /* Hide application header and navigation tabs for landing page */
+    .md-header {
+      display: none;
+    }
+
+    .md-tabs {
+      display: none;
+    }
+
+    /* Hide primary and secondary sidebars */
+    .md-sidebar--primary,
+    .md-sidebar--secondary {
+      display: none;
+    }
+
+    /* Adjust main container spacing for landing page */
+    .md-main__inner {
+      margin-top: 0;
+    }
+
+    .md-content {
+      max-width: 800px;
+      margin-inline: auto;
+      padding: 2.5rem 1rem;
+    }
+  </style>
+{% endblock %}
