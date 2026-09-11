@@ -17,18 +17,15 @@ Jenkins core maintainer, CNCF/CDF Ambassador, and Testcontainers Champion.
 </div>
 <div class="hat-selector-track">
 <div class="hat-card active hat-blue" data-hat="0" role="button" tabindex="0">
-<span class="hat-title">Tools Engineer</span>
+<span class="hat-title">Engineer & Project Lead</span>
 </div>
 <div class="hat-card hat-amber" data-hat="1" role="button" tabindex="0">
 <span class="hat-title">Community Builder</span>
 </div>
-<div class="hat-card hat-indigo" data-hat="2" role="button" tabindex="0">
-<span class="hat-title">Project Lead</span>
-</div>
-<div class="hat-card hat-purple" data-hat="3" role="button" tabindex="0">
+<div class="hat-card hat-purple" data-hat="2" role="button" tabindex="0">
 <span class="hat-title">DevRel</span>
 </div>
-<div class="hat-card hat-emerald" data-hat="4" role="button" tabindex="0">
+<div class="hat-card hat-emerald" data-hat="3" role="button" tabindex="0">
 <span class="hat-title">Consultant</span>
 </div>
 </div>
@@ -53,11 +50,11 @@ Jenkins core maintainer, CNCF/CDF Ambassador, and Testcontainers Champion.
 <div class="hat-details-container" markdown="1">
 <div class="hat-details-panel active" data-hat="0" markdown="1">
 
-### :material-tools: **Tools Engineer**
+### :material-source-branch: **Engineer & Project Lead**
 
 ---
 
-Core maintainer, developer tools engineer, and open source contributor working on Jenkins, Testcontainers, WireMock and Gradle projects.
+Core maintainer, developer tools engineer, and open source leader working on Jenkins, Testcontainers, WireMock and Gradle. Former CD Foundation TOC chair, board member, and governance lead.
 
 [:octicons-arrow-right-24: See my open source work](./open-source/projects/README.md)
 
@@ -75,17 +72,6 @@ Long-time open source community leader, event officer, and governance board memb
 </div>
 <div class="hat-details-panel" data-hat="2" markdown="1">
 
-### :material-account-tie: **Project Lead**
-
----
-
-Former CD Foundation TOC chair, Jenkins core maintainer, board member, and governance lead facilitating project growth and strategic roadmap execution.
-
-[:octicons-arrow-right-24: See my work experience](./work/README.md)
-
-</div>
-<div class="hat-details-panel" data-hat="3" markdown="1">
-
 ### :material-bullhorn: **DevRel**
 
 ---
@@ -95,7 +81,7 @@ Conference speaker, community manager, and advocate helping developer tools proj
 [:octicons-arrow-right-24: See my public speaking](./speaking/README.md)
 
 </div>
-<div class="hat-details-panel" data-hat="4" markdown="1">
+<div class="hat-details-panel" data-hat="3" markdown="1">
 
 ### :material-briefcase: **Consultant**
 

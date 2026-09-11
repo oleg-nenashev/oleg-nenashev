@@ -27,11 +27,10 @@ function initHatSelector() {
 
         // Colors for each hat index
         const hatStyles = [
-            { brim: "#1d4ed8", crown: "#3b82f6", ribbon: "#60a5fa" }, // 0: Tools Engineer (Blue)
+            { brim: "#1d4ed8", crown: "#3b82f6", ribbon: "#60a5fa" }, // 0: Engineer & Project Lead (Blue)
             { brim: "#c2410c", crown: "#f97316", ribbon: "#fb923c" }, // 1: Community Builder (Amber)
-            { brim: "#4338ca", crown: "#6366f1", ribbon: "#818cf8" }, // 2: Project Lead (Indigo)
-            { brim: "#6b21a8", crown: "#a855f7", ribbon: "#c084fc" }, // 3: DevRel (Purple)
-            { brim: "#047857", crown: "#10b981", ribbon: "#34d399" }  // 4: Consultant (Emerald)
+            { brim: "#6b21a8", crown: "#a855f7", ribbon: "#c084fc" }, // 2: DevRel (Purple)
+            { brim: "#047857", crown: "#10b981", ribbon: "#34d399" }  // 3: Consultant (Emerald)
         ];
 
         // Locate the matching details container
