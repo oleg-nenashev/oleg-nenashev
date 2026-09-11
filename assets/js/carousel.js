@@ -19,6 +19,20 @@ function initHatSelector() {
         const prevBtn = container.querySelector(".hat-nav-btn.prev");
         const nextBtn = container.querySelector(".hat-nav-btn.next");
         
+        // Large hat graphic sitting on top of head profile image
+        const mainHatSvg = document.getElementById("mainHeadHatSvg");
+        const hatBrim = mainHatSvg ? mainHatSvg.querySelector(".hat-brim") : null;
+        const hatCrown = mainHatSvg ? mainHatSvg.querySelector(".hat-crown") : null;
+        const hatRibbon = mainHatSvg ? mainHatSvg.querySelector(".hat-ribbon") : null;
+
+        // Colors for each hat index
+        const hatStyles = [
+            { brim: "#1d4ed8", crown: "#3b82f6", ribbon: "#60a5fa" }, // 0: Open Source Engineer (Blue)
+            { brim: "#6b21a8", crown: "#a855f7", ribbon: "#c084fc" }, // 1: DevRel (Purple)
+            { brim: "#c2410c", crown: "#f97316", ribbon: "#fb923c" }, // 2: Community Builder (Amber)
+            { brim: "#047857", crown: "#10b981", ribbon: "#34d399" }  // 3: Consultant (Emerald)
+        ];
+
         // Locate the matching details container
         const detailsContainer = document.querySelector(".hat-details-container");
         if (!detailsContainer || hatCards.length === 0) return;
@@ -42,6 +56,19 @@ function initHatSelector() {
                 const isActive = i === currentHatIndex;
                 panel.classList.toggle("active", isActive);
             });
+
+            // Update large hat sitting on head avatar
+            if (mainHatSvg && hatStyles[currentHatIndex]) {
+                const style = hatStyles[currentHatIndex];
+                if (hatBrim) hatBrim.setAttribute("fill", style.brim);
+                if (hatCrown) hatCrown.setAttribute("fill", style.crown);
+                if (hatRibbon) hatRibbon.setAttribute("fill", style.ribbon);
+
+                // Trigger pop placement animation
+                mainHatSvg.classList.remove("hat-pop");
+                void mainHatSvg.offsetWidth; // Force DOM reflow
+                mainHatSvg.classList.add("hat-pop");
+            }
         }
 
         hatCards.forEach((card, i) => {
