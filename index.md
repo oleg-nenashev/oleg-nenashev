@@ -18,7 +18,10 @@ Jenkins core maintainer, CNCF/CDF Ambassador, and Testcontainers Champion.
     <div class="hat-card hat-purple" data-hat="1" role="button" tabindex="0">
       <span class="hat-title">DevRel</span>
     </div>
-    <div class="hat-card hat-emerald" data-hat="2" role="button" tabindex="0">
+    <div class="hat-card hat-amber" data-hat="2" role="button" tabindex="0">
+      <span class="hat-title">Community Builder</span>
+    </div>
+    <div class="hat-card hat-emerald" data-hat="3" role="button" tabindex="0">
       <span class="hat-title">Consultant</span>
     </div>
   </div>
@@ -49,6 +52,17 @@ Conference speaker, community manager, and advocate helping developer tools proj
 
   </div>
   <div class="hat-details-panel" data-hat="2" markdown="1">
+
+### :material-account-group: **Community Builder**
+
+---
+
+Long-time open source community leader, event officer, and governance board member helping developer tools projects build and maintain healthy communities.
+
+[:octicons-arrow-right-24: See my community organizations](./open-source/organizations/README.md)
+
+  </div>
+  <div class="hat-details-panel" data-hat="3" markdown="1">
 
 ### :material-briefcase: **Consultant**
 

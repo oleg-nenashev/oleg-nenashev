@@ -105,6 +105,12 @@ h2, h3, h4 {
         linear-gradient(135deg, #064e3b, #10b981);
 }
 
+.hat-card.hat-amber {
+    background-image: 
+        url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60"><path d="M10 46 C 10 42, 25 40, 50 40 C 75 40, 90 42, 90 46 C 90 50, 75 52, 50 52 C 25 52, 10 50, 10 46 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 40 C 30 18, 38 10, 50 10 C 62 10, 70 18, 68 40 Z" fill="rgba(255,255,255,0.25)"/><path d="M32 36 C 42 39, 58 39, 68 36 C 69 40, 67 41, 50 41 C 33 41, 31 40, 32 36 Z" fill="rgba(255,255,255,0.4)"/></svg>'),
+        linear-gradient(135deg, #7c2d12, #f97316);
+}
+
 .hat-title {
     color: #ffffff;
     font-weight: 700;
