@@ -35,3 +35,4 @@ typing-extensions==4.8.0
 typing-inspect==0.8.0
 watchdog==3.0.0
 WeasyPrint==62.3
+mcp>=1.0.0

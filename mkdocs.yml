@@ -54,6 +54,12 @@ plugins:
       cards_layout_options:
         background_color: "#34365F"
   - same-dir
+  - webmcp:
+      enabled: true
+      export_manifest: true
+      export_resources: true
+      export_tools: true
+      inject_client: true
   - group:
       enabled: !ENV [FULL_BUILD, true]
       plugins:

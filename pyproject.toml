@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkdocs-webmcp"
+version = "0.1.0"
+description = "WebMCP Model Context Protocol (MCP) plugin and server for MkDocs"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "CC BY 4.0" }
+authors = [
+    { name = "Oleg Nenashev" }
+]
+dependencies = [
+    "mkdocs>=1.5.0",
+    "mcp>=1.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.entry-points."mkdocs.plugins"]
+webmcp = "mkdocs_webmcp.plugin:WebMCPPlugin"
+
+[project.scripts]
+webmcp-server = "mkdocs_webmcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mkdocs_webmcp*"]
+
+[tool.setuptools.package-data]
+mkdocs_webmcp = ["assets/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["_site", ".*"]

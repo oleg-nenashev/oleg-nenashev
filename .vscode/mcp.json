@@ -1,5 +1,12 @@
 {
   "servers": {
+    "webmcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "mkdocs_webmcp.server"
+      ]
+    },
     "context7": {
       "type": "http",
       "url": "https://mcp.context7.com/mcp"
