@@ -15,13 +15,13 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 <div class="hat-selector-container">
 <div class="hat-selector-track">
 <div class="hat-card active hat-blue" data-hat="0" data-page="./open-source/projects/" role="button" tabindex="0">
-<span class="hat-title">Engineer & Project Lead</span>
+<span class="hat-title">Engineer</span>
 </div>
 <div class="hat-card hat-amber" data-hat="1" data-page="./open-source/organizations/" role="button" tabindex="0">
 <span class="hat-title">Community Builder</span>
 </div>
 <div class="hat-card hat-purple" data-hat="2" data-page="./speaking/" role="button" tabindex="0">
-<span class="hat-title">DevRel</span>
+<span class="hat-title">PM & Project Lead</span>
 </div>
 <div class="hat-card hat-emerald" data-hat="3" data-page="./consulting/" role="button" tabindex="0">
 <span class="hat-title">Consultant</span>
@@ -53,7 +53,7 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 <div class="hat-details-container" markdown="1">
 <div class="hat-details-panel active" data-hat="0" markdown="1">
 
-### :material-source-branch: **Engineer & Project Lead**
+### :material-source-branch: **Engineer**
 
 Developer and maintainer working on automation and developer productivity tools and platforms.
 Contributing to Jenkins, Testcontainers, WireMock and other open source projects.
@@ -65,20 +65,24 @@ Contributing to Jenkins, Testcontainers, WireMock and other open source projects
 
 ### :material-account-group: **Community Builder**
 
-Long-time open source community leader and program manager,
+Long-time open source community leader, program manager, and DevRel
 helping companies and developer tools projects build and maintain healthy communities.
 Former CD Foundation TOC chair, board member, and governance lead.
+Big fan of InnerSource and DevOps culture.
 
 [:octicons-arrow-right-24: See my community organizations](./open-source/organizations/README.md)
+[:octicons-arrow-right-24: See my public speaking](./speaking/README.md)
 
 </div>
 <div class="hat-details-panel" data-hat="2" markdown="1">
 
-### :material-bullhorn: **DevRel**
+### :material-notebook: **PM and Project Lead**
 
-Community manager, product manager and developer advocate helping developer tools projects grow healthy contributor and user communities.
+I've led many projects and programs in the companies and open source projects.
+In particular, I focus on edeveloper experience projects and ecosystem partnerships.
+Experienced PM and product owner in agile environments.
 
-[:octicons-arrow-right-24: See my public speaking](./speaking/README.md)
+[:octicons-arrow-right-24: See my open source projects](./open-source/projects/README.md)
 
 </div>
 <div class="hat-details-panel" data-hat="3" markdown="1">
