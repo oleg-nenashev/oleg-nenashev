@@ -6,8 +6,8 @@ description: >
 ---
 
 With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion, 
-now I focus on community building, automation and developer productivity, across multiple areas and technology stacks.
-I provide consulting and advisory in the same domains.
+now I focus on community building, automation and developer productivity across multiple areas and technology stacks.
+I provide consulting and advisory services in the same domains.
 If you're looking for guidance and expertise in these areas, I'd love to connect and explore the opportunities. Let's build something great together!
 
 If you are interested,
@@ -30,9 +30,7 @@ you can also find my contacts [here](../contacts.md).
 ## My Availability
 
 I am open to new consulting projects.
-
-* Available for new projects starting in Autumn 2025
-* I am ready to take on new fractional and advisory Community Builder roles
+This includes full-time projects, fractional, and advisory roles.
 
 ## Consulting Areas
 
@@ -42,7 +40,7 @@ My consulting areas include but not limited to:
 
 I've been active in open source communities since 2012,
 including many community leadership roles.
-If you are interested to build and grow your open source community or open ecosystem,
+If you are interested in building and growing your open source community or open ecosystem,
 let me know!
 
 - Building and growing open source communities and ecosystems
@@ -64,17 +62,17 @@ including fractional Developer Advocate positions.
 
 ### Developer Productivity
 
-- Automation, developer tools and CI/CD in Java/Maven, Golang, cloud native and .NET technology stacks.
-  I prefer GitHub Actions, Jenkins, Argo CD or Dagger, but have experience with other systems too.
+- Automation, developer tools, and CI/CD in Java/Maven, Golang, cloud-native, and .NET technology stacks.
+  I prefer GitHub Actions, Jenkins or Argo CD, but have experience with other systems too.
 - Artificial Intelligence and Generative AI for developer productivity. In particular, better documentation processing for LLMs and RAG.
 - Observability and Developer Productivity, especially in the areas of CI/CD and build tools.
   I have experience with OpenTelemetry, developer portals, and (too?) many cloud native tools.
-- Custom features, integrations and fixes for the open source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.
+- Custom features, integrations, and fixes for the open-source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.
 - DevOps and InnerSource transformation
 
 ### Jenkins Consulting
 
-I have 8+ years experience of creating large-scale CI/CD systems with Jenkins,
+I have 8+ years of experience creating large-scale CI/CD systems with Jenkins
 for software, hardware and embedded projects.
 As a Jenkins core maintainer and a former governing board member,
 I have experience with many areas of the ecosystem.
@@ -93,7 +91,7 @@ In my consulting work, I want to prioritize projects of social importance, like 
 Pro-bono consulting for nonprofits and foundations is possible, too.
 
 If you are from an open source community or a non-profit organization and looking for help or advice,
-I am available to do pro-bono consulting, subject to availabiltiy.
+I am available to do pro bono consulting, subject to availability.
 Feel free to [reach out](../contacts.md)!
 Company and client non-competition agreements may apply.
 
