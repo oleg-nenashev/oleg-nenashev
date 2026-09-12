@@ -1,5 +1,9 @@
 ---
 template: home.html
+title: Oleg Nenashev - Engineer, PM, Community Builder
+description: >
+    Developer tools engineer, Community builder and consultant based in Switzerland.
+    CNCF Ambassador, Testcontainers Champion, PhD.
 ---
 
 # Oleg Nenashev 👋

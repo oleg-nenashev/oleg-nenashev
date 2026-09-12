@@ -1,11 +1,11 @@
 ---
-title: Community Building, DevRel & Developer Productivity Consulting
+title: Oleg Nenashev - Consulting
 description: >
-  Consulting and advisory in open source communities, developer tools and automation, and DevRel.
+  Consulting and advisory in DevOps, developer tools, automation, community buildingand DevRel.
   15+ years of experience. Pro-bono for nonprofits.
 ---
 
-With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion, 
+With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion,
 now I focus on community building, automation and developer productivity across multiple areas and technology stacks.
 I provide consulting and advisory services in the same domains.
 If you're looking for guidance and expertise in these areas, I'd love to connect and explore the opportunities. Let's build something great together!
