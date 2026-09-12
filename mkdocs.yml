@@ -27,12 +27,14 @@ nav:
     - Consulting: consulting/README.md
     - Work: work/README.md
     - Public C.V.: work/cv.md
-  - Public Speaking:
-    - Overview: speaking/README.md
-    - My talks: speaking/talks.md
+  - DevRel:
+    - Community Building: work/community-building.md
+    - Public speaking:
+      - Overview: speaking/README.md
+      - My talks: speaking/talks.md
+      - Speaker profile: speaking/profile.md
+      - Invite me as a speaker: speaking/invite-me.md
     - My publications: speaking/publications.md
-    - Speaker Profile: speaking/profile.md
-    - Invite me as a speaker: speaking/invite-me.md
   - Academia:
     - Education: education/README.md
     - PhD (Electronics & EDA): education/phd/README.md

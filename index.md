@@ -74,8 +74,8 @@ helping companies and developer tools projects build and maintain healthy commun
 Former CD Foundation TOC chair, board member, and governance lead.
 Big fan of InnerSource and DevOps culture.
 
-[:octicons-arrow-right-24: See my community organizations](./open-source/organizations/README.md)
-[:octicons-arrow-right-24: See my public speaking](./speaking/README.md)
+[:octicons-arrow-right-24: Community Building](./work/community-building.md)
+[:octicons-arrow-right-24: Advocacy and Public Speaking](./speaking/README.md)
 
 </div>
 <div class="hat-details-panel" data-hat="2" markdown="1">
