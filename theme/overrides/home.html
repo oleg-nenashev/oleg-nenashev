@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <link rel="stylesheet" href="{{ 'assets/css/landing.css' | url }}">
+
+  <style>
+    /* Hide application header and navigation tabs for landing page */
+    .md-header {
+      display: none;
+    }
+
+    .md-tabs {
+      display: none;
+    }
+
+    /* Hide primary and secondary sidebars */
+    .md-sidebar--primary,
+    .md-sidebar--secondary {
+      display: none;
+    }
+
+    /* Adjust main container spacing for landing page */
+    .md-main__inner {
+      margin-top: 0;
+    }
+
+    .md-content {
+      max-width: 900px;
+      margin-inline: auto;
+      padding: 2.5rem 1rem;
+    }
+
+    .md-typeset h1 {
+      margin-bottom: 0.35rem;
+    }
+  </style>
+{% endblock %}

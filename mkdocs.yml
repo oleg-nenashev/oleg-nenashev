@@ -18,7 +18,7 @@ site_dir: _site
 docs_dir: .
 
 nav:
-  - ">whoami": README.md
+  - ">whoami": index.md
   - Open Source:
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
@@ -64,7 +64,7 @@ plugins:
             import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
             imports: [ "*.md", docs/* ]
   - group:
-      enabled: !ENV [GENERATE_PDF, true]
+      enabled: !ENV GENERATE_PDF
       plugins:
       - to-pdf
   - redirects:
@@ -88,10 +88,12 @@ markdown_extensions:
   - toc:
       permalink: '#'
   - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-  - mdx_truly_sane_lists
 
 # Theme
 theme:
@@ -151,6 +153,9 @@ theme:
 
 extra_css:
   - assets/css/theme.css
+
+extra_javascript:
+  - assets/js/carousel.js
 
 extra:
   social:

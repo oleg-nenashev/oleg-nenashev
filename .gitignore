@@ -2,3 +2,5 @@
 .cache
 _site
 temp_dir
+
+.DS_Store
