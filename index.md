@@ -18,16 +18,16 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 <button class="hat-nav-btn next" aria-label="Next hat">&#10095;</button>
 </div>
 <div class="hat-selector-track">
-<div class="hat-card active hat-blue" data-hat="0" role="button" tabindex="0">
+<div class="hat-card active hat-blue" data-hat="0" data-page="./open-source/projects/" role="button" tabindex="0">
 <span class="hat-title">Engineer & Project Lead</span>
 </div>
-<div class="hat-card hat-amber" data-hat="1" role="button" tabindex="0">
+<div class="hat-card hat-amber" data-hat="1" data-page="./open-source/organizations/" role="button" tabindex="0">
 <span class="hat-title">Community Builder</span>
 </div>
-<div class="hat-card hat-purple" data-hat="2" role="button" tabindex="0">
+<div class="hat-card hat-purple" data-hat="2" data-page="./speaking/" role="button" tabindex="0">
 <span class="hat-title">DevRel</span>
 </div>
-<div class="hat-card hat-emerald" data-hat="3" role="button" tabindex="0">
+<div class="hat-card hat-emerald" data-hat="3" data-page="./consulting/" role="button" tabindex="0">
 <span class="hat-title">Consultant</span>
 </div>
 </div>

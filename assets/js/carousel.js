@@ -96,6 +96,10 @@ function initHatSelector() {
 
         hatCards.forEach((card, i) => {
             card.addEventListener("click", function () {
+                if (i === currentHatIndex && card.dataset.page) {
+                    window.location.href = card.dataset.page;
+                    return;
+                }
                 selectHat(i);
             });
         });
