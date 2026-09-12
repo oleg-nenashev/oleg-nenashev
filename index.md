@@ -7,16 +7,12 @@ template: home.html
 Open source community builder, DevRel consultant, and developer tools engineer based in Switzerland.
 Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 
-`#OpenSource` `#DeveloperExperience` `#CloudNative` `#Java` `#Embedded` `#AI` `#Sustainability`
+`#OpenSource` `#DeveloperExperience` `#DevOps` `#Java` `#Embedded` `#AI` `#Sustainability`
 
 <div class="hat-main-layout" markdown="1">
 <div class="choose-hat-panel">
 <h3 class="choose-hat-title">Choose My Hat</h3>
 <div class="hat-selector-container">
-<div class="hat-nav-row">
-<button class="hat-nav-btn prev" aria-label="Previous hat">&#10094;</button>
-<button class="hat-nav-btn next" aria-label="Next hat">&#10095;</button>
-</div>
 <div class="hat-selector-track">
 <div class="hat-card active hat-blue" data-hat="0" data-page="./open-source/projects/" role="button" tabindex="0">
 <span class="hat-title">Engineer & Project Lead</span>
@@ -36,6 +32,10 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 
 <div class="head-and-details-column" markdown="1">
 <div class="head-profile-container">
+<div class="hat-nav-row">
+<button class="hat-nav-btn prev" aria-label="Previous hat">&#10094;</button>
+<button class="hat-nav-btn next" aria-label="Next hat">&#10095;</button>
+</div>
 <img src="./images/profile-bg.png" alt="Oleg Nenashev Profile" class="profile-avatar-img" />
 <div class="hat-on-head-wrapper">
 <svg class="hat-on-head-svg hat-pop" id="mainHeadHatSvg" viewBox="0 0 100 60">
@@ -49,12 +49,11 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 </div>
 </div>
 
+ </div>
 <div class="hat-details-container" markdown="1">
 <div class="hat-details-panel active" data-hat="0" markdown="1">
 
 ### :material-source-branch: **Engineer & Project Lead**
-
----
 
 Developer and maintainer working on automation and developer productivity tools and platforms.
 Contributing to Jenkins, Testcontainers, WireMock and other open source projects.
@@ -65,8 +64,6 @@ Contributing to Jenkins, Testcontainers, WireMock and other open source projects
 <div class="hat-details-panel" data-hat="1" markdown="1">
 
 ### :material-account-group: **Community Builder**
-
----
 
 Long-time open source community leader and program manager,
 helping companies and developer tools projects build and maintain healthy communities.
@@ -79,8 +76,6 @@ Former CD Foundation TOC chair, board member, and governance lead.
 
 ### :material-bullhorn: **DevRel**
 
----
-
 Community manager, product manager and developer advocate helping developer tools projects grow healthy contributor and user communities.
 
 [:octicons-arrow-right-24: See my public speaking](./speaking/README.md)
@@ -90,13 +85,10 @@ Community manager, product manager and developer advocate helping developer tool
 
 ### :material-briefcase: **Consultant**
 
----
-
 Independent consultant helping companies with developer productivity, open source strategy, community and ecosystem growth, and developer relations.
 
 [:octicons-arrow-right-24: See my consulting services](./consulting/README.md)
 
-</div>
 </div>
 </div>
 </div>

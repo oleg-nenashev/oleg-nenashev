@@ -16,8 +16,9 @@ function initHatSelector() {
         container.dataset.hatSelectorInitialized = "true";
 
         const hatCards = Array.from(container.querySelectorAll(".hat-card"));
-        const prevBtn = container.querySelector(".hat-nav-btn.prev");
-        const nextBtn = container.querySelector(".hat-nav-btn.next");
+        const layout = container.closest(".hat-main-layout");
+        const prevBtn = layout ? layout.querySelector(".hat-nav-btn.prev") : null;
+        const nextBtn = layout ? layout.querySelector(".hat-nav-btn.next") : null;
         
         // Large hat graphic sitting on top of head profile image
         const mainHatSvg = document.getElementById("mainHeadHatSvg");

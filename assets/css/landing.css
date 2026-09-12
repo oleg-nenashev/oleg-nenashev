@@ -1,0 +1,472 @@
+
+
+.md-typeset h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Hat Main Layout */
+.hat-main-layout {
+    display: grid;
+    grid-template-columns: minmax(220px, 250px) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #e9ecef;
+    border-radius: 16px;
+    border: 1px solid #dee2e6;
+}
+
+[data-md-color-scheme="slate"] .hat-main-layout {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .hat-main-layout {
+        grid-template-columns: minmax(0, 1fr);
+        align-items: center;
+    }
+}
+
+/* Left Panel: Choose My Hat */
+.choose-hat-panel {
+    flex: 0 0 250px;
+    width: auto;
+    background: #f8f9fa;
+    border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+    border-radius: 12px;
+    padding: 6px 1rem 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+[data-md-color-scheme="slate"] .choose-hat-panel {
+    background: var(--md-default-bg-color--slate, #1e2129);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.choose-hat-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--theme-main, #06518E);
+    text-align: center;
+}
+
+/* Hat Selector Container Inside Panel */
+.hat-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.hat-nav-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 4px;
+    margin-bottom: 4px;
+}
+
+.hat-selector-track {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    padding: 2px;
+}
+
+.hat-card {
+    width: 100%;
+    height: 2rem;
+    min-height: 2rem;
+    max-height: 2.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 0.6rem;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease, border-color 0.2s ease;
+    opacity: 0.75;
+    user-select: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    border: 2px solid transparent;
+}
+
+.hat-card:hover {
+    opacity: 0.95;
+    transform: translateX(4px);
+}
+
+.hat-card.active {
+    opacity: 1;
+    transform: translateX(6px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hat-card.hat-blue { background: linear-gradient(135deg, #1e3a8a, #3b82f6); }
+.hat-card.hat-purple { background: linear-gradient(135deg, #581c87, #a855f7); }
+.hat-card.hat-amber { background: linear-gradient(135deg, #7c2d12, #f97316); }
+.hat-card.hat-emerald { background: linear-gradient(135deg, #064e3b, #10b981); }
+
+.hat-card.active.hat-blue { border-color: #60a5fa; }
+.hat-card.active.hat-purple { border-color: #c084fc; }
+.hat-card.active.hat-amber { border-color: #fb923c; }
+.hat-card.active.hat-emerald { border-color: #34d399; }
+
+.hat-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+    line-height: 1;
+}
+
+.hat-nav-btn {
+    background: var(--theme-main, #06518E);
+    color: #ffffff;
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    opacity: 0.85;
+    flex-shrink: 0;
+}
+
+.hat-nav-btn:hover {
+    opacity: 1;
+    background: var(--theme-main-lite, #3d89c7);
+}
+
+/* Right Column: Head Profile & Details */
+.head-and-details-column {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Head Profile Container */
+.head-profile-container {
+    position: relative;
+    width: 352px;
+    height: 336px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .head-profile-container {
+        width: 256px;
+        height: 248px;
+    }
+}
+
+.profile-avatar-img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--theme-main, #06518E);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25);
+    background: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+    .profile-avatar-img {
+        width: 232px;
+        height: 232px;
+    }
+}
+
+[data-md-color-scheme="slate"] .profile-avatar-img {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.8), 0 12px 32px rgba(0, 0, 0, 0.5);
+    border-color: #ffffff;
+}
+
+/* Hat sitting on the scaled profile image */
+.hat-on-head-wrapper {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 336px;
+    height: 176px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+@media (max-width: 768px) {
+    .hat-on-head-wrapper {
+        top: -36px;
+        width: 248px;
+        height: 132px;
+    }
+}
+
+.hat-on-head-svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    filter: drop-shadow(0 6px 10px rgba(0,0,0,0.35));
+}
+
+.hat-on-head-svg.hat-pop {
+    animation: hatPlacement 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.hat-on-head-svg.hat-fly-out {
+    animation: hatFlyOut 0.3s ease-in forwards;
+}
+
+.hat-on-head-svg.hat-fly-in {
+    animation: hatFlyIn 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes hatFlyOut {
+    from {
+        opacity: 1;
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate(90px, -110px) rotate(18deg) scale(0.72);
+    }
+}
+
+@keyframes hatFlyIn {
+    from {
+        opacity: 0;
+        transform: translate(-90px, 110px) rotate(-18deg) scale(0.72);
+    }
+    70% {
+        opacity: 1;
+        transform: translate(8px, -4px) rotate(2deg) scale(1.04);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0) rotate(0deg) scale(1);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .hat-on-head-svg.hat-fly-out,
+    .hat-on-head-svg.hat-fly-in,
+    .hat-on-head-svg.hat-pop {
+        animation: none;
+    }
+}
+
+@keyframes hatPlacement {
+    0% {
+        transform: translateY(-30px) scale(0.7) rotate(-10deg);
+        opacity: 0;
+    }
+    60% {
+        transform: translateY(4px) scale(1.08) rotate(3deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0) scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+/* Hat Selector Container */
+.hat-selector-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.hat-selector-track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 6px 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hat-card {
+    flex: 0 1 180px;
+    min-width: 140px;
+    height: 95px;
+    border-radius: 12px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease, border-color 0.25s ease;
+    opacity: 0.7;
+    user-select: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background: var(--md-card-bg-color, #ffffff);
+    border: 2px solid transparent;
+}
+
+.hat-card:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+}
+
+.hat-card.active {
+    opacity: 1;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.hat-card.hat-blue {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+}
+
+.hat-card.hat-purple {
+    background: linear-gradient(135deg, #581c87, #a855f7);
+}
+
+.hat-card.hat-amber {
+    background: linear-gradient(135deg, #7c2d12, #f97316);
+}
+
+.hat-card.hat-emerald {
+    background: linear-gradient(135deg, #064e3b, #10b981);
+}
+
+.hat-card.active.hat-blue { border-color: #60a5fa; }
+.hat-card.active.hat-purple { border-color: #c084fc; }
+.hat-card.active.hat-amber { border-color: #fb923c; }
+.hat-card.active.hat-emerald { border-color: #34d399; }
+
+.hat-title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 2;
+    line-height: 1.2;
+}
+
+.hat-nav-btn {
+    background: var(--theme-main, #06518E);
+    color: #ffffff;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: background-color 0.2s ease, opacity 0.2s ease;
+    opacity: 0.85;
+    flex-shrink: 0;
+}
+
+.head-profile-container .hat-nav-row {
+    position: absolute;
+    top: 48px;
+    left: -28px;
+    right: -28px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 11;
+    pointer-events: none;
+}
+
+.head-profile-container .hat-nav-btn {
+    pointer-events: auto;
+}
+
+.head-profile-container .hat-nav-btn.next {
+    transform: translateX(48px);
+}
+
+@media (max-width: 768px) {
+    .head-profile-container .hat-nav-row {
+        top: 30px;
+        left: -33px;
+        right: -33px;
+    }
+}
+
+.hat-nav-btn:hover {
+    opacity: 1;
+    background: var(--theme-main-lite, #3d89c7);
+}
+
+/* Hat Details Container Below */
+.hat-details-container {
+    grid-column: 1 / -1;
+    margin-top: 1rem;
+    width: 100%;
+    background: #f8f9fa;
+    border: 1px solid var(--md-default-fg-color--lightest, #e0e0e0);
+    border-radius: 12px;
+    padding-top: 0.5rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    min-height: 140px;
+    transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+[data-md-color-scheme="slate"] .hat-details-container {
+    background: var(--md-default-bg-color--slate, #1e2129);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.hat-details-panel {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out forwards;
+}
+
+.hat-details-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

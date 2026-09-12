@@ -3,6 +3,8 @@
 {% block tabs %}
   {{ super() }}
 
+  <link rel="stylesheet" href="{{ 'assets/css/landing.css' | url }}">
+
   <style>
     /* Hide application header and navigation tabs for landing page */
     .md-header {
@@ -28,6 +30,10 @@
       max-width: 900px;
       margin-inline: auto;
       padding: 2.5rem 1rem;
+    }
+
+    .md-typeset h1 {
+      margin-bottom: 0.35rem;
     }
   </style>
 {% endblock %}
