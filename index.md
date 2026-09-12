@@ -5,7 +5,9 @@ template: home.html
 # Oleg Nenashev 👋
 
 Open source community builder, DevRel consultant, and developer tools engineer based in Switzerland.
-Jenkins core maintainer, CNCF/CDF Ambassador, and Testcontainers Champion.
+Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
+
+`#OpenSource` `#DeveloperExperience` `#CloudNative` `#Java` `#Embedded` `#AI` `#Sustainability`
 
 <div class="hat-main-layout" markdown="1">
 <div class="choose-hat-panel">
@@ -54,7 +56,8 @@ Jenkins core maintainer, CNCF/CDF Ambassador, and Testcontainers Champion.
 
 ---
 
-Core maintainer, developer tools engineer, and open source leader working on Jenkins, Testcontainers, WireMock and Gradle. Former CD Foundation TOC chair, board member, and governance lead.
+Developer and maintainer working on automation and developer productivity tools and platforms.
+Contributing to Jenkins, Testcontainers, WireMock and other open source projects.
 
 [:octicons-arrow-right-24: See my open source work](./open-source/projects/README.md)
 
@@ -65,7 +68,9 @@ Core maintainer, developer tools engineer, and open source leader working on Jen
 
 ---
 
-Long-time open source community leader, event officer, and governance board member helping developer tools projects build and maintain healthy communities.
+Long-time open source community leader and program manager,
+helping companies and developer tools projects build and maintain healthy communities.
+Former CD Foundation TOC chair, board member, and governance lead.
 
 [:octicons-arrow-right-24: See my community organizations](./open-source/organizations/README.md)
 
@@ -76,7 +81,7 @@ Long-time open source community leader, event officer, and governance board memb
 
 ---
 
-Conference speaker, community manager, and advocate helping developer tools projects grow healthy contributor and user communities.
+Community manager, product manager and developer advocate helping developer tools projects grow healthy contributor and user communities.
 
 [:octicons-arrow-right-24: See my public speaking](./speaking/README.md)
 
@@ -87,7 +92,7 @@ Conference speaker, community manager, and advocate helping developer tools proj
 
 ---
 
-Independent consultant helping companies with open source strategy, community building, developer relations, and CI/CD.
+Independent consultant helping companies with developer productivity, open source strategy, community and ecosystem growth, and developer relations.
 
 [:octicons-arrow-right-24: See my consulting services](./consulting/README.md)
 
