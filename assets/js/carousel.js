@@ -40,10 +40,21 @@ function initHatSelector() {
         const detailPanels = Array.from(detailsContainer.querySelectorAll(".hat-details-panel"));
 
         let currentHatIndex = 0;
+        let hatAnimationId = 0;
+
+        function updateHatAppearance(index) {
+            if (!mainHatSvg || !hatStyles[index]) return;
+
+            const style = hatStyles[index];
+            if (hatBrim) hatBrim.setAttribute("fill", style.brim);
+            if (hatCrown) hatCrown.setAttribute("fill", style.crown);
+            if (hatRibbon) hatRibbon.setAttribute("fill", style.ribbon);
+        }
 
         function selectHat(index) {
             if (index < 0) index = hatCards.length - 1;
             if (index >= hatCards.length) index = 0;
+            const previousHatIndex = currentHatIndex;
             currentHatIndex = index;
 
             hatCards.forEach((card, i) => {
@@ -57,17 +68,29 @@ function initHatSelector() {
                 panel.classList.toggle("active", isActive);
             });
 
-            // Update large hat sitting on head avatar
-            if (mainHatSvg && hatStyles[currentHatIndex]) {
-                const style = hatStyles[currentHatIndex];
-                if (hatBrim) hatBrim.setAttribute("fill", style.brim);
-                if (hatCrown) hatCrown.setAttribute("fill", style.crown);
-                if (hatRibbon) hatRibbon.setAttribute("fill", style.ribbon);
+            // Fly the old hat away before changing its colors and flying it back in.
+            if (mainHatSvg && previousHatIndex !== currentHatIndex) {
+                const animationId = ++hatAnimationId;
+                mainHatSvg.classList.remove("hat-pop", "hat-fly-in", "hat-fly-out");
+                void mainHatSvg.offsetWidth;
 
-                // Trigger pop placement animation
-                mainHatSvg.classList.remove("hat-pop");
-                void mainHatSvg.offsetWidth; // Force DOM reflow
-                mainHatSvg.classList.add("hat-pop");
+                if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+                    updateHatAppearance(currentHatIndex);
+                    return;
+                }
+
+                mainHatSvg.classList.add("hat-fly-out");
+
+                mainHatSvg.addEventListener("animationend", function replaceHat(event) {
+                    if (event.animationName !== "hatFlyOut" || animationId !== hatAnimationId) return;
+
+                    updateHatAppearance(currentHatIndex);
+                    mainHatSvg.classList.remove("hat-fly-out");
+                    void mainHatSvg.offsetWidth;
+                    mainHatSvg.classList.add("hat-fly-in");
+                }, { once: true });
+            } else {
+                updateHatAppearance(currentHatIndex);
             }
         }
 
