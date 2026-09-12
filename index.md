@@ -7,7 +7,7 @@ template: home.html
 Open source community builder, DevRel consultant, and developer tools engineer based in Switzerland.
 Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 
-`#OpenSource` `#DeveloperExperience` `#DevOps` `#Java` `#Embedded` `#AI` `#Sustainability`
+`#OpenSource` `#DevEx` `#DevOps` `#Java` `#Embedded` `#AI` `#Sustainability` `#Mentor` `#Volunteer`
 
 <div class="hat-main-layout" markdown="1">
 <div class="choose-hat-panel">
