@@ -62,7 +62,10 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 Developer and maintainer working on automation and developer productivity tools and platforms.
 Contributing to Jenkins, Testcontainers, WireMock and other open source projects.
 
-[:octicons-arrow-right-24: See my open source work](./open-source/projects/README.md)
+[:octicons-arrow-right-24: My C.V.](./work/cv.md)
+[:octicons-arrow-right-24: Open source projects](./open-source/projects/README.md)
+[:octicons-arrow-right-24: FOSS organizations](./open-source/organizations/README.md)
+
 
 </div>
 <div class="hat-details-panel" data-hat="1" markdown="1">
@@ -74,8 +77,9 @@ helping companies and developer tools projects build and maintain healthy commun
 Former CD Foundation TOC chair, board member, and governance lead.
 Big fan of InnerSource and DevOps culture.
 
-[:octicons-arrow-right-24: Community Building](./work/community-building.md)
-[:octicons-arrow-right-24: Advocacy and Public Speaking](./speaking/README.md)
+[:octicons-arrow-right-24: Community building](./work/community-building.md)
+[:octicons-arrow-right-24: My FOSS organizations](./open-source/organizations/README.md)
+[:octicons-arrow-right-24: Advocacy and Public speaking](./speaking/README.md)
 
 </div>
 <div class="hat-details-panel" data-hat="2" markdown="1">
