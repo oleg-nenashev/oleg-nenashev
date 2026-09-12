@@ -13,9 +13,17 @@ My public roles:
 - Technical Oversight Committee contributor
 - _Kubecon + CloudNativeCon_ program committee member
 
+## Cloud Native Suisse Romande
+
+[Cloud Native Suisse Romande](https://cloud-native-romandy.ch/) is a regional community for cloud native practitioners and enthusiasts in French-speaking Switzerland.
+It brings together engineers, developers, and technology leaders to share knowledge,
+discuss cloud native technologies, and strengthen the local open source ecosystem.
+
+In this organization, I co-organize [KCD Suisse Romande](https://kcd.cloud-native-romandy.ch/), support local events, and run the administrative part of the association.
+
 ## Continuous Delivery Foundation
 
-[The Continuous Delivery Foundation (CDF)](https://cd.foundation/) 
+[The Continuous Delivery Foundation (CDF)](https://cd.foundation/)
 is an open-source community improving the world's ability to deliver software with security and speed.
 It includes 10+ projects, including Jenkins or Tekton, and facilitates growth and interoperability of the open source ecosystem.
 
@@ -24,6 +32,19 @@ In 2021 I was also elected to join the Technical Oversight Committee.
 There I facilitate technical programs among member projects (including Jenkins or Tekton),
 and joint projects with the CDF end users and members.
 [Full Statement](https://www.linkedin.com/feed/update/urn:li:activity:6804399697592123392/).
+
+## API Neuchatel
+
+The [Association of IT Professionals (API)](https://api-ne.ch/ )
+supports the IT sector in the canton of Neuchâtel and beyond.
+It organizes meetups and workshops in the region,
+and also promotes the local tech news.
+
+Oleg’s role: Co-organizer since 2022
+
+## Former organizations
+
+Below are the notable open source organization I participated in.
 
 ## FOSSi
 
@@ -36,16 +57,7 @@ I used to volunteer in the [Free and Open Source Silicon (FOSSi) Foundation](htt
 and contribute to the [LibreCores](https://github.com/librecores) project.
 I also have a PhD degree in hardware design and electronics design automation.
 
-## API Neuchatel
-
-The [Association of IT Professionals (API)](https://api-ne.ch/ )
-supports the IT sector in the canton of Neuchâtel and beyond.
-It organizes meetups and workshops in the region,
-and also promotes the local tech news.
-
-Oleg’s role: Co-organizer since 2022
-
-## Jenkins RU
+### Jenkins RU
 
 I am trying to consolidate the Russian-speaking community by setting up chats,
 helping to users/developers and organizing Jenkins Area Meetups
