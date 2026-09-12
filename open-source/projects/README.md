@@ -50,13 +50,15 @@ It is being used to install Jenkins and other services as Windows services.
 In 2015 I took ownership of the project in order to release WinSW 2.0
 with major stability improvements.
 
-## FaaScinator
+## Pet projects
 
-<a href="https://github.com/oleg-nenashev/FaaScinator" target="_blank">
+### FaaScinator
+
+<a href="https://oleg-nenashev.github.io/FaaScinator" target="_blank">
 <img align="right" width="128" src="faascinator/logo.png" alt="FaaScinator Logo">
 </a>
 
-In June 2021 I've also started the [FaaScinator project](https://github.com/oleg-nenashev/FaaScinator) -
+In June 2021 I've also started the [FaaScinator project](https://oleg-nenashev.github.io/FaaScinator) -
 a tool that converts Java CLI apps to FaaS containers and OpenFaaS templates,
 powered by Quarkus, OpenFaaS, picocli and a few other projects.
 

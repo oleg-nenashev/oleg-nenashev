@@ -22,7 +22,6 @@ nav:
   - Open Source:
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
-    - FaaScinator: faascinator/README.md
   - Work & Consulting:
     - Consulting: consulting/README.md
     - Work: work/README.md
@@ -54,17 +53,6 @@ plugins:
       cards_layout_options:
         background_color: "#34365F"
   - same-dir
-  - group:
-      enabled: !ENV [FULL_BUILD, true]
-      plugins:
-      - multirepo:
-          # TODO: Change to True once works
-          cleanup: false
-          keep_docs_dir: true
-          nav_repos:
-          - name: faascinator
-            import_url: 'https://github.com/oleg-nenashev/faascinator?branch=main&edit_uri=/blob/main/'
-            imports: [ "*.md", docs/* ]
   - group:
       enabled: !ENV GENERATE_PDF
       plugins:
