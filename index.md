@@ -2,7 +2,7 @@
 template: home.html
 title: Oleg Nenashev - Engineer, PM, Community Builder
 description: >
-    Developer tools engineer, Community builder and consultant based in Switzerland.
+    Developer tools engineer, community builder and consultant based in Switzerland.
     CNCF Ambassador, Testcontainers Champion, PhD.
 ---
 
@@ -60,7 +60,7 @@ Jenkins core maintainer, CNCF Ambassador, and Testcontainers Champion.
 ### :material-source-branch: **Engineer**
 
 Developer and maintainer working on automation and developer productivity tools and platforms.
-Contributing to Jenkins, Testcontainers, WireMock and other open source projects.
+Contributing to Jenkins, Testcontainers, WireMock, and other open-source projects.
 
 [:octicons-arrow-right-24: My C.V.](./work/cv.md)
 [:octicons-arrow-right-24: Open source projects](./open-source/projects/README.md)
@@ -86,8 +86,8 @@ Big fan of InnerSource and DevOps culture.
 
 ### :material-notebook: **PM and Project Lead**
 
-I've led many projects and programs in the companies and open source projects.
-In particular, I focus on edeveloper experience projects and ecosystem partnerships.
+I've led many projects and programs in companies and open-source projects.
+In particular, I focus on developer experience projects and ecosystem partnerships.
 Experienced PM and product owner in agile environments.
 
 [:octicons-arrow-right-24: See my open source projects](./open-source/projects/README.md)
