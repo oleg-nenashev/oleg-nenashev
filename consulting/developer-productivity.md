@@ -14,8 +14,8 @@ My key interests are automation, CI/CD and container developer environment.
 ## Areas
 
 - Automation, developer tools, and CI/CD in Java/Maven, Golang, cloud-native, and .NET technology stacks.
-  I prefer GitHub Actions, Jenkins or Argo CD, but have experience with other systems too.
-- Artificial Intelligence and Generative AI for developer productivity. In particular, better documentation processing for LLMs and RAG.
+  I prefer GitHub Actions, [Jenkins](./jenkins.md) or Argo CD, but have experience with other systems too.
+- Artificial Intelligence and Generative AI for developer productivity. In particular, better documentation processing for LLMs and RAG. See [Applied AI consulting](./ai.md) for more.
 - Observability and Developer Productivity, especially in the areas of CI/CD and build tools.
   I have experience with OpenTelemetry, developer portals, and (too?) many cloud native tools.
 - Custom features, integrations, and fixes for the open-source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.

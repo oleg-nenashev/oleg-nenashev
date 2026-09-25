@@ -11,6 +11,8 @@ I have 10+ years of experience creating large-scale CI/CD systems with Jenkins
 for software, hardware and embedded projects.
 As a Jenkins core maintainer and a former governing board member,
 I have experience with many areas of the ecosystem.
+For broader engineering systems and developer productivity, see [Developer Productivity consulting](./developer-productivity.md).
+For applying AI to build systems and CI/CD workflows, see [Applied AI consulting](./ai.md).
 
 ## Engineering
 

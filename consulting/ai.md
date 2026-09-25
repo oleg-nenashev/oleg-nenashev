@@ -58,5 +58,6 @@ Some recent client work is confidential.
 
 ## Learn more
 
-See my other [consulting areas](./README.md) as well as the [open source projects](../open-source/projects/README.md) for practical examples.
+Explore [Developer Productivity](./developer-productivity.md) and [Jenkins Consulting](./jenkins.md) for AI in engineering systems and CI/CD, or [Developer Relations](./developer-relations.md) and [Community Building](./community-building.md) for AI-assisted content and community analytics.
+See all [consulting areas](./README.md) as well as the [open source projects](../open-source/projects/README.md) for practical examples.
 I use AI for their development, both Claude and GitHub Copilot.

@@ -17,8 +17,8 @@ let me know!
 - Building and growing open source communities and ecosystems
 - Organizing and hosting meetups, webinars and hackathons
 - Technical documentation at scale, docs engines and customization for them, especially AsciiDocs, MkDocs, Hugo or Jekyll
-- Setting up Community Analytics and sales/field insights, including GrimoireLab, LFX Insights or Common Room
-- Community Program Management, and technical partnerships
+- Setting up Community Analytics and sales/field insights, including GrimoireLab, LFX Insights, Common Room, and [AI-assisted community analytics](./ai.md)
+- Community Program Management and technical partnerships, often in collaboration with [Developer Relations](./developer-relations.md)
 - Starting new Open Source projects, programs and OSPOs
 
 ## References

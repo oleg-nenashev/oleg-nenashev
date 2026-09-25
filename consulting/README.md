@@ -2,16 +2,12 @@
 title: Oleg Nenashev - Consulting
 description: >
   Consulting and advisory in DevOps, developer tools, automation, community building and DevRel.
-  15+ years of experience. Pro-bono for nonprofits.
+  15+ years of experience.
 ---
 
-With 15+ years of experience in developer tools and automation projects, and wearing many hats like CNCF Ambassador, Jenkins maintainer or Testcontainers Champion,
-now I focus on community building, automation and developer productivity across multiple areas and technology stacks.
-I provide consulting and advisory services in the same domains.
-If you're looking for guidance and expertise in these areas, I'd love to connect and explore the opportunities. Let's build something great together!
-
-If you are interested,
-you can also find my contacts [here](../contacts.md).
+With 15+ years in developer tools and automation, including work as a CNCF Ambassador, Jenkins maintainer, and Testcontainers Champion, I focus on community building, automation, and developer productivity across technology stacks.
+I provide consulting and advisory in these areas.
+Let's buid something together!
 
 ## Consulting Areas
 
@@ -23,7 +19,7 @@ My consulting areas include but are not limited to:
 
 -   :material-account-group: **[Community Building](./community-building.md)**
 
-    Build and grow open source communities and ecosystems through 
+    Build and grow open source communities and ecosystems through
     community programs, events, partnerships, and documentation.
 
 -   :material-account-tie: **[Developer Relations](./developer-relations.md)**
@@ -49,9 +45,12 @@ My consulting areas include but are not limited to:
 I am open to new consulting projects.
 This includes full-time projects, fractional, and advisory roles.
 
+If you are interested,
+you can also find my contacts [here](../contacts.md).
+
 ## Pro Bono Consulting
 
-In my consulting work, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that `#StandWithUkraine`. 
+In my consulting work, I want to prioritize projects of social importance, like green tech, sustainability, efficient developer tools, or companies that `#StandWithUkraine`.
 Pro-bono consulting for nonprofits and foundations is possible, too.
 
 If you are from an open source community or a non-profit organization and looking for help or advice,
