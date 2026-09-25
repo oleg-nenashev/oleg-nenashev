@@ -19,6 +19,8 @@ My consulting areas include but are not limited to:
 
 <div class="grid cards" markdown>
 
+
+
 -   :material-account-group: **[Community Building](./community-building.md)**
 
     Build and grow open source communities and ecosystems through 
@@ -35,6 +37,10 @@ My consulting areas include but are not limited to:
 -   :material-hammer-wrench: **[Jenkins Consulting](./jenkins.md)**
 
     Building large-scale automation and CI/CD platforms for software, hardware, and embedded projects, custom Jenkins development.
+
+-   :material-brain: **[Applied AI](./ai.md)**
+
+    Apply AI to developer productivity, coding agents, documentation, and community analytics.
 
 </div>
 

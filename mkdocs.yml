@@ -24,9 +24,10 @@ nav:
     - My Organizations: open-source/organizations/README.md
   - Consulting & Work:
     - Summary: consulting/README.md
+    - Developer Productivity: consulting/developer-productivity.md
+    - Applied AI: consulting/ai.md
     - Community Building: consulting/community-building.md
     - Developer Relations: consulting/developer-relations.md
-    - Developer Productivity: consulting/developer-productivity.md
     - Jenkins Consulting: consulting/jenkins.md
     - Work: work/README.md
     - Public C.V.: work/cv.md
