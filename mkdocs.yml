@@ -11,7 +11,7 @@ copyright: >-
 repo_url: https://github.com/oleg-nenashev/oleg-nenashev
 repo_name: GitHub Repo
 edit_uri: edit/main/
-site_url: https://oleg-nenashev.github.io/oleg-nenashev
+site_url: https://oleg.swiss
 
 # Build
 site_dir: _site
