@@ -1,7 +1,7 @@
 ---
 title: Oleg Nenashev - Consulting
 description: >
-  Consulting and advisory in DevOps, developer tools, automation, community buildingand DevRel.
+  Consulting and advisory in DevOps, developer tools, automation, community building and DevRel.
   15+ years of experience. Pro-bono for nonprofits.
 ---
 
@@ -13,77 +13,35 @@ If you're looking for guidance and expertise in these areas, I'd love to connect
 If you are interested,
 you can also find my contacts [here](../contacts.md).
 
-!!! quote "Testimonial - Software Developer Advocate Consultant at WireMock Inc."
+## Consulting Areas
 
-    During his assignment Mr. Nenashev... quadrupled community GitHub contributions to WireMock in 9 months...
+My consulting areas include but are not limited to:
 
-    The client states that Mr. Nenashev has played a pivotal role in fostering open-source collaboration and community growth;
-    his initiatives extended beyond mere developer advocacy and code contributions.
-    Mr. Nenashev established the community governance framework, communication channels, and
-    vibrant social media presence, organized events,
-    and onboarded many 3rd-party projects to the main GitHub organization.
-    His efforts helped to expand the WireMock ecosystem, particularly in the Golang and Python technology stacks
+<div class="grid cards" markdown>
 
-    // Work certificate for the mission at [WireMock Inc.](https://www.wiremock.io/) as a Software Developer Advocate Consultant,
-    from April 2023 to January 2024
+-   :material-account-group: **[Community Building](./community-building.md)**
+
+    Build and grow open source communities and ecosystems through 
+    community programs, events, partnerships, and documentation.
+
+-   :material-account-tie: **[Developer Relations](./developer-relations.md)**
+
+    Shape DevRel strategies, advocacy programs, conference talks, workshops, and technical content.
+
+-   :material-speedometer: **[Developer Productivity](./developer-productivity.md)**
+
+    Improve automation, developer tools, CI/CD, observability, AI-assisted workflows, and InnerSource.
+
+-   :material-hammer-wrench: **[Jenkins Consulting](./jenkins.md)**
+
+    Building large-scale automation and CI/CD platforms for software, hardware, and embedded projects, custom Jenkins development.
+
+</div>
 
 ## My Availability
 
 I am open to new consulting projects.
 This includes full-time projects, fractional, and advisory roles.
-
-## Consulting Areas
-
-My consulting areas include but not limited to:
-
-### Community Building
-
-I've been active in open source communities since 2012,
-including many community leadership roles.
-If you are interested in building and growing your open source community or open ecosystem,
-let me know!
-
-- Building and growing open source communities and ecosystems
-- Organizing and hosting meetups, webinars and hackathons
-- Technical documentation at scale, docs engines and customization for them, especially AsciiDocs, MkDocs, Hugo or Jekyll
-- Setting up Community Analytics and sales/field insights, including GrimoireLab, LFX Insights or Common Room
-- Community Program Management, and technical partnerships
-- Starting new Open Source projects, programs and OSPOs
-
-### Developer Relations
-
-Apart from community building, I can help with many other areas of Developer Relations,
-including fractional Developer Advocate positions.
-
-- Developer Advocacy for your products and open source projects
-- Building a DevRel strategy for your product and the team
-- Organizing workshops and conference talks at key industry events
-- Content creation and public speaking (see my [technical publications](../speaking/publications.md) or [my talks](../speaking/talks.md))
-
-### Developer Productivity
-
-- Automation, developer tools, and CI/CD in Java/Maven, Golang, cloud-native, and .NET technology stacks.
-  I prefer GitHub Actions, Jenkins or Argo CD, but have experience with other systems too.
-- Artificial Intelligence and Generative AI for developer productivity. In particular, better documentation processing for LLMs and RAG.
-- Observability and Developer Productivity, especially in the areas of CI/CD and build tools.
-  I have experience with OpenTelemetry, developer portals, and (too?) many cloud native tools.
-- Custom features, integrations, and fixes for the open-source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.
-- DevOps and InnerSource transformation
-
-### Jenkins Consulting
-
-I have 8+ years of experience creating large-scale CI/CD systems with Jenkins
-for software, hardware and embedded projects.
-As a Jenkins core maintainer and a former governing board member,
-I have experience with many areas of the ecosystem.
-
-- Building custom automation and CI/CD platforms based on Jenkins,
-  especially for hardware and embedded projects
-- Developing new plugins for Jenkins, and patching/refreshing the existing ones
-- Internal trainings and workshops about Jenkins
-- All kinds of integrations between Jenkins and other tools
-- Custom development for tools like Jenkinsfile Runner
-
 
 ## Pro Bono Consulting
 
