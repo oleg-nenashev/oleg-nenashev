@@ -89,6 +89,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - pymdownx.details
+  - mdx_truly_sane_lists
 
 # Theme
 theme:
@@ -125,6 +126,7 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
+    
   font:
     text: DM Sans
     code: Roboto Mono
