@@ -14,12 +14,6 @@ result-oriented companies with startup and/or open source culture.
 I am a part-time Lead Developer Advocate at Gradle, Inc.
 Member of Gradle’s DevRel and Education team working on the Gradle Build Tool advocacy, user and developer communities.
 
-## Volunteering
-
-I participatite in many open source projects,
-and volunteer in some Swiss and international organizations related to technology and open source.
-[Lear more](./volunteering.md).
-
 ## Alumni
 
 Alumni of CloudBees, SPbSPU, Synopsys, WireMock, Dynatrace, and Intel Labs.

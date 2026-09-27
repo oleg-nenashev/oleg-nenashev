@@ -23,16 +23,14 @@ nav:
     - Community Building: work/community-building.md
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
-  - Consulting & Work:
+  - Consulting:
     - Summary: consulting/README.md
     - Developer Productivity: consulting/developer-productivity.md
     - Applied AI: consulting/ai.md
     - Community Building: consulting/community-building.md
     - Developer Relations: consulting/developer-relations.md
     - Jenkins Consulting: consulting/jenkins.md
-    - Work: work/README.md
-    - Public C.V.: work/cv.md
-  - DevRel:
+  - Developer Advocacy:
     - Public speaking:
       - Overview: speaking/README.md
       - My talks: speaking/talks.md
@@ -43,8 +41,10 @@ nav:
         - Invite me as a speaker: speaking/invite-me.md
     - My publications: work/publications.md
   - About:
-    - Contacts:
-      - Contacts: contacts.md
+    - Contacts: contacts.md
+    - Public C.V.: work/cv.md
+    - Work: work/README.md
+    - Volunteering: work/volunteering.md
     - Academia:
       - Education: education/README.md
       - PhD (Electronics & EDA): education/phd/README.md
