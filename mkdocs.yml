@@ -20,6 +20,7 @@ docs_dir: .
 nav:
   - ">whoami": index.md
   - Open Source:
+    - Community Building: work/community-building.md
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
   - Consulting & Work:
@@ -32,7 +33,6 @@ nav:
     - Work: work/README.md
     - Public C.V.: work/cv.md
   - DevRel:
-    - Community Building: work/community-building.md
     - Public speaking:
       - Overview: speaking/README.md
       - My talks: speaking/talks.md
@@ -42,14 +42,15 @@ nav:
         - Speaker profile: speaking/profile.md
         - Invite me as a speaker: speaking/invite-me.md
     - My publications: work/publications.md
-  - Academia:
-    - Education: education/README.md
-    - PhD (Electronics & EDA): education/phd/README.md
-    - Master (Computer Systems): education/master-1-systems/README.md
-    - Secondary Master (Economics): education/master-2-economics/README.md
-    - Bachelor (Computer Systems): education/bachelor/README.md
-  - Contacts:
-    - Contacts: contacts.md
+  - About:
+    - Contacts:
+      - Contacts: contacts.md
+    - Academia:
+      - Education: education/README.md
+      - PhD (Electronics & EDA): education/phd/README.md
+      - Master (Computer Systems): education/master-1-systems/README.md
+      - Secondary Master (Economics): education/master-2-economics/README.md
+      - Bachelor (Computer Systems): education/bachelor/README.md
 
 
 plugins:
@@ -69,6 +70,7 @@ plugins:
       redirect_maps:
         'job/README.md': "work/README.md"
         'speaking/publications.md': "work/publications.md"
+        "blog/README.md": "work/publications.md"
         'cv.md': 'work/cv.md'
         'resume.md': 'work/cv.md'
         'testcontainers-c/README.md': 'https://testcontainers.github.io/testcontainers-native/'

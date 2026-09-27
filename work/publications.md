@@ -46,3 +46,7 @@ most of it included collaboration and peer reviews.
 ## Academic Publications
 
 See the links [here](./../education/README.md).
+
+## Personal Blog
+
+Coming soon, maybe?
