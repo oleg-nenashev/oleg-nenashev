@@ -36,9 +36,12 @@ nav:
     - Public speaking:
       - Overview: speaking/README.md
       - My talks: speaking/talks.md
-      - Speaker profile: speaking/profile.md
-      - Invite me as a speaker: speaking/invite-me.md
-    - My publications: speaking/publications.md
+      - Workshops and Tutorials: speaking/workshops.md
+      - Podcasts and Interviews: speaking/audio.md
+      - Extras:
+        - Speaker profile: speaking/profile.md
+        - Invite me as a speaker: speaking/invite-me.md
+    - My publications: work/publications.md
   - Academia:
     - Education: education/README.md
     - PhD (Electronics & EDA): education/phd/README.md
@@ -65,6 +68,7 @@ plugins:
   - redirects:
       redirect_maps:
         'job/README.md': "work/README.md"
+        'speaking/publications.md': "work/publications.md"
         'cv.md': 'work/cv.md'
         'resume.md': 'work/cv.md'
         'testcontainers-c/README.md': 'https://testcontainers.github.io/testcontainers-native/'

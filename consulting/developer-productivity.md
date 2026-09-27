@@ -21,6 +21,12 @@ My key interests are automation, CI/CD and container developer environment.
 - Custom features, integrations, and fixes for the open-source projects which I maintain or contribute to: Jenkins, Testcontainers, OpenFeature, WireMock, Microcks, WinSW, and many others.
 - DevOps and InnerSource transformation
 
+## Training
+
+I do workshops and tutorials focused on the Developer Tools and DevOps / InnerSource culture.
+You can hire me to deliver an internal workshop.
+The list of my recent workshops can be found [here](../speaking/workshops.md).
+
 ## References
 
 !!! quote "Lead Engineer and Shared Source Adviser at BIS Innovation Hub"
