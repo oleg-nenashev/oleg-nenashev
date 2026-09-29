@@ -183,6 +183,4 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/asciidwarf/
       name: Instagram
-  analytics:
-    provider: google
-    property: G-MQM735FFJW
+
