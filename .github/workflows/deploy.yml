@@ -62,6 +62,7 @@ jobs:
             env: |
               PIP_TOKEN=${{ secrets.MKDOCS_MATERIAL_GITHUB_TOKEN }}
               FULL_BUILD=true
+              GENERATE_PDF=true
         
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
@@ -69,7 +70,13 @@ jobs:
         with:
           name: github-pages
           path: "_site/"
-
+      - name: Upload PDF
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: pdf-version
+          path: "_site/pdf/document.pdf"
+          
   # Deployment job
   deploy:
     environment:
