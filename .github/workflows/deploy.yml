@@ -65,14 +65,13 @@ jobs:
               GENERATE_PDF=true
         
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v4
         with:
           name: github-pages
           path: "_site/"
+
       - name: Upload PDF
-        # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v7.0.2
         with:
           name: pdf-version
           path: "_site/pdf/document.pdf"
