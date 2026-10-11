@@ -5,6 +5,20 @@
 
   <link rel="stylesheet" href="{{ 'assets/css/landing.css' | url }}">
 
+  <nav class="home-language-selector" aria-label="Language selector">
+    {% if config.theme.language == "fr" %}
+      <a href="{{ '/' | url }}" lang="en" hreflang="en" aria-label="Switch to English">
+        <span aria-hidden="true">🇬🇧</span>
+        <span>English</span>
+      </a>
+    {% else %}
+      <a href="{{ '/fr/' | url }}" lang="fr" hreflang="fr" aria-label="Passer au français">
+        <span aria-hidden="true">🇫🇷</span>
+        <span>Français</span>
+      </a>
+    {% endif %}
+  </nav>
+
   <style>
     /* Hide application header and navigation tabs for landing page */
     .md-header {
@@ -34,6 +48,40 @@
 
     .md-typeset h1 {
       margin-bottom: 0.35rem;
+    }
+
+    .home-language-selector {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+    }
+
+    .home-language-selector a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.7rem;
+      color: var(--md-default-fg-color);
+      font-weight: 700;
+      text-decoration: none;
+      background: var(--md-default-bg-color);
+      border: 1px solid var(--md-default-fg-color--lighter);
+      border-radius: 999px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .home-language-selector a:hover,
+    .home-language-selector a:focus-visible {
+      color: var(--theme-main, #06518E);
+      border-color: var(--theme-main, #06518E);
+    }
+
+    @media (max-width: 480px) {
+      .home-language-selector {
+        top: 0.5rem;
+        right: 0.5rem;
+      }
     }
   </style>
 {% endblock %}

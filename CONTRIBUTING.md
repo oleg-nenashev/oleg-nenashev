@@ -12,10 +12,10 @@ let me know :)
 For the local development without full rebuild:
 
 ```shell
-FULL_BUILD=false mkdocs serve
+mkdocs serve
 ```
 
-Full build with dependencies:
+Full build with PDF generqation:
 
 ```shell
 GENERATE_PDF=true mkdocs build
@@ -27,6 +27,12 @@ The site is built with [MkDocs](https://www.mkdocs.org/),
 [MkDocs Multirepo Plugin](https://github.com/jdoiro3/mkdocs-multirepo-plugin/tree/main),
 and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material).
 For development, everything is powered by Dev Containers and GitHub Actions.
+
+## Localization
+
+The default language of the website is English.
+Some pages are in French.
+For that, the [mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n) plugin is used on the top of the default Material for MkDocs functionality.
 
 ## License
 

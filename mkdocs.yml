@@ -66,6 +66,29 @@ plugins:
       enabled: !ENV GENERATE_PDF
       plugins:
       - to-pdf
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+          site_name: "Oleg Nenashev"
+        - locale: fr
+          name: Français
+          build: true
+          site_name: "Oleg Nenashev (fr)"
+          nav_translations:
+            Home: Accueil
+            About: À propos
+            Work: Travail
+            Speaking: Conférences
+            Consulting: Conseil
+            Contacts: Contacts
+            Academia: Académie
   - redirects:
       redirect_maps:
         'job/README.md': "work/README.md"
@@ -183,4 +206,3 @@ extra:
     - icon: fontawesome/brands/instagram
       link: https://www.instagram.com/asciidwarf/
       name: Instagram
-
