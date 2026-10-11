@@ -21,4 +21,4 @@ I help to maintain some of the alumni communities.
 
 ## My resume
 
-You can find my curriculum vitae [here](./cv.md).
+You can find my curriculum vitae [here](../work/cv.md).

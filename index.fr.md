@@ -62,9 +62,9 @@ Mainteneur de Jenkins, ambassadeur CNCF et Testcontainers Champion.
 Développeur et mainteneur spécialisé dans les outils et plateformes d’automatisation et de productivité des développeurs.
 Contributeur à Jenkins, Testcontainers, WireMock et à d’autres projets open source.
 
-[:octicons-arrow-right-24: Mon C.V.](../work/cv.md)
-[:octicons-arrow-right-24: Projets open source](../open-source/projects/README.md)
-[:octicons-arrow-right-24: Organisations FOSS](../open-source/organizations/README.md)
+[:octicons-arrow-right-24: Mon C.V.](work/cv.md)
+[:octicons-arrow-right-24: Projets open source](open-source/projects/README.md)
+[:octicons-arrow-right-24: Organisations FOSS](open-source/organizations/README.md)
 
 
 </div>
@@ -77,9 +77,9 @@ J’aide les entreprises et les projets d’outils pour développeurs à créer 
 Ancien président du comité technique de la CD Foundation, membre de conseil d’administration et responsable de gouvernance.
 Fervent défenseur de l’InnerSource et de la culture DevOps.
 
-[:octicons-arrow-right-24: Développement de communautés](../work/community-building.md)
-[:octicons-arrow-right-24: Mes organisations FOSS](../open-source/organizations/README.md)
-[:octicons-arrow-right-24: Évangélisation et prises de parole](../speaking/README.md)
+[:octicons-arrow-right-24: Développement de communautés](work/community-building.md)
+[:octicons-arrow-right-24: Mes organisations FOSS](open-source/organizations/README.md)
+[:octicons-arrow-right-24: Évangélisation et prises de parole](speaking/README.md)
 
 </div>
 <div class="hat-details-panel" data-hat="2" markdown="1">
@@ -90,7 +90,7 @@ J’ai dirigé de nombreux projets et programmes en entreprise et dans l’open 
 Je me concentre notamment sur l’expérience développeur et les partenariats d’écosystème.
 Expérimenté en gestion de projet et en gestion de produit dans des environnements agiles.
 
-[:octicons-arrow-right-24: Voir mes projets open source](../open-source/projects/README.md)
+[:octicons-arrow-right-24: Voir mes projets open source](open-source/projects/README.md)
 
 </div>
 <div class="hat-details-panel" data-hat="3" markdown="1">

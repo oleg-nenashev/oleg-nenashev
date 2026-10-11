@@ -17,7 +17,7 @@ including fractional Developer Advocate positions.
   See [Public Speaking](../speaking/README.md)
 - Building a DevRel strategy for your product and the team
 - Organizing workshops and conference talks at key industry events
-- Content creation and public speaking (see my [technical publications](../speaking/publications.md) or [my talks](../speaking/talks.md)). For AI-assisted content and developer go-to-market, see [Applied AI consulting](./ai.md).
+- Content creation and public speaking (see my [technical publications](../work/publications.md) or [my talks](../speaking/talks.md)). For AI-assisted content and developer go-to-market, see [Applied AI consulting](./ai.md).
 
 ##  References
 
@@ -34,5 +34,4 @@ including fractional Developer Advocate positions.
 
     // Reference letter from Gradle Inc.
     // Lead Developer Advocate, January 2024 – January 2026
-
 
