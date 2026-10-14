@@ -4,6 +4,10 @@
 
 ### CNCF
 
+<a href="https://www.cncf.io/" target="_blank">
+<img align="right" width="128" src="images/logo-cncf.png" alt="CNCF Logo">
+</a>
+
 The [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/)
 is the open source, vendor-neutral hub of cloud native computing,
 hosting projects like Kubernetes and Prometheus to make cloud native universal and sustainable.
@@ -18,6 +22,10 @@ My public roles:
 
 ### Google Summer of Code
 
+<a href="https://summerofcode.withgoogle.com/" target="_blank">
+<img align="right" width="128" src="images/logo-gsoc.png" alt="Google Summer of Code Logo">
+</a>
+
 [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) is a global, online program that brings new contributors into open source software development. GSoC Contributors work with open source organisations for 12+ weeks, on their coding projects.
 
 I have participated in the program since 2015 as a mentor and org admin in the Jenkins project, Free and Open Source Silicon Foundation, Continuous Delivery Foundation, and the Kotlin Foundation.
@@ -25,6 +33,10 @@ Currently, I provide support and advice to mentoring teams (“mentoring mentors
 
 
 ### Continuous Delivery Foundation
+
+<a href="https://cd.foundation/" target="_blank">
+<img align="right" width="128" src="images/logo-cdf.png" alt="Continuous Delivery Foundation Logo">
+</a>
 
 [The Continuous Delivery Foundation (CDF)](https://cd.foundation/)
 is an open-source community improving the world's ability to deliver software with security and speed.
@@ -40,6 +52,10 @@ and joint projects with the CDF end users and members.
 
 ### Cloud Native Suisse Romande
 
+<a href="https://cloud-native-romandy.ch/" target="_blank">
+<img align="right" width="128" src="images/logo-cloud-native-suisse-romande.png" alt="Cloud Native Suisse Romande Logo">
+</a>
+
 [Cloud Native Suisse Romande](https://cloud-native-romandy.ch/) is a regional community for cloud native practitioners and enthusiasts in French-speaking Switzerland.
 It brings together engineers, developers, and technology leaders to share knowledge,
 discuss cloud native technologies, and strengthen the local open source ecosystem.
@@ -47,6 +63,10 @@ discuss cloud native technologies, and strengthen the local open source ecosyste
 In this organization, I co-organize [KCD Suisse Romande](https://kcd.cloud-native-romandy.ch/), support local events, and run the administrative part of the association.
 
 ### CH Open
+
+<a href="https://www.ch-open.ch/en/" target="_blank">
+<img align="right" width="128" src="images/logo-ch-open.png" alt="CH Open Logo">
+</a>
 
 [CH Open](https://www.ch-open.ch/en/) is an association for the promotion of open source software and open standards in Switzerland.
 CH Open regularly organises events and conferences in Switzerland, including Workshoptage, DINAcon, and Open Education Day.
@@ -57,6 +77,10 @@ I plan to contribute to the Suisse Romande working group when it is finally esta
 
 ### Silicon Chalet
 
+<a href="https://www.meetup.com/silicon-chalet/" target="_blank">
+<img align="right" width="128" src="images/logo-silicon-chalet.png" alt="Silicon Chalet Logo">
+</a>
+
 Silicon Chalet is the French-speaking Meetup for all tech enthusiasts.
 Formerly known as the Kubernetes Geneva Meetup, it already brought together a community eager to discuss containers and the CNCF ecosystem.
 Now, the Chalet will host other tech topics popular with its members.
@@ -65,6 +89,10 @@ I am Silicon Chalet Ambassador and the Neuchâtel chapter lead.
 I participate in event organisation, and public speaking.
 
 ### API Neuchâtel
+
+<a href="https://api-ne.ch/" target="_blank">
+<img align="right" width="128" src="images/logo-api-neuchatel.png" alt="API Neuchâtel Logo">
+</a>
 
 The [Association of IT Professionals (API)](https://api-ne.ch/ )
 supports the IT sector in the canton of Neuchâtel and beyond.
@@ -79,12 +107,20 @@ Below are the notable open source organization I participated in.
 
 ### Kotlin Foundation
 
+<a href="https://kotlinfoundation.org/" target="_blank">
+<img align="right" width="128" src="images/logo-kotlin-foundation.png" alt="Kotlin Foundation Logo">
+</a>
+
 The [Kotlin Foundation](https://kotlinfoundation.org/) is a non-profit organization that supports the development, adoption, and growth of the Kotlin programming language and its ecosystem.
 
 I was a member of the Kotlin Ecosystem Committee representing Gradle Technologies and a liaison to the Marketing Committee. I was also an organization administrator and mentor in Google Summer of Code in 2024.
 
 
 ### FOSSi
+
+<a href="https://fossi-foundation.org/" target="_blank">
+<img align="right" width="128" src="images/logo-fossi.png" alt="FOSSi Foundation Logo">
+</a>
 
 The [Free and Open Source Silicon Foundation (FOSSi)](https://fossi-foundation.org ) exists to promote and protect the open source silicon chip movement.
 It actively encourages the community’s growth and is helping to maintain the open spirit of the movement, through events, educational programmes and working groups.
@@ -96,6 +132,10 @@ and contribute to the [LibreCores](https://github.com/librecores) project.
 I also have a PhD degree in hardware design and electronics design automation.
 
 ### Jenkins RU
+
+<a href="https://github.com/jenkins-ru" target="_blank">
+<img align="right" width="128" src="images/logo-jenkins-ru.png" alt="Jenkins RU Logo">
+</a>
 
 I am trying to consolidate the Russian-speaking community by setting up chats,
 helping to users/developers and organizing Jenkins Area Meetups
