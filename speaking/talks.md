@@ -20,7 +20,7 @@ The video recordings are referenced in these YouTube playlists:
 ## More Talks
 
 Not all sessions are available on Sessionize.
-I have already stopped giving most of the Jenkins talks, though I can refresh some upon request.
+I have already stopped giving most Jenkins talks, though I can refresh some on request.
 I often deliver specialized talks and workshops for different technology stacks
 (e.g. Java/JVM, Golang, Cloud Native, Embedded, C++ or .NET)
 for my clients and at local meetups,
@@ -34,10 +34,12 @@ and they are not listed here.
 * [Mentorship Programs. Growing new team and community leaders](https://sessionize.com/s/onenashev/mentorship-programs.-growing-new-team-and-communit/47625)
   * Presented at: DevopsDays Zurich 2022, Community over Code EU 2024
   * [Slides](https://speakerdeck.com/onenashev/mentorship-programs-growing-new-team-and-community-leaders),
+    [Video - Full talk](https://youtu.be/cyHDCKd4Oew?si=JyZS3g5s4t-1nGr_), 
+    [Video - Lightning talk](https://vimeo.com/723348444)
 * [R]Evolution of open-source CI/CD tools
   * Presented at: cdCon 2022, Heisenbug 2022, Open Source Summit India 2021 (Keynote)
   * [Slides](https://speakerdeck.com/onenashev/revolution-of-open-source-cicd-tools)
-* Guerilla\* Developer Relations. How to start DevRel and turn around the culture in a legacy enterprise company?
+* Guerilla Developer Relations. How to start DevRel and turn around the culture in a legacy enterprise company?
   * Presented at: DevRelCon 2021
   * [Slides](https://speakerdeck.com/onenashev/guerilla-devrel)
 
@@ -61,7 +63,7 @@ NOTE: _Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are regist
   * Solo version, with Quarkus: [Slides](https://speakerdeck.com/onenashev/fake-it-until-you-make-it-its-with-wiremock-testcontainers-and-quarkus),
   * Pair version (Devoxx BE), with Spring Boot: [Slides](https://speakerdeck.com/onenashev/devoxx-be-fake-it-until-you-make-it-with-testcontainers-and-wiremock-spring-boot-edition), [Video](https://www.youtube.com/watch?v=eFILbyaMI2A)
 * [Mocks as Code. Modeling services in configuration management flows](https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022)
-  * Presented at: DevopsDays Geneva 2024
+  * Presented at: DevOpsDays Geneva 2024
   * [Slides (Workshop)](https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt)
 * [Strange Quarks, Mocking Quarks \- Modeling API services in Quarkus In high-density environments](https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365)
   * Presented at: Turkish Java Meetup, Red Hat Engineering Day
