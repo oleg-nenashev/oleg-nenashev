@@ -169,3 +169,8 @@ button.talk-badge:hover,
 .talk-sidebar .talk-sidebar-sub {
     padding-left: 0.6rem;
 }
+
+.talk-summary {
+    font-size: 1.05em;
+    font-style: italic;
+}

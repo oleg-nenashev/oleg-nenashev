@@ -99,6 +99,10 @@
     </p>
   {% endif %}
 
+  {% if page.meta.description %}
+    <p class="talk-summary">{{ page.meta.description }}</p>
+  {% endif %}
+
   {% if page.meta.tag %}
     <p class="talk-tags">
       <span class="talk-tags-label">Tags:</span>
