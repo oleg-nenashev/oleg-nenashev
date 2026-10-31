@@ -16,6 +16,11 @@ speakerdeckId: 6895512d2f7542e6893a53e8b5ba465e
 youtubeId: EBmcx_gAts8
 youtube: https://www.youtube.com/watch?v=EBmcx_gAts8
 speakerdeck: https://speakerdeck.com/onenashev/automate-your-changelogs-release-drafter
+references:
+  - name: "Slides and abstract"
+    url: "https://speakerdeck.com/onenashev/automate-your-changelogs-release-drafter"
+  - name: "Video"
+    url: "https://www.youtube.com/watch?v=EBmcx_gAts8"
 ---
 
 [Almost] nobody likes writing documentation, and the same for the changelogs! Can we automate these processes and improve both user and developer experiences? Of course!
@@ -25,8 +30,3 @@ We will review the Release Drafter - a handy changelog automation tool for those
 During the presentation, we will also review changelog automation examples from WireMock, Testcontainers, Jenkins, and other open-source communities. Those examples need copy and paste.
 
 Presented at Devoxx BE 2023, Voxxed Days Zurich 2024, and other conferences.
-
-References:
-
-- [Slides and abstract](https://speakerdeck.com/onenashev/automate-your-changelogs-release-drafter)
-- [Video](https://www.youtube.com/watch?v=EBmcx_gAts8)

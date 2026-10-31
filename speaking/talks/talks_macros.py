@@ -51,7 +51,7 @@ def _abstract_html(path):
     text = path.read_text(encoding="utf-8").split("---", 2)[2]
     lines = []
     for line in text.strip().splitlines():
-        if line.startswith(("Presented at", "References:")):
+        if line.startswith(("Presented at",)):
             break
         lines.append(line)
     return markdown.markdown("\n".join(lines).strip()).replace("\n", " ")

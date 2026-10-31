@@ -18,6 +18,13 @@ youtubeId: Lf15C0Jl3Yk
 sessionize: https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365
 youtube: https://www.youtube.com/watch?v=Lf15C0Jl3Yk
 speakerdeck: https://speakerdeck.com/onenashev/quarkus-gradle-wiremock-dev-services-for-gradle-projects
+references:
+  - name: "Sessionize abstract"
+    url: "https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365"
+  - name: "Slides"
+    url: "https://speakerdeck.com/onenashev/quarkus-gradle-wiremock-dev-services-for-gradle-projects"
+  - name: "Video"
+    url: "https://www.youtube.com/watch?v=Lf15C0Jl3Yk"
 ---
 
 Quarkus offers many local development capabilities, including the recently released Dev Services that usually run with Testcontainers under the hood. We can leverage Dev Services to provide real-time API provider development experiences for Quarkus-based services and client apps.
@@ -32,9 +39,3 @@ NOTE: This presentation was modified on Oct 10, 2025, to exclude the IP of Gradl
 *Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc. "Gradle" means "Gradle Build Tool" and does not reference Gradle, Inc. and/or its subsidiaries.*
 
 Presented at the Turkish Java Meetup and Red Hat Engineering Day.
-
-References:
-
-- [Sessionize abstract](https://sessionize.com/s/onenashev/strange-quarks-mocking-quarks-modeling-api-service/82365)
-- [Slides](https://speakerdeck.com/onenashev/quarkus-gradle-wiremock-dev-services-for-gradle-projects)
-- [Video](https://www.youtube.com/watch?v=Lf15C0Jl3Yk)

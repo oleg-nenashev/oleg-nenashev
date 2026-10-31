@@ -16,6 +16,13 @@ speakerdeckId: 1cf15669584141eca7d664970261fc0c
 github: https://github.com/oleg-nenashev/workshop-aws-mocks-as-code
 sessionize: https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022
 speakerdeck: https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt
+references:
+  - name: "Workshop repository"
+    url: "https://github.com/oleg-nenashev/workshop-aws-mocks-as-code"
+  - name: "Workshop slides"
+    url: "https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt"
+  - name: "Sessionize session"
+    url: "https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022"
 ---
 
 When managing service configurations at scale, we often need to automate testing of these configurations. In software integration testing, we can use Testcontainers - a popular framework for Docker and other container engines. For public cloud environments, there is LocalStack. And for API service providers, we have WireMock. Can we use the same toolchain for configuration management? If you use modern Infrastructure-as-Code tools like Pulumi, yes!
@@ -35,9 +42,3 @@ See the [demo repository](https://github.com/oleg-nenashev/mocks-as-code-demo) u
 *Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc. "Gradle" means "Gradle Build Tool" and does not reference Gradle, Inc. and/or its subsidiaries.*
 
 Presented at DevOpsDays Geneva 2024.
-
-References:
-
-- [Workshop repository](https://github.com/oleg-nenashev/workshop-aws-mocks-as-code)
-- [Workshop slides](https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt)
-- [Sessionize session](https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022)

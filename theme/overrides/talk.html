@@ -87,6 +87,15 @@
     {% endfor %}
   {% endif %}
 
+  {% if page.meta.references %}
+    <h2 id="references">References</h2>
+    <ul class="talk-references">
+      {% for ref in page.meta.references %}
+        <li><a href="{{ ref.url }}">{{ ref.name }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   {% include "partials/source-file.html" %}
   {% endif %}
 {% endblock %}

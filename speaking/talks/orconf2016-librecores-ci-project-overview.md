@@ -14,6 +14,9 @@ tag:
 author: oleg_nenashev
 speakerdeckId: 51cda97e786f411abab92287754e486d
 speakerdeck: https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview
+references:
+  - name: "Slides"
+    url: "https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview"
 ---
 
 This presentation is a status update regarding LibreCores CI, which is a part of LibreCores - Community Hub for open-source hardware projects. The project is in the early prototyping stage now.
@@ -21,7 +24,3 @@ This presentation is a status update regarding LibreCores CI, which is a part of
 [https://www.librecores.org/](https://www.librecores.org/)
 
 Presented at ORCONF 2016 in Bologna, Italy.
-
-References:
-
-- [Slides](https://speakerdeck.com/onenashev/orconf2016-librecores-ci-project-overview)

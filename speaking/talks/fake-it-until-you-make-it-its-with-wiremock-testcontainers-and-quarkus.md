@@ -21,6 +21,15 @@ youtube: https://www.youtube.com/watch?v=eFILbyaMI2A
 speakerdeck:
   - https://speakerdeck.com/onenashev/fake-it-until-you-make-it-its-with-wiremock-testcontainers-and-quarkus
   - https://speakerdeck.com/onenashev/devoxx-be-fake-it-until-you-make-it-with-testcontainers-and-wiremock-spring-boot-edition
+references:
+  - name: "Sessionize abstract and outline"
+    url: "https://sessionize.com/s/onenashev/fake-it-until-you-make-it.-api-integration-testing/67137"
+  - name: "Solo slides with Quarkus"
+    url: "https://speakerdeck.com/onenashev/fake-it-until-you-make-it-its-with-wiremock-testcontainers-and-quarkus"
+  - name: "Pair-talk slides with Spring Boot"
+    url: "https://speakerdeck.com/onenashev/devoxx-be-fake-it-until-you-make-it-with-testcontainers-and-wiremock-spring-boot-edition"
+  - name: "Devoxx BE video"
+    url: "https://www.youtube.com/watch?v=eFILbyaMI2A"
 ---
 
 Testcontainers has become one of the most popular tools for software integration testing. If you can put your system-under-test into a container, Docker compose cluster or a pod, this is what you're likely to use. If your target isn't ready, not containerizable or just too heavy for testing as is, you can always use mock testing frameworks, e.g. WireMock or MockServer in the JVM ecosystem. Can you combine both approaches? Sure!
@@ -30,10 +39,3 @@ In this talk, we will classify integration testing and discuss application areas
 P.S: We will focus on the Java, Golang or Rust examples, but the same approaches can be used everywhere
 
 Presented at Devoxx BE, JCON, API World, JUG.ch, and Java Israel.
-
-References:
-
-- [Sessionize abstract and outline](https://sessionize.com/s/onenashev/fake-it-until-you-make-it.-api-integration-testing/67137)
-- [Solo slides with Quarkus](https://speakerdeck.com/onenashev/fake-it-until-you-make-it-its-with-wiremock-testcontainers-and-quarkus)
-- [Pair-talk slides with Spring Boot](https://speakerdeck.com/onenashev/devoxx-be-fake-it-until-you-make-it-with-testcontainers-and-wiremock-spring-boot-edition)
-- [Devoxx BE video](https://www.youtube.com/watch?v=eFILbyaMI2A)

@@ -15,6 +15,9 @@ tag:
 author: oleg_nenashev
 speakerdeckId: 69a185bdb1f946428b08b1510bb01bb0
 speakerdeck: https://speakerdeck.com/onenashev/managing-embedded-system-test-infrastructures-with-docker-and-jenkins
+references:
+  - name: "Slides"
+    url: "https://speakerdeck.com/onenashev/managing-embedded-system-test-infrastructures-with-docker-and-jenkins"
 ---
 
 Virtualization and Containerization are one of the hottest areas in the test automation of software systems. 
@@ -38,7 +41,3 @@ Main takeaways from the talk are the recommendations when and how to use Docker 
 And how to migrate the automation flows to such new approaches.
 
 Presented at Embedded Conference Scandinavia 2017 and CloudBees Automotive Day 2018.
-
-References:
-
-- [Slides](https://speakerdeck.com/onenashev/managing-embedded-system-test-infrastructures-with-docker-and-jenkins)

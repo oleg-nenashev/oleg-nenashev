@@ -16,6 +16,13 @@ author: oleg_nenashev
 youtubeId: XZOK7gCTOS0
 sessionize: https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366
 youtube: https://youtu.be/XZOK7gCTOS0
+references:
+  - name: "Sessionize abstract"
+    url: "https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366"
+  - name: "Slides (PDF)"
+    url: "https://opensource.siemens.com/events/2022/slides/Oleg_Nenashev_Keptn.pdf"
+  - name: "Video"
+    url: "https://youtu.be/XZOK7gCTOS0"
 ---
 
 As systems become more complex, it becomes harder to troubleshoot existing
@@ -29,9 +36,3 @@ level indicators and objectives and automating actions.
 
 Presented as part of Open Source @ Siemens 2022: Getting application observability
 to the next stage with Keptn.
-
-References:
-
-- [Sessionize abstract](https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366)
-- [Slides (PDF)](https://opensource.siemens.com/events/2022/slides/Oleg_Nenashev_Keptn.pdf)
-- [Video](https://youtu.be/XZOK7gCTOS0)

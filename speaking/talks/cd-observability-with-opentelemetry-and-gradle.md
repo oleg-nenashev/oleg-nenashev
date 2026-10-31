@@ -18,6 +18,13 @@ youtubeId: qyYfcsu99aY
 sessionize: https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831
 youtube: https://www.youtube.com/watch?v=qyYfcsu99aY
 speakerdeck: https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle
+references:
+  - name: "Video"
+    url: "https://www.youtube.com/watch?v=qyYfcsu99aY"
+  - name: "Slides"
+    url: "https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle"
+  - name: "Sessionize abstract"
+    url: "https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831"
 ---
 
 Well-functioning continuous integration, delivery, and deployment pipelines are
@@ -29,10 +36,3 @@ This talk explores a modern Java stack using Quarkus, Java Flight Recorder,
 build tools, and delivery systems such as Dagger and Argo CD. It demonstrates
 OpenTelemetry, Prometheus, and Jaeger, with approaches that can also be applied
 to other OpenTelemetry collectors.
-
-References:
-
-- [Video](https://www.youtube.com/watch?v=qyYfcsu99aY)
-- [Slides](https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle)
-- [Sessionize abstract](https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831)
-

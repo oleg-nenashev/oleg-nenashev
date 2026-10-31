@@ -12,11 +12,10 @@ tag:
   - developer-experience
 author: oleg_nenashev
 speakerdeck: https://speakerdeck.com/onenashev/moonwalk-the-openapi-talk-developer-experience-and-openapi-4
+references:
+  - name: "Speaker Deck"
+    url: "https://speakerdeck.com/onenashev/moonwalk-the-openapi-talk-developer-experience-and-openapi-4"
 ---
 
 This talk explores developer experience and the proposed next evolution of the
 OpenAPI specification, known as Project Moonwalk.
-
-References:
-
-- [Speaker Deck](https://speakerdeck.com/onenashev/moonwalk-the-openapi-talk-developer-experience-and-openapi-4)

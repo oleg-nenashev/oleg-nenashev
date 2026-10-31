@@ -18,6 +18,13 @@ youtubeId: pToRVRTI-Zs
 sessionize: https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900
 youtube: https://www.youtube.com/watch?v=pToRVRTI-Zs
 speakerdeck: https://speakerdeck.com/onenashev/devoxxfr-comment-nous-utilisons-kotlin-et-gradle-pour-faire-evoluer-la-communaute-wiremock
+references:
+  - name: "Video"
+    url: "https://www.youtube.com/watch?v=pToRVRTI-Zs"
+  - name: "Slides in French"
+    url: "https://speakerdeck.com/onenashev/devoxxfr-comment-nous-utilisons-kotlin-et-gradle-pour-faire-evoluer-la-communaute-wiremock"
+  - name: "Sessionize abstract"
+    url: "https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900"
 ---
 
 Le projet WireMock et sa communauté de développeurs se développent rapidement. Alors, nous avons besoin d'outils de développement appropriés pour offrir la meilleure expérience de développement possible à nos principaux utilisateurs finaux et contributeurs. WireMock utilise Gradle Build Tool depuis longtemps, et nous adoptons Kotlin comme langage pour le développement d'extensions et les définitions de build. Même langage pour les développeurs pour le code d'extension, les scripts WireMock et les définitions de build? Ce serait cool!
@@ -27,9 +34,3 @@ Dans cette présentation, je vais expliquer comment nous utilisons et prévoyons
 *Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc. "Gradle" means "Gradle Build Tool" and does not reference Gradle, Inc. and/or its subsidiaries.*
 
 Presented at Devoxx France 2024.
-
-References:
-
-- [Video](https://www.youtube.com/watch?v=pToRVRTI-Zs)
-- [Slides in French](https://speakerdeck.com/onenashev/devoxxfr-comment-nous-utilisons-kotlin-et-gradle-pour-faire-evoluer-la-communaute-wiremock)
-- [Sessionize abstract](https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900)
