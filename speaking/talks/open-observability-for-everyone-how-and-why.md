@@ -13,9 +13,11 @@ tag:
   - keptn
   - open-source
 author: oleg_nenashev
+speakerdeckId: 092b966e42ae426abdd19904690c938d
 youtubeId: XZOK7gCTOS0
 sessionize: https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366
 youtube: https://youtu.be/XZOK7gCTOS0
+speakerdeck: https://speakerdeck.com/onenashev/keptn-getting-app-observability-to-the-next-stage
 references:
   - name: "Sessionize abstract"
     url: "https://sessionize.com/s/onenashev/open-observability-for-everyone.-how-and-why/58366"

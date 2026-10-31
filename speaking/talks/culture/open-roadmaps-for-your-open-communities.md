@@ -11,16 +11,22 @@ tag:
   - open-source
   - management
 author: oleg_nenashev
-speakerdeckId: 661f869d57de4163b8edf3905aa5c08f
+speakerdeckId:
+  - 661f869d57de4163b8edf3905aa5c08f
+  - cdeab1fcdcca46918bef5ccef313b2ce
 youtubeId: yVO2-uZbeQU
 sessionize: https://sessionize.com/s/onenashev/open-roadmaps-for-your-open-communities.-not-a-suc/58364
 youtube: https://www.youtube.com/watch?v=yVO2-uZbeQU
-speakerdeck: https://speakerdeck.com/onenashev/ignite-open-roadmaps-for-your-open-communities
+speakerdeck:
+  - https://speakerdeck.com/onenashev/ignite-open-roadmaps-for-your-open-communities
+  - https://speakerdeck.com/onenashev/open-roadmaps-for-your-open-communities-not-a-success-story-but-you-may-have-one
 references:
   - name: "Full talk video"
     url: "https://www.youtube.com/watch?v=yVO2-uZbeQU"
   - name: "Ignite slides"
     url: "https://speakerdeck.com/onenashev/ignite-open-roadmaps-for-your-open-communities"
+  - name: "Full-length talk slides"
+    url: "https://speakerdeck.com/onenashev/open-roadmaps-for-your-open-communities-not-a-success-story-but-you-may-have-one"
   - name: "Sessionize abstract and references"
     url: "https://sessionize.com/s/onenashev/open-roadmaps-for-your-open-communities.-not-a-suc/58364"
 presented: []
