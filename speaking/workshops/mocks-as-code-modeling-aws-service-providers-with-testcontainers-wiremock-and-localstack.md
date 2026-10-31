@@ -20,7 +20,10 @@ references:
     url: "https://speakerdeck.com/onenashev/mocks-as-code-modeling-aws-service-providers-with-testcontainers-wiremock-and-localstack"
   - name: "Workshop repository"
     url: "https://github.com/oleg-nenashev/workshop-aws-mocks-as-code"
-presented: []
+presented:
+  - event: "PlatformCon"
+    year: 2025
+    month: 6
 ---
 
 When managing services at scale, you need automated testing while mocking (or modeling) the parts provided by public clouds, as well as testing entire deployment processes. This session demonstrates how to combine Localstack (for AWS integration testing), WireMock (for service mocking), and Testcontainers, a popular framework for Docker and other container engines, for comprehensive integration testing - all running in a Dev Container on your local machine.
