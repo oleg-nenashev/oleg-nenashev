@@ -1,6 +1,14 @@
 {% extends "main.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ 'assets/css/talks.css' | url }}">
+{% endblock %}
+
 {% block content %}
+  {% if page.meta.talk_list %}
+    {{ super() }}
+  {% else %}
   {% include "partials/actions.html" %}
   <h1>{{ page.title }}</h1>
 
@@ -25,17 +33,18 @@
   {% if links %}
     <p class="talk-links">
       {% for label, url in links %}
-        <a class="md-button" href="{{ url }}" target="_blank" rel="noopener">{{ label }}</a>
+        <a class="talk-badge talk-badge--{{ label | lower | replace(' ', '') | replace('#1', '') | replace('#2', '') | replace('#3', '') | trim }}" href="{{ url }}" target="_blank" rel="noopener">{{ label }}</a>
       {% endfor %}
     </p>
   {% endif %}
 
   {% if page.meta.tag %}
-    <ul class="talk-tags" aria-label="Tags">
+    <p class="talk-tags">
+      <span class="talk-tags-label">Tags:</span>
       {% for tag in page.meta.tag %}
-        <li><a class="talk-tag" href="../?tag={{ tag | urlencode }}">{{ tag }}</a></li>
+        <a class="talk-tag" href="../?tag={{ tag | urlencode }}">{{ tag }}</a>
       {% endfor %}
-    </ul>
+    </p>
   {% endif %}
 
   <h2 id="abstract">Abstract</h2>
@@ -56,4 +65,5 @@
   {% endif %}
 
   {% include "partials/source-file.html" %}
+  {% endif %}
 {% endblock %}
