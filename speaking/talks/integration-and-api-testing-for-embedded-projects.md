@@ -18,8 +18,9 @@ speakerdeck: https://speakerdeck.com/onenashev/integration-and-api-testing-for-e
 references:
   - name: "Slides"
     url: "https://speakerdeck.com/onenashev/integration-and-api-testing-for-embedded-projects"
+presented:
+  - event: "QA&Test"
+    year: 2023
 ---
 
 Embedded software engineers can have nice things, too! Overview of Testcontainers and WireMock usage for C/C++ projects.
-
-Presented at QA&Test 2023.

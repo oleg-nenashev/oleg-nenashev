@@ -25,6 +25,9 @@ references:
     url: "https://speakerdeck.com/onenashev/devoxxfr-comment-nous-utilisons-kotlin-et-gradle-pour-faire-evoluer-la-communaute-wiremock"
   - name: "Sessionize abstract"
     url: "https://sessionize.com/s/onenashev/leveraging-kotlin-and-gradle-in-the-wiremock-proje/83900"
+presented:
+  - event: "Devoxx France"
+    year: 2024
 ---
 
 Le projet WireMock et sa communauté de développeurs se développent rapidement. Alors, nous avons besoin d'outils de développement appropriés pour offrir la meilleure expérience de développement possible à nos principaux utilisateurs finaux et contributeurs. WireMock utilise Gradle Build Tool depuis longtemps, et nous adoptons Kotlin comme langage pour le développement d'extensions et les définitions de build. Même langage pour les développeurs pour le code d'extension, les scripts WireMock et les définitions de build? Ce serait cool!
@@ -32,5 +35,3 @@ Le projet WireMock et sa communauté de développeurs se développent rapidement
 Dans cette présentation, je vais expliquer comment nous utilisons et prévoyons d'utiliser Kotlin et Gradle Build Tool pour améliorer la productivité des développeurs. Nous allons discuter de Kotlin DSL pour WireMock, des Gradle Build Tool convention plugins pour le logiciel de builds partagés, du développement d'extensions de WireMock en Kotlin et de ses DSL bindings. Je vais utiliser les exemples de WireMock qui sont open source et disponibles sur GitHub.
 
 *Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc. "Gradle" means "Gradle Build Tool" and does not reference Gradle, Inc. and/or its subsidiaries.*
-
-Presented at Devoxx France 2024.

@@ -30,6 +30,12 @@ references:
     url: "https://speakerdeck.com/onenashev/devoxx-be-fake-it-until-you-make-it-with-testcontainers-and-wiremock-spring-boot-edition"
   - name: "Devoxx BE video"
     url: "https://www.youtube.com/watch?v=eFILbyaMI2A"
+presented:
+  - event: "Devoxx BE"
+  - event: "JCON"
+  - event: "API World"
+  - event: "JUG.ch"
+  - event: "Java Israel"
 ---
 
 Testcontainers has become one of the most popular tools for software integration testing. If you can put your system-under-test into a container, Docker compose cluster or a pod, this is what you're likely to use. If your target isn't ready, not containerizable or just too heavy for testing as is, you can always use mock testing frameworks, e.g. WireMock or MockServer in the JVM ecosystem. Can you combine both approaches? Sure!
@@ -37,5 +43,3 @@ Testcontainers has become one of the most popular tools for software integration
 In this talk, we will classify integration testing and discuss application areas for WireMock and Testcontainers, and discuss which tool to choose for each use-case. And why not both? We will discuss putting WireMock into Testcontainers, and getting the best from their features thanks to the new WireMock modules for Testcontainers. Last but not least, we will see how to put WireMock in front of the Testcontainers or your real system to do deeper tests or even chaos engineering.
 
 P.S: We will focus on the Java, Golang or Rust examples, but the same approaches can be used everywhere
-
-Presented at Devoxx BE, JCON, API World, JUG.ch, and Java Israel.

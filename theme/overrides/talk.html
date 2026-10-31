@@ -96,6 +96,22 @@
     </ul>
   {% endif %}
 
+  {% if page.meta.presented %}
+    {% set months = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] %}
+    <h2 id="presented">Presented at</h2>
+    <ul class="talk-presented">
+      {% for p in page.meta.presented %}
+        <li>
+          {% if p.url %}<a href="{{ p.url }}">{{ p.event }}</a>{% else %}{{ p.event }}{% endif %}
+          {%- if p.month or p.year %}, {% if p.month %}{{ months[p.month | int] }} {% endif %}{{ p.year }}{% endif %}
+          {%- if p.location %}, {{ p.location }}{% endif %}
+          {%- if p.note %} ({{ p.note }}){% endif %}
+          {%- if p.recording %} · <a href="{{ p.recording }}">Recording</a>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   {% include "partials/source-file.html" %}
   {% endif %}
 {% endblock %}

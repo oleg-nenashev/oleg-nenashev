@@ -19,6 +19,7 @@ references:
     url: "https://github.com/oleg-nenashev/cde-for-embedded-workshop"
   - name: "Workshop slides"
     url: "https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects"
+presented: []
 ---
 
 Embedded development and QA are entering a new era, enabled by Cloud Development Environments (CDEs) such as GitHub Codespaces or Devcontainers, which allow fully configured workspaces to run on laptops, Kubernetes clusters, or public clouds. Containers and VMs, often managed with tools like KubeVirt and QEMU and wrapped by frameworks like Testcontainers, enable scalable, hardware-aware test setups for HIL testing, firmware validation, and system modeling.

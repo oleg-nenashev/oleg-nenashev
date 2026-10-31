@@ -23,6 +23,7 @@ references:
     url: "https://speakerdeck.com/onenashev/ignite-open-roadmaps-for-your-open-communities"
   - name: "Sessionize abstract and references"
     url: "https://sessionize.com/s/onenashev/open-roadmaps-for-your-open-communities.-not-a-suc/58364"
+presented: []
 ---
 
 As open source projects and communities grow, it becomes difficult to understand what’s going on inside. A public and up-to-date roadmap can encourage new contributors to join the project and guide the efforts of existing contributors, and also give confidence to adopters about the direction and sustainability of the projects. Is it easy to create a public roadmap? Probably. Is it easy to maintain it? Not exactly. Did we fail with it? Yes.

@@ -21,6 +21,11 @@ references:
     url: "https://speakerdeck.com/onenashev/automate-your-changelogs-release-drafter"
   - name: "Video"
     url: "https://www.youtube.com/watch?v=EBmcx_gAts8"
+presented:
+  - event: "Devoxx BE"
+    year: 2023
+  - event: "Voxxed Days Zurich"
+    year: 2024
 ---
 
 [Almost] nobody likes writing documentation, and the same for the changelogs! Can we automate these processes and improve both user and developer experiences? Of course!
@@ -28,5 +33,3 @@ references:
 We will review the Release Drafter - a handy changelog automation tool for those who use GitHub or GitHub Enterprise. It can be used as a GitHub Action and easily generates changelog drafts, utilizing pull requests and labels as a foundation. Many advanced features are included, e.g. text formatting and substitutions, semantic versioning support, and management at the organization level. So let’s take this tool and configure it for a project together!
 
 During the presentation, we will also review changelog automation examples from WireMock, Testcontainers, Jenkins, and other open-source communities. Those examples need copy and paste.
-
-Presented at Devoxx BE 2023, Voxxed Days Zurich 2024, and other conferences.

@@ -27,10 +27,11 @@ references:
     url: "https://www.youtube.com/watch?v=ZBaQ71CI_lI"
   - name: "Talk summary"
     url: "https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2024/day26.md"
+presented:
+  - event: "90 Days of DevOps"
+    year: 2024
 ---
 
 In 2015-2018, I talked about how to use the Jenkins Pipeline and custom libraries to do advanced integration tests and analyze code coverage. Coverage plugins were rather weak, and one needed some scripts and hacks to make it work, and to DIY for distributed testing. In 2021 the situation has changed significantly thanks to the Coverage and Checks API plugins. Distributed integration testing also became easier thanks to better coverage collectors and integrations with API mocking tools. So, good time to be alive… and use Jenkins!
 
 We will talk about how modern Jenkins allows you to improve and analyze code coverage. We will talk about unit and integration testing with WireMock, the new Coverage Plugin, support for standard formats (Cobertura, JaCoCo, gcov, JUnit, etc.), parallelization for heavy integration tests and API mocking, and integration with GitHub Checks API. How can you analyze code coverage in Jenkins and when do you need to create your own libraries? And what’s the fuzz about Testcontainers and WireMock for integration testing?
-
-Presented at 90 Days of DevOps 2024.

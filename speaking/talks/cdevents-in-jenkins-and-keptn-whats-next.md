@@ -21,8 +21,9 @@ references:
     url: "https://speakerdeck.com/onenashev/cdevents-in-jenkins-and-keptn-whats-next"
   - name: "Video"
     url: "https://youtu.be/ubYa_UvZzp0?t=1289"
+presented:
+  - event: "CDF Mini-Summit at KubeCon | CloudNativeCon EU"
+    year: 2022
 ---
 
 Overview of CDEvents from the standpoint of external adopter, and also plans for adopting CDEvents in Jenkins and Keptn. This talk was delivered together with Shruti Chaturvedi's GSoC project update on support for CloudEvents/CDEvents in Jenkins, at Kubecon | CloudNativeCon EU 2022
-
-Presented at the CDF Mini-Summit at KubeCon | CloudNativeCon EU 2022.

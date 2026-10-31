@@ -16,8 +16,9 @@ speakerdeck: https://speakerdeck.com/onenashev/joker-2019-tame-your-dependencies
 references:
   - name: "Slides and abstract"
     url: "https://speakerdeck.com/onenashev/joker-2019-tame-your-dependencies-with-dependabot"
+presented:
+  - event: "Jenkins Online Meetup"
+    year: 2019
 ---
 
 What is common between Maven, NPM or RPM? It is dependency hell. Continuously updating dependencies is a significant overhead. If you do not do that, any next major update might be a problem for you. It is exactly what we hit while adding Java 11 support to Jenkins. What if we delegate such routine work to a bot? In our project we chose Dependabot, and in this talk I would like to do a brief introduction to the tool.
-
-Presented at the Jenkins Online Meetup 2019.

@@ -26,6 +26,7 @@ references:
     url: "https://speakerdeck.com/onenashev/mentorship-programs-growing-new-team-and-community-leaders"
   - name: "Sessionize abstract"
     url: "https://sessionize.com/s/onenashev/mentorship-programs.-growing-new-team-and-communit/47625"
+presented: []
 ---
 
 Mentorship and outreach programs are often considered as side projects. Although they are a nice way to spend time and have fun, one may say they rarely add new long-term contributors to your company project or community. Is it true? Is it even the main goal? Or is it about team bonding and growing new maintainers and community leaders?

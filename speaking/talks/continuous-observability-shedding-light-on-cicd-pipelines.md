@@ -16,9 +16,9 @@ youtube: https://www.youtube.com/watch?v=FEbyddZFNeo
 references:
   - name: "Video"
     url: "https://www.youtube.com/watch?v=FEbyddZFNeo"
+presented:
+  - event: "OpenObservability Talks"
 ---
 
 This talk explores observability for CI/CD pipelines and how it can make pipeline
 behavior easier to understand.
-
-Presented at OpenObservability Talks.

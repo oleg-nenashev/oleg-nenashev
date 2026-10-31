@@ -18,6 +18,11 @@ speakerdeck: https://speakerdeck.com/onenashev/managing-embedded-system-test-inf
 references:
   - name: "Slides"
     url: "https://speakerdeck.com/onenashev/managing-embedded-system-test-infrastructures-with-docker-and-jenkins"
+presented:
+  - event: "Embedded Conference Scandinavia"
+    year: 2017
+  - event: "CloudBees Automotive Day"
+    year: 2018
 ---
 
 Virtualization and Containerization are one of the hottest areas in the test automation of software systems. 
@@ -39,5 +44,3 @@ The talk includes overview of Docker advantages and disadvantages, and provides 
 Main takeaways from the talk are the recommendations when and how to use Docker in Embedded Systems testing. 
 
 And how to migrate the automation flows to such new approaches.
-
-Presented at Embedded Conference Scandinavia 2017 and CloudBees Automotive Day 2018.

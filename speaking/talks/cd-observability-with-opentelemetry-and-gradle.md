@@ -25,6 +25,7 @@ references:
     url: "https://speakerdeck.com/onenashev/cd-observability-with-opentelemetry-and-gradle"
   - name: "Sessionize abstract"
     url: "https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831"
+presented: []
 ---
 
 Well-functioning continuous integration, delivery, and deployment pipelines are

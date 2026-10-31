@@ -11,6 +11,7 @@ tag:
   - ci-cd
   - troubleshooting
 author: oleg_nenashev
+presented: []
 ---
 
 This talk focuses on diagnosing and resolving Gradle Build Tool problems that

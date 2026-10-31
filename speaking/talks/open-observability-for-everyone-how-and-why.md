@@ -23,6 +23,9 @@ references:
     url: "https://opensource.siemens.com/events/2022/slides/Oleg_Nenashev_Keptn.pdf"
   - name: "Video"
     url: "https://youtu.be/XZOK7gCTOS0"
+presented:
+  - event: "Open Source @ Siemens: Getting application observability to the next stage with Keptn"
+    year: 2022
 ---
 
 As systems become more complex, it becomes harder to troubleshoot existing
@@ -33,6 +36,3 @@ everyone.
 It covers an open-source stack including OpenTelemetry for traces, logs, and
 metrics; CloudEvents; Prometheus and Grafana; and Keptn for tracking service
 level indicators and objectives and automating actions.
-
-Presented as part of Open Source @ Siemens 2022: Getting application observability
-to the next stage with Keptn.

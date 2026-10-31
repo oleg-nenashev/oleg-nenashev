@@ -23,8 +23,9 @@ references:
     url: "https://github.com/oleg-nenashev/grimoirelab-as-code"
   - name: "CHAOSS community"
     url: "https://chaoss.community/"
+presented:
+  - event: "CHAOSScon"
+    year: 2024
 ---
 
 Many community analytics tools can help you to maintain and grow your open-source communities. GrimoireLab, a part of the CHAOSS foundation, is among the most powerful and popular. It is difficult to install and configure… so we made it easier with a containerized version, fully managed as code.
-
-Presented at CHAOSScon 2024.

@@ -17,8 +17,9 @@ speakerdeck: https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-c
 references:
   - name: "Slides"
     url: "https://speakerdeck.com/onenashev/orconf-2017-state-of-librecores-ci"
+presented:
+  - event: "ORCONF"
+    year: 2017
 ---
 
 At ORCONF 2016 we announced the work on LibreCores CI - a continuous integration service for open-source Hardware projects. During the last year we made some progress on this front, and this presentation reflects the current progress on infrastructure and development tools.
-
-Presented at ORCONF 2017.

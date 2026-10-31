@@ -15,10 +15,14 @@ youtube: https://www.youtube.com/watch?v=YufZHjO0hd4
 references:
   - name: "Video"
     url: "https://www.youtube.com/watch?v=YufZHjO0hd4"
+presented:
+  - event: "Jenkins World"
+    year: 2018
+  - event: "Jenkins User Conference Oslo"
+    year: 2017
+  - event: "Jenkins User Conference Gothenburg"
+    year: 2017
 ---
 
 An overview of common Jenkins security pitfalls and practical ways to avoid
 them when administering Jenkins.
-
-Presented at Jenkins World 2018 and Jenkins User Conference 2017 in Oslo and
-Gothenburg.

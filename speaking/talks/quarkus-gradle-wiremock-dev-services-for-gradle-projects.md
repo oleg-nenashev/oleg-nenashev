@@ -25,6 +25,9 @@ references:
     url: "https://speakerdeck.com/onenashev/quarkus-gradle-wiremock-dev-services-for-gradle-projects"
   - name: "Video"
     url: "https://www.youtube.com/watch?v=Lf15C0Jl3Yk"
+presented:
+  - event: "Turkish Java Meetup"
+  - event: "Red Hat Engineering Day"
 ---
 
 Quarkus offers many local development capabilities, including the recently released Dev Services that usually run with Testcontainers under the hood. We can leverage Dev Services to provide real-time API provider development experiences for Quarkus-based services and client apps.
@@ -37,5 +40,3 @@ In this session, I provide an overview of using Quarkus and its Dev Services in 
 NOTE: This presentation was modified on Oct 10, 2025, to exclude the IP of Gradle Inc. Extended introduction, Quarkus Plugin for Gradle Build Tool, and the respective demo details are no longer included in the slides.
 
 *Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc. "Gradle" means "Gradle Build Tool" and does not reference Gradle, Inc. and/or its subsidiaries.*
-
-Presented at the Turkish Java Meetup and Red Hat Engineering Day.
