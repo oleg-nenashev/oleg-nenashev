@@ -34,6 +34,7 @@ button.talk-badge:hover,
     filter: brightness(1.15);
 }
 
+.talk-badge--github { background: #24292f; }
 .talk-badge--sessionize { background: #1ab394; }
 .talk-badge--youtube { background: #e00; }
 .talk-badge--speakerdeck { background: #339666; }
@@ -136,6 +137,7 @@ button.talk-badge:hover,
     margin-bottom: 0;
 }
 
+.talk-badge--github::before,
 .talk-badge--sessionize::before,
 .talk-badge--youtube::before,
 .talk-badge--speakerdeck::before {
@@ -150,6 +152,7 @@ button.talk-badge:hover,
     width: 12px;
 }
 
+.talk-badge--github { --talk-icon: url("../icons/github.svg"); }
 .talk-badge--sessionize { --talk-icon: url("../icons/sessionize.svg"); }
 .talk-badge--youtube { --talk-icon: url("../icons/youtube.svg"); }
 .talk-badge--speakerdeck { --talk-icon: url("../icons/speakerdeck.svg"); }

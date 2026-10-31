@@ -8,8 +8,10 @@ import markdown
 import yaml
 
 TALKS_DIR = Path("speaking/talks")
+WORKSHOPS_DIR = Path("speaking/workshops")
 CATEGORIES_FILE = Path("speaking/talk-categories.yml")
 LINK_LABELS = (
+    ("github", "GitHub"),
     ("sessionize", "Sessionize"),
     ("youtube", "YouTube"),
     ("speakerdeck", "Speaker Deck"),
@@ -90,7 +92,22 @@ def _render_item(path, meta):
     )
 
 
+def _load(directory):
+    items = []
+    for path in sorted(directory.glob("*.md")):
+        meta = _front_matter(path)
+        if meta.get("title"):
+            items.append((path, meta))
+    items.sort(key=lambda item: item[1]["title"].lower())
+    return items
+
+
 def define_env(env):
+    @env.macro
+    def workshops_list():
+        items = _load(WORKSHOPS_DIR)
+        return "<ul>" + "".join(_render_item(p, m) for p, m in items) + "</ul>\n"
+
     @env.macro
     def talks_list():
         talks = []

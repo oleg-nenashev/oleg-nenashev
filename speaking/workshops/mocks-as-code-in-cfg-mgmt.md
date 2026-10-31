@@ -3,7 +3,7 @@ title: "Mocks as Code. Modeling services in configuration management flows"
 description: "Hands-on workshop testing infrastructure code with Testcontainers, LocalStack, WireMock and Pulumi."
 layout: talk
 template: talk.html
-category: talks
+category: workshops
 type: workshop
 headerImage: false
 tag:
@@ -13,6 +13,7 @@ tag:
   - configuration-management
 author: oleg_nenashev
 speakerdeckId: 1cf15669584141eca7d664970261fc0c
+github: https://github.com/oleg-nenashev/workshop-aws-mocks-as-code
 sessionize: https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022
 speakerdeck: https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt
 ---
@@ -37,5 +38,6 @@ Presented at DevOpsDays Geneva 2024.
 
 References:
 
+- [Workshop repository](https://github.com/oleg-nenashev/workshop-aws-mocks-as-code)
 - [Workshop slides](https://speakerdeck.com/onenashev/workshop-mocks-as-code-in-cfg-mgmt)
 - [Sessionize session](https://sessionize.com/s/onenashev/mocks-as-code.-modeling-services-in-configuration-/84022)

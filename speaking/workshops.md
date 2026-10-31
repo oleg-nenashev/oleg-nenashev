@@ -1,3 +1,10 @@
+---
+title: Oleg Nenashev - Workshops and Tutorials
+template: talk.html
+talk_list: true
+description: Hands-on workshops and tutorials on developer tools, DevOps and testing by Oleg Nenashev.
+---
+
 # Workshops and Tutorials
 
 I do workshops focused on the Developer Tools and DevOps / InnerSource culture,
@@ -6,9 +13,4 @@ You can hire me to deliver an internal workshop (see [Consulting](../consulting/
 
 Some of my recent workshops:
 
--  [Container Developer Environments. Virtualizing your IDEs for embedded projects](https://github.com/oleg-nenashev/cde-for-embedded-workshop)
--  [AWS Mocks as Code for Configuration Management](https://github.com/oleg-nenashev/workshop-aws-mocks-as-code)
--  [Spring I/O - Testcontainers and WireMock Workshop](https://github.com/oleg-nenashev/spring_io_2025-Testcontainers-workshop)
-
-
-
+{{ workshops_list() }}
