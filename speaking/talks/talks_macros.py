@@ -10,6 +10,7 @@ import yaml
 TALKS_DIR = Path("speaking/talks")
 WORKSHOPS_DIR = Path("speaking/workshops")
 CATEGORIES_FILE = Path("speaking/talk-categories.yml")
+TOP_TAGS = 10
 LINK_LABELS = (
     ("github", "GitHub"),
     ("sessionize", "Sessionize"),
@@ -55,6 +56,29 @@ def _abstract_html(path):
             break
         lines.append(line)
     return markdown.markdown("\n".join(lines).strip()).replace("\n", " ")
+
+
+def _tag_cloud(items):
+    counts = {}
+    for _, meta in items:
+        for tag in meta.get("tag", []):
+            counts[str(tag)] = counts.get(str(tag), 0) + 1
+    ranked = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
+
+    def link(t, n, extra=""):
+        return (
+            f'<a class="talk-tag{extra}" data-tag="{html.escape(t)}" href="?tag={quote(t)}" '
+            f'title="{n} item{"s" if n > 1 else ""}">{html.escape(t)}</a>'
+        )
+
+    tags = "".join(link(t, n) for t, n in ranked[:TOP_TAGS])
+    if len(ranked) > TOP_TAGS:
+        tags += (
+            f'<button type="button" class="talk-details talk-tags-toggle" aria-expanded="false" '
+            f'title="Show all tags">+</button>'
+        )
+        tags += "".join(link(t, n, " talk-tag-extra") for t, n in ranked[TOP_TAGS:])
+    return f'<p class="talk-tags talk-tag-cloud"><span class="talk-tags-label">Browse by tag:</span>{tags}</p>\n\n'
 
 
 def _render_item(path, meta, base):
@@ -107,7 +131,7 @@ def define_env(env):
     @env.macro
     def workshops_list():
         items = _load(WORKSHOPS_DIR)
-        return "<ul>" + "".join(_render_item(p, m, WORKSHOPS_DIR) for p, m in items) + "</ul>\n"
+        return _tag_cloud(items) + "<ul>" + "".join(_render_item(p, m, WORKSHOPS_DIR) for p, m in items) + "</ul>\n"
 
     @env.macro
     def talks_list():
@@ -130,7 +154,7 @@ def define_env(env):
             else:
                 buckets["Other talks"].append((path, meta))
 
-        out = []
+        out = [_tag_cloud(talks)]
         for category in categories:
             items = buckets[category["name"]]
             if not items:

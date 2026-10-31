@@ -28,9 +28,9 @@
           function (a) { return a.dataset.tag; }
         );
         li.hidden = !!tag && tags.indexOf(tag) === -1;
-        Array.prototype.forEach.call(li.querySelectorAll("a.talk-tag"), function (a) {
-          a.classList.toggle("active", a.dataset.tag === tag);
-        });
+      });
+      document.querySelectorAll(".md-content a.talk-tag").forEach(function (a) {
+        a.classList.toggle("active", a.dataset.tag === tag);
       });
 
       document.querySelectorAll(".md-content h2").forEach(function (h) {
@@ -80,6 +80,23 @@
       history.pushState(null, "", url);
       apply();
     });
+    var cloud = document.querySelector(".talk-tag-cloud");
+    var toggle = cloud && cloud.querySelector(".talk-tags-toggle");
+    function setExpanded(expanded) {
+      cloud.classList.toggle("expanded", expanded);
+      toggle.setAttribute("aria-expanded", expanded);
+      toggle.textContent = expanded ? "\u2212" : "+";
+      toggle.title = expanded ? "Show fewer tags" : "Show all tags";
+    }
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        setExpanded(!cloud.classList.contains("expanded"));
+      });
+      var wanted = currentTag();
+      if (wanted && cloud.querySelector('.talk-tag-extra[data-tag="' + CSS.escape(wanted) + '"]')) {
+        setExpanded(true);
+      }
+    }
     window.addEventListener("popstate", apply);
     apply();
   }

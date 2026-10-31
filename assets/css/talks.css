@@ -174,3 +174,15 @@ button.talk-badge:hover,
     font-size: 1.05em;
     font-style: italic;
 }
+
+.talk-tag-cloud .talk-tag-extra {
+    display: none;
+}
+
+.talk-tag-cloud.expanded .talk-tag-extra {
+    display: inline-block;
+}
+
+.talk-tags-toggle {
+    cursor: pointer;
+}
