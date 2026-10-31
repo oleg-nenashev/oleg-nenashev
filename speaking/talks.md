@@ -1,5 +1,7 @@
 ---
 title: Oleg Nenashev - Talks
+template: talk.html
+talk_list: true
 description: A list of Oleg Nenashev's conference talks and presentations.
 ---
 

@@ -39,7 +39,9 @@ def _link_html(meta):
         urls = _as_list(meta.get(key))
         for index, url in enumerate(urls, 1):
             text = f"{label} #{index}" if len(urls) > 1 else label
-            links.append(f'<a href="{html.escape(url)}">{text}</a>')
+            links.append(
+                f'<a class="talk-badge talk-badge--{key}" href="{html.escape(url)}">{text}</a>'
+            )
     return links
 
 
@@ -68,20 +70,21 @@ def _render_item(path, meta):
     )
     links = _link_html(meta)
     links_html = (
-        f'<p class="talk-dialog-links">{" · ".join(links)}</p>' if links else ""
+        f'<p class="talk-dialog-links">{"".join(links)}</p>' if links else ""
     )
     return (
         "<li>"
+        f'<button type="button" class="talk-details" data-talk-dialog="{dialog_id}" '
+        f'aria-label="Show details: {title}" title="Show details">+</button>'
         f'<a href="{slug}/">{title}</a>{markers}<br>'
-        f'<span class="talk-tags">{tags}</span> '
-        f'<button type="button" class="md-button talk-details" data-talk-dialog="{dialog_id}">Details</button>'
+        f'<span class="talk-tags"><span class="talk-tags-label">Tags:</span>{tags}</span>'
         f'<dialog class="talk-dialog" id="{dialog_id}" aria-labelledby="{dialog_id}-title">'
         f'<h3 id="{dialog_id}-title">{title}</h3>'
         f"{links_html}"
         f'<div class="talk-dialog-abstract">{_abstract_html(path)}</div>'
         '<p class="talk-dialog-actions">'
-        f'<a class="md-button md-button--primary" href="{slug}/">Learn more</a> '
-        '<button type="button" class="md-button talk-dialog-close">Close</button></p>'
+        f'<a class="talk-badge talk-badge--primary" href="{slug}/">Learn more</a> '
+        '<button type="button" class="talk-badge talk-dialog-close">Close</button></p>'
         "</dialog></li>"
     )
 
