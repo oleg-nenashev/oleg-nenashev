@@ -3,7 +3,7 @@
 {% block analytics %}
   {{ super() }}
   {# Drop the generated social card tags so the Speaker Deck ones below are the only OpenGraph tags #}
-  {% if not page.meta.talk_list and page.meta.speakerdeckId and page.meta.meta %}
+  {% if (page.meta.speakerdeckId or page.meta.ogImage) and page.meta.meta %}
     {% set kept = [] %}
     {% for tag in page.meta.meta %}
       {% if not ((tag.property or tag.name or "").startswith(("og:", "twitter:"))) %}{% set _ = kept.append(tag) %}{% endif %}
@@ -15,15 +15,20 @@
 {% block extrahead %}
   {{ super() }}
   <link rel="stylesheet" href="{{ 'assets/css/talks.css' | url }}">
-  {% if not page.meta.talk_list and page.meta.speakerdeckId %}
-    {% set deck = page.meta.speakerdeckId if page.meta.speakerdeckId is string else page.meta.speakerdeckId[0] %}
+  {% if (page.meta.speakerdeckId or page.meta.ogImage) %}
+    {% if page.meta.ogImage %}
+      {% set og_image = page.meta.ogImage %}
+    {% else %}
+      {% set deck = page.meta.speakerdeckId if page.meta.speakerdeckId is string else page.meta.speakerdeckId[0] %}
+      {% set og_image = "https://files.speakerdeck.com/presentations/" ~ deck ~ "/slide_0.jpg" %}
+    {% endif %}
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ page.title | e }}">
     {% if page.meta.description %}<meta property="og:description" content="{{ page.meta.description | e }}">{% endif %}
     <meta property="og:url" content="{{ page.canonical_url }}">
-    <meta property="og:image" content="https://files.speakerdeck.com/presentations/{{ deck }}/slide_0.jpg">
+    <meta property="og:image" content="{{ og_image }}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="https://files.speakerdeck.com/presentations/{{ deck }}/slide_0.jpg">
+    <meta name="twitter:image" content="{{ og_image }}">
   {% endif %}
 {% endblock %}
 
