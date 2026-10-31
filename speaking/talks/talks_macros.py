@@ -57,10 +57,11 @@ def _abstract_html(path):
     return markdown.markdown("\n".join(lines).strip()).replace("\n", " ")
 
 
-def _render_item(path, meta):
+def _render_item(path, meta, base):
     title = html.escape(meta["title"])
-    slug = quote(path.stem)
-    dialog_id = f"talk-{path.stem}"
+    rel = path.relative_to(base).with_suffix("")
+    slug = "/".join(quote(part) for part in rel.parts)
+    dialog_id = "talk-" + "-".join(rel.parts)
     markers = ""
     if meta.get("type") == "workshop":
         markers += " <em>(workshop)</em>"
@@ -94,7 +95,7 @@ def _render_item(path, meta):
 
 def _load(directory):
     items = []
-    for path in sorted(directory.glob("*.md")):
+    for path in sorted(directory.rglob("*.md")):
         meta = _front_matter(path)
         if meta.get("title"):
             items.append((path, meta))
@@ -106,12 +107,12 @@ def define_env(env):
     @env.macro
     def workshops_list():
         items = _load(WORKSHOPS_DIR)
-        return "<ul>" + "".join(_render_item(p, m) for p, m in items) + "</ul>\n"
+        return "<ul>" + "".join(_render_item(p, m, WORKSHOPS_DIR) for p, m in items) + "</ul>\n"
 
     @env.macro
     def talks_list():
         talks = []
-        for path in sorted(TALKS_DIR.glob("*.md")):
+        for path in sorted(TALKS_DIR.rglob("*.md")):
             meta = _front_matter(path)
             if meta.get("title"):
                 talks.append((path, meta))
@@ -137,6 +138,6 @@ def define_env(env):
             section = f"## {category['name']}\n\n"
             if category.get("note"):
                 section += f"> {category['note']}\n\n"
-            section += "<ul>" + "".join(_render_item(p, m) for p, m in items) + "</ul>\n"
+            section += "<ul>" + "".join(_render_item(p, m, TALKS_DIR) for p, m in items) + "</ul>\n"
             out.append(section)
         return "\n".join(out)

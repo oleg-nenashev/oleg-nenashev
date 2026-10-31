@@ -28,6 +28,7 @@
 {% endblock %}
 
 {% block site_nav %}
+  {% set list_url = ("speaking/workshops/" if page.meta.type == "workshop" else "speaking/talks/") | url %}
   {% if page.meta.talk_list %}
     {{ super() }}
   {% else %}
@@ -37,7 +38,7 @@
           <nav class="md-nav md-nav--primary" aria-label="Talk navigation">
             <ul class="md-nav__list">
               <li class="md-nav__item">
-                <a class="md-nav__link talk-back" href="../">
+                <a class="md-nav__link talk-back" href="{{ list_url }}">
                   <span class="md-ellipsis">&larr; Back to {{ "workshops" if page.meta.type == "workshop" else "talks" }}</span>
                 </a>
               </li>
@@ -70,6 +71,7 @@
 {% endblock %}
 
 {% block content %}
+  {% set list_url = ("speaking/workshops/" if page.meta.type == "workshop" else "speaking/talks/") | url %}
   {% if page.meta.talk_list %}
     {{ super() }}
   {% else %}
@@ -107,7 +109,7 @@
     <p class="talk-tags">
       <span class="talk-tags-label">Tags:</span>
       {% for tag in page.meta.tag %}
-        <a class="talk-tag" href="../?tag={{ tag | urlencode }}">{{ tag }}</a>
+        <a class="talk-tag" href="{{ list_url }}?tag={{ tag | urlencode }}">{{ tag }}</a>
       {% endfor %}
     </p>
   {% endif %}

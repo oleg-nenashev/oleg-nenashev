@@ -24,5 +24,3 @@ presented:
 ---
 
 This presentation is a status update regarding LibreCores CI, which is a part of LibreCores - Community Hub for open-source hardware projects. The project is in the early prototyping stage now.
-
-[https://www.librecores.org/](https://www.librecores.org/)
