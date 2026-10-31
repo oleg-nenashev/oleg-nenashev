@@ -33,7 +33,7 @@
   {% if page.meta.tag %}
     <ul class="talk-tags" aria-label="Tags">
       {% for tag in page.meta.tag %}
-        <li class="talk-tag">{{ tag }}</li>
+        <li><a class="talk-tag" href="../?tag={{ tag | urlencode }}">{{ tag }}</a></li>
       {% endfor %}
     </ul>
   {% endif %}

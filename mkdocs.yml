@@ -56,7 +56,8 @@ nav:
 plugins:
   - search
   - autorefs
-  - macros
+  - macros:
+      module_name: speaking/talks/talks_macros
   - mkdocs-pdf
   - social:
       cards_layout_options:
@@ -182,6 +183,7 @@ extra_css:
 
 extra_javascript:
   - assets/js/carousel.js
+  - assets/js/talk-filter.js
 
 extra:
   social:
