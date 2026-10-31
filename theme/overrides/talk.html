@@ -1,8 +1,30 @@
 {% extends "main.html" %}
 
+{% block analytics %}
+  {{ super() }}
+  {# Drop the generated social card tags so the Speaker Deck ones below are the only OpenGraph tags #}
+  {% if not page.meta.talk_list and page.meta.speakerdeckId and page.meta.meta %}
+    {% set kept = [] %}
+    {% for tag in page.meta.meta %}
+      {% if not ((tag.property or tag.name or "").startswith(("og:", "twitter:"))) %}{% set _ = kept.append(tag) %}{% endif %}
+    {% endfor %}
+    {% set _ = page.meta.update({"meta": kept}) %}
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   <link rel="stylesheet" href="{{ 'assets/css/talks.css' | url }}">
+  {% if not page.meta.talk_list and page.meta.speakerdeckId %}
+    {% set deck = page.meta.speakerdeckId if page.meta.speakerdeckId is string else page.meta.speakerdeckId[0] %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title | e }}">
+    {% if page.meta.description %}<meta property="og:description" content="{{ page.meta.description | e }}">{% endif %}
+    <meta property="og:url" content="{{ page.canonical_url }}">
+    <meta property="og:image" content="https://files.speakerdeck.com/presentations/{{ deck }}/slide_0.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://files.speakerdeck.com/presentations/{{ deck }}/slide_0.jpg">
+  {% endif %}
 {% endblock %}
 
 {% block site_nav %}
@@ -32,10 +54,10 @@
                   {% endif %}
                 </li>
               {% endmacro %}
+              {% if page.meta.speakerdeckId %}<li class="md-nav__item"><a class="md-nav__link" href="#slides"><span class="md-ellipsis">Slides</span></a></li>{% endif %}
               <li class="md-nav__item"><a class="md-nav__link" href="#abstract"><span class="md-ellipsis">Abstract</span></a></li>
               {% for item in page.toc %}{{ toc_item(item) }}{% endfor %}
               {% if page.meta.youtubeId %}<li class="md-nav__item"><a class="md-nav__link" href="#video"><span class="md-ellipsis">Video</span></a></li>{% endif %}
-              {% if page.meta.speakerdeckId %}<li class="md-nav__item"><a class="md-nav__link" href="#slides"><span class="md-ellipsis">Slides</span></a></li>{% endif %}
               {% if page.meta.references %}<li class="md-nav__item"><a class="md-nav__link" href="#references"><span class="md-ellipsis">References</span></a></li>{% endif %}
               {% if page.meta.presented %}<li class="md-nav__item"><a class="md-nav__link" href="#presented"><span class="md-ellipsis">Presented at</span></a></li>{% endif %}
             </ul>
@@ -54,12 +76,9 @@
   {% include "partials/actions.html" %}
   <h1>{{ page.title }}</h1>
 
-  <p class="talk-meta">
-    <span class="talk-type">{{ (page.meta.type or "talk") | capitalize }}</span>
-    {% if page.meta.inactive %}
-      <span class="talk-inactive">No longer presented</span>
-    {% endif %}
-  </p>
+  {% if page.meta.inactive %}
+    <p class="talk-meta"><span class="talk-inactive">No longer presented</span></p>
+  {% endif %}
 
   {% set links = [] %}
   {% for key, label in [("github", "GitHub"), ("sessionize", "Sessionize"), ("youtube", "YouTube"), ("speakerdeck", "Speaker Deck")] %}
@@ -89,6 +108,13 @@
     </p>
   {% endif %}
 
+  {% if page.meta.speakerdeckId %}
+    <h2 id="slides">Slides</h2>
+    {% for id in ([page.meta.speakerdeckId] if page.meta.speakerdeckId is string else page.meta.speakerdeckId) %}
+      <iframe class="talk-embed" src="https://speakerdeck.com/player/{{ id }}" title="{{ page.title }} (slides)" loading="lazy" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>
+    {% endfor %}
+  {% endif %}
+
   <h2 id="abstract">Abstract</h2>
   {{ page.content }}
 
@@ -96,13 +122,6 @@
     <h2 id="video">Video</h2>
     {% for id in ([page.meta.youtubeId] if page.meta.youtubeId is string else page.meta.youtubeId) %}
       <iframe class="talk-embed" src="https://www.youtube-nocookie.com/embed/{{ id }}" title="{{ page.title }} (video)" loading="lazy" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    {% endfor %}
-  {% endif %}
-
-  {% if page.meta.speakerdeckId %}
-    <h2 id="slides">Slides</h2>
-    {% for id in ([page.meta.speakerdeckId] if page.meta.speakerdeckId is string else page.meta.speakerdeckId) %}
-      <iframe class="talk-embed" src="https://speakerdeck.com/player/{{ id }}" title="{{ page.title }} (slides)" loading="lazy" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>
     {% endfor %}
   {% endif %}
 
