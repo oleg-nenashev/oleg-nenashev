@@ -72,6 +72,10 @@
         return;
       }
       e.preventDefault();
+      var open = a.closest("dialog");
+      if (open && open.open) {
+        open.close();
+      }
       var url = window.location.pathname + "?tag=" + encodeURIComponent(a.dataset.tag);
       history.pushState(null, "", url);
       apply();

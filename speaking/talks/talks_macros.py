@@ -82,6 +82,7 @@ def _render_item(path, meta):
         f'<h3 id="{dialog_id}-title">{title}</h3>'
         f"{links_html}"
         f'<div class="talk-dialog-abstract">{_abstract_html(path)}</div>'
+        f'<p class="talk-tags"><span class="talk-tags-label">Tags:</span>{tags}</p>'
         '<p class="talk-dialog-actions">'
         f'<a class="talk-badge talk-badge--primary" href="{slug}/">Learn more</a> '
         '<button type="button" class="talk-badge talk-dialog-close">Close</button></p>'

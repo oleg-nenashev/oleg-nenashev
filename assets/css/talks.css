@@ -153,3 +153,8 @@ button.talk-badge:hover,
 .talk-badge--sessionize { --talk-icon: url("../icons/sessionize.svg"); }
 .talk-badge--youtube { --talk-icon: url("../icons/youtube.svg"); }
 .talk-badge--speakerdeck { --talk-icon: url("../icons/speakerdeck.svg"); }
+
+.talk-sidebar .talk-back {
+    font-weight: bold;
+}
+

@@ -5,6 +5,29 @@
   <link rel="stylesheet" href="{{ 'assets/css/talks.css' | url }}">
 {% endblock %}
 
+{% block site_nav %}
+  {% if page.meta.talk_list %}
+    {{ super() }}
+  {% else %}
+    <div class="md-sidebar md-sidebar--primary talk-sidebar" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner">
+          <nav class="md-nav md-nav--primary" aria-label="Talk navigation">
+            <ul class="md-nav__list">
+              <li class="md-nav__item">
+                <a class="md-nav__link talk-back" href="../">
+                  <span class="md-ellipsis">&larr; Back to talks</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          {% if nav %}{% include "partials/nav.html" %}{% endif %}
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endblock %}
+
 {% block content %}
   {% if page.meta.talk_list %}
     {{ super() }}
