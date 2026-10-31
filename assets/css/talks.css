@@ -186,3 +186,46 @@ button.talk-badge:hover,
 .talk-tags-toggle {
     cursor: pointer;
 }
+
+.md-typeset li.talk-item {
+    overflow: auto;
+}
+
+.talk-thumb {
+    float: right;
+    margin: 0 0 0.4rem 0.8rem;
+}
+
+.talk-thumb img {
+    aspect-ratio: 16 / 9;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    display: block;
+    height: auto;
+    object-fit: contain;
+    width: 140px;
+}
+
+.talk-thumb:hover img {
+    filter: brightness(1.1);
+}
+
+.talk-dialog-image {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.talk-dialog-image img {
+    aspect-ratio: 16 / 9;
+    border-radius: 4px;
+    display: block;
+    height: auto;
+    object-fit: contain;
+    width: 50%;
+}
+
+.talk-desc {
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.85;
+}

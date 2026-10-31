@@ -96,17 +96,35 @@ def _render_item(path, meta, base):
         for t in meta.get("tag", [])
     )
     links = _link_html(meta)
+    deck = _first(meta.get("speakerdeckId"))
+    thumb = (
+        f'<a class="talk-thumb" href="{slug}/" tabindex="-1" aria-hidden="true">'
+        f'<img loading="lazy" alt="" src="https://files.speakerdeck.com/presentations/{deck}/slide_0.jpg"></a>'
+        if deck
+        else ""
+    )
     links_html = (
         f'<p class="talk-dialog-links">{"".join(links)}</p>' if links else ""
     )
+    dialog_image = (
+        f'<a class="talk-dialog-image" href="{slug}/"><img loading="lazy" alt="{title}" '
+        f'src="https://files.speakerdeck.com/presentations/{deck}/slide_0.jpg"></a>'
+        if deck
+        else ""
+    )
+    desc = meta.get("description")
+    desc_html = f'<span class="talk-desc">{html.escape(str(desc))}</span><br>' if desc else ""
     return (
-        "<li>"
+        f'<li class="talk-item{" has-thumb" if deck else ""}">'
+        f"{thumb}"
         f'<button type="button" class="talk-details" data-talk-dialog="{dialog_id}" '
         f'aria-label="Show details: {title}" title="Show details">+</button>'
         f'<a href="{slug}/">{title}</a>{markers}<br>'
+        f"{desc_html}"
         f'<span class="talk-tags"><span class="talk-tags-label">Tags:</span>{tags}</span>'
         f'<dialog class="talk-dialog" id="{dialog_id}" aria-labelledby="{dialog_id}-title">'
         f'<h3 id="{dialog_id}-title">{title}</h3>'
+        f"{dialog_image}"
         f"{links_html}"
         f'<div class="talk-dialog-abstract">{_abstract_html(path)}</div>'
         f'<p class="talk-tags"><span class="talk-tags-label">Tags:</span>{tags}</p>'
