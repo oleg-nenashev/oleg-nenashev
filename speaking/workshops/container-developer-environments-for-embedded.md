@@ -13,6 +13,7 @@ tag:
   - testing
 author: oleg_nenashev
 github: https://github.com/oleg-nenashev/cde-for-embedded-workshop
+speakerdeckId: 91b3d075a1b94c758d3a24364d97efcd
 speakerdeck: https://speakerdeck.com/onenashev/workshop-container-developer-environments-virtualizing-your-ides-for-embedded-projects
 references:
   - name: "Workshop repository"
