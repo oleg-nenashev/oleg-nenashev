@@ -1,5 +1,6 @@
 ---
 title: "Advanced Code Coverage with Jenkins and API Mocking"
+description: "Improving code coverage reporting in Jenkins and GitHub, with API mocking to test the hard-to-reach paths."
 layout: talk
 template: talk.html
 category: talks

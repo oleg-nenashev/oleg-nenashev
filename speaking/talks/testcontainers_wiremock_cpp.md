@@ -1,5 +1,6 @@
 ---
 title: "Testcontainers and API mocking with WireMock for C/C++ projects"
+description: "Testcontainers for C/C++: an SDK for integration testing native projects with WireMock."
 layout: talk
 template: talk.html
 category: talks

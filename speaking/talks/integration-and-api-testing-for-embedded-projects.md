@@ -1,5 +1,6 @@
 ---
 title: "API Integration Testing of Embedded projects with Testcontainers and WireMock"
+description: "Using Testcontainers and WireMock for API integration tests in C/C++ embedded projects."
 layout: talk
 template: talk.html
 category: talks

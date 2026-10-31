@@ -1,5 +1,6 @@
 ---
 title: "Modern Java app CI/CD observability with OTel and Quarkus"
+description: "Making CI/CD pipelines observable with OpenTelemetry, shown on a Quarkus Java app."
 layout: talk
 template: talk.html
 category: talks

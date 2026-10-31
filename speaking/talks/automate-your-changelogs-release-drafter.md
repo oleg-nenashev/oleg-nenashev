@@ -1,5 +1,6 @@
 ---
 title: "Automate your changelogs! Release Drafter"
+description: "Generating release notes automatically from pull requests with Release Drafter."
 layout: talk
 template: talk.html
 category: talks

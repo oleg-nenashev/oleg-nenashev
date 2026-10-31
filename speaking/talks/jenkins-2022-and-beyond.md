@@ -1,5 +1,6 @@
 ---
 title: "Jenkins 2022 and Beyond"
+description: "The state of Jenkins in 2022 and where the project is heading."
 layout: talk
 template: talk.html
 category: talks

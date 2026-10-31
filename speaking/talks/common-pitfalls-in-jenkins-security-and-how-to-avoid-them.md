@@ -1,5 +1,6 @@
 ---
 title: "Common Pitfalls in Jenkins Security and How to Avoid Them"
+description: "The most common Jenkins security mistakes and how to avoid them."
 layout: talk
 template: talk.html
 category: talks

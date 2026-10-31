@@ -1,5 +1,6 @@
 ---
 title: "Managing Embedded System test infrastructures with Docker and Jenkins"
+description: "When and how to use Docker and Jenkins in embedded and hardware-in-the-loop testing."
 layout: talk
 template: talk.html
 category: talks

@@ -1,5 +1,6 @@
 ---
 title: "State of LibreCores CI"
+description: "Progress update on the LibreCores CI infrastructure and tools for open-source hardware."
 layout: talk
 template: talk.html
 category: talks

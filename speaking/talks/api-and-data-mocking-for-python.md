@@ -1,5 +1,6 @@
 ---
 title: "Want a cup of Java? API and data mocking for Python projects"
+description: "Testing Python data pipelines against mocked services and fake data with Testcontainers and WireMock."
 layout: talk
 template: talk.html
 category: talks

@@ -1,5 +1,6 @@
 ---
 title: "Under the hood of serverless Jenkins. Jenkinsfile Runner"
+description: "Running Jenkins Pipelines in single-shot containers with Jenkinsfile Runner."
 layout: talk
 template: talk.html
 category: talks

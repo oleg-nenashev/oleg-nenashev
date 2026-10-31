@@ -1,5 +1,6 @@
 ---
 title: "Fake it until you `make it`. API integration testing with Testcontainers and WireMock"
+description: "Choosing between Testcontainers and WireMock for API integration tests, and combining them."
 layout: talk
 template: talk.html
 category: talks

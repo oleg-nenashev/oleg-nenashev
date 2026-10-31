@@ -1,5 +1,6 @@
 ---
 title: "Mentorship programs. Growing new team and community leaders"
+description: "Designing mentorship and outreach programs that grow maintainers and community leaders."
 layout: talk
 template: talk.html
 category: talks

@@ -1,5 +1,6 @@
 ---
 title: "Leap from Java 8 to Java 11 in Jenkins. Our *.war story"
+description: "Lessons from adding Java 11 support to Jenkins while keeping Java 8 compatibility."
 layout: talk
 template: talk.html
 category: talks

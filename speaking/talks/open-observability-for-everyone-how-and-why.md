@@ -1,5 +1,6 @@
 ---
 title: "Open Observability for everyone. How and why?"
+description: "Why observability matters across stacks and why open ecosystems benefit everyone."
 layout: talk
 template: talk.html
 category: talks

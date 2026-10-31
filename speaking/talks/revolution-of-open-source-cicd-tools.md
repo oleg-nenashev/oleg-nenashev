@@ -1,5 +1,6 @@
 ---
 title: "[R]Evolution of open-source CI/CD tools"
+description: "How open-source CI tools evolved from monoliths to cloud-native building blocks."
 layout: talk
 template: talk.html
 category: talks

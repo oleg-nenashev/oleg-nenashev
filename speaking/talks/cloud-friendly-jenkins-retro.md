@@ -1,5 +1,6 @@
 ---
 title: "Cloud Friendly(?) Jenkins. How we failed to make Jenkins cloud native and what we learned"
+description: "What worked and what failed when making Jenkins cloud native, and why cloud friendly is enough."
 layout: talk
 template: talk.html
 category: talks

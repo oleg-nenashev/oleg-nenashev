@@ -1,5 +1,6 @@
 ---
 title: "Guerilla Developer Relations. How to start DevRel and turn around the culture in a legacy enterprise company?"
+description: "Starting developer relations from scratch in a large enterprise, with no resources."
 layout: talk
 template: talk.html
 category: talks

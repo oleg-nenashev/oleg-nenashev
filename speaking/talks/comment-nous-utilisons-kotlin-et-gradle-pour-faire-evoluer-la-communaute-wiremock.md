@@ -1,5 +1,6 @@
 ---
 title: "Leveraging Kotlin and Gradle Build Tool in your Java project - story of WireMock"
+description: "How WireMock uses Kotlin and Gradle Build Tool to improve contributor productivity."
 layout: talk
 template: talk.html
 category: talks

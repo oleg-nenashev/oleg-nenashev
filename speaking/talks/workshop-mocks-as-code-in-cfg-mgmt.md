@@ -1,5 +1,6 @@
 ---
 title: "Mocks as Code. Modeling services in configuration management flows"
+description: "Hands-on workshop testing infrastructure code with Testcontainers, LocalStack, WireMock and Pulumi."
 layout: talk
 template: talk.html
 category: talks

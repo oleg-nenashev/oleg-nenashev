@@ -1,5 +1,6 @@
 ---
 title: "GrimoireLab as Code. Ready-to-fly GitHub analytics"
+description: "A containerized, as-code GrimoireLab setup for open-source community analytics."
 layout: talk
 template: talk.html
 category: talks

@@ -1,5 +1,6 @@
 ---
 title: "CDEvents in Jenkins and Keptn. What's next?"
+description: "How CDEvents is used in Jenkins and Keptn, and where the standard goes next."
 layout: talk
 template: talk.html
 category: talks

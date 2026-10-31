@@ -1,5 +1,6 @@
 ---
 title: "Strange Quarks, Mocking Quarks - Modeling API services in Quarkus in high-density environments"
+description: "Developing and mocking APIs with Quarkus Dev Services and WireMock in Gradle projects."
 layout: talk
 template: talk.html
 category: talks

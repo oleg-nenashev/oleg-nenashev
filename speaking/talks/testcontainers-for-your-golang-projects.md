@@ -1,5 +1,6 @@
 ---
 title: "Testcontainers and API mocking for Golang projects"
+description: "Using Testcontainers and WireMock for integration testing in Go projects."
 layout: talk
 template: talk.html
 category: talks

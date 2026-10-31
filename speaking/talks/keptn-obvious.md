@@ -1,5 +1,6 @@
 ---
 title: "Thank you Keptn Obvious! Making SLOs observable with Keptn and Prometheus"
+description: "Visualizing and automating SLOs with Keptn on top of existing Prometheus monitoring."
 layout: talk
 template: talk.html
 category: talks

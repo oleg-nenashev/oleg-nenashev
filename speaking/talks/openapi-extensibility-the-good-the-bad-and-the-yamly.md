@@ -1,5 +1,6 @@
 ---
 title: "OpenAPI extensibility - the Good, the Bad and the YAMLy"
+description: "The limits of OpenAPI 3 extensibility and what OpenAPI 4 could fix."
 layout: talk
 template: talk.html
 category: talks

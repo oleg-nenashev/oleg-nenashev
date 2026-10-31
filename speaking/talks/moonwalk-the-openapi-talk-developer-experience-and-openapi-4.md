@@ -1,5 +1,6 @@
 ---
 title: "Moonwalk the OpenAPI talk. Developer experience and OpenAPI 4"
+description: "Developer experience and the proposed OpenAPI 4 (Project Moonwalk)."
 layout: talk
 template: talk.html
 category: talks

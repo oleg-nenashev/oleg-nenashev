@@ -1,5 +1,6 @@
 ---
 title: "OpenFeature - making feature flags a commodity"
+description: "An introduction to OpenFeature, the open standard for feature flag management."
 layout: talk
 template: talk.html
 category: talks

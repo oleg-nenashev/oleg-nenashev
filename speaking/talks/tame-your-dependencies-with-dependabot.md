@@ -1,5 +1,6 @@
 ---
 title: "Dependabot for Jenkins plugin development"
+description: "Automating dependency updates with Dependabot, based on the Jenkins experience."
 layout: talk
 template: talk.html
 category: talks

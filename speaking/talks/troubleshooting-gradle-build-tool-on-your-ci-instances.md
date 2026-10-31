@@ -1,5 +1,6 @@
 ---
 title: "Troubleshooting Gradle Build Tool on your CI instances"
+description: "Diagnosing and fixing Gradle Build Tool problems on CI instances."
 layout: talk
 template: talk.html
 category: talks

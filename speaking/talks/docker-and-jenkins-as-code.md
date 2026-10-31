@@ -1,5 +1,6 @@
 ---
 title: "Docker and Jenkins as Code"
+description: "Running Jenkins in Docker and managing its configuration as code."
 layout: talk
 template: talk.html
 category: talks

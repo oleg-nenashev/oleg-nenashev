@@ -1,5 +1,6 @@
 ---
 title: "WireMock8s - Mocking your APIs in Kubernetes"
+description: "Running WireMock on Kubernetes for API mocking in cloud-native testing and pipelines."
 layout: talk
 template: talk.html
 category: talks

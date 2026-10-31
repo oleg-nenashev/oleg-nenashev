@@ -1,5 +1,6 @@
 ---
 title: "Automating Hardware/Embedded Projects with Jenkins"
+description: "Using Jenkins for CI and delivery in open-source hardware and FPGA projects."
 layout: talk
 template: talk.html
 category: talks

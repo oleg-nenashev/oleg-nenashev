@@ -1,5 +1,6 @@
 ---
 title: "./jq for data science newcomers"
+description: "A quick introduction to jq and yq for data science students, with a live data demo."
 layout: talk
 template: talk.html
 category: talks

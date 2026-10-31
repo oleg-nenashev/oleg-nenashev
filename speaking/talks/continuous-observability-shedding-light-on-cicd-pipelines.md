@@ -1,5 +1,6 @@
 ---
 title: "Continuous Observability: Shedding Light on CI/CD Pipelines"
+description: "Why CI/CD pipelines need observability, and how to get it."
 layout: talk
 template: talk.html
 category: talks

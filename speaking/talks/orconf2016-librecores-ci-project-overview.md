@@ -1,5 +1,6 @@
 ---
 title: "LibreCores CI. Project overview"
+description: "Status update on LibreCores CI, a CI service for open-source hardware."
 layout: talk
 template: talk.html
 category: talks

@@ -1,5 +1,6 @@
 ---
 title: "Updating is impossible, keep it? Managing dependencies in CI/CD"
+description: "The challenges of keeping dependencies up to date in CI/CD."
 layout: talk
 template: talk.html
 category: talks

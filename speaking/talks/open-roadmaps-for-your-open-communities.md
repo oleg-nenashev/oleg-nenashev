@@ -1,5 +1,6 @@
 ---
 title: "Open roadmaps for your open communities. Not a success story, but you may have one"
+description: "Tips for building and maintaining an effective public roadmap, including mistakes made."
 layout: talk
 template: talk.html
 category: talks
