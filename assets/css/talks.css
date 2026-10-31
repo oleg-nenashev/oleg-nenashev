@@ -161,3 +161,11 @@ button.talk-badge:hover,
     font-weight: bold;
 }
 
+
+.talk-sidebar .talk-sidebar-title {
+    margin-top: 0.8rem;
+}
+
+.talk-sidebar .talk-sidebar-sub {
+    padding-left: 0.6rem;
+}
