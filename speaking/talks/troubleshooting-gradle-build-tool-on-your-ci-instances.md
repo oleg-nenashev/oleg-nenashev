@@ -1,0 +1,16 @@
+---
+title: "Troubleshooting Gradle Build Tool on your CI instances"
+layout: talk
+template: talk.html
+category: talks
+type: talk
+headerImage: false
+tag:
+  - gradle
+  - ci-cd
+  - troubleshooting
+author: oleg_nenashev
+---
+
+This talk focuses on diagnosing and resolving Gradle Build Tool problems that
+arise on continuous integration instances.

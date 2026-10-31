@@ -37,3 +37,62 @@ h2, h3, h4 {
 
 
 
+
+/* Talk pages */
+.talk-links .md-button {
+    margin: 0 0.4em 0.4em 0;
+}
+
+.talk-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.talk-tag {
+    background: var(--md-code-bg-color);
+    border-radius: 1em;
+    font-size: 0.75rem;
+    margin: 0;
+    padding: 0.1em 0.8em;
+}
+
+.talk-embed {
+    aspect-ratio: 16 / 9;
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+    display: block;
+    height: auto;
+    margin: 0 0 1.5em 0;
+    width: 100%;
+}
+
+.talk-meta {
+    display: flex;
+    gap: 0.5em;
+    margin: 0 0 1em 0;
+}
+
+.talk-type,
+.talk-inactive {
+    border-radius: 0.3em;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.1em 0.7em;
+    text-transform: uppercase;
+}
+
+.talk-type {
+    background: var(--theme-main);
+    color: var(--md-default-bg-color);
+}
+
+.talk-inactive {
+    border: 1px solid var(--md-default-fg-color--light);
+    color: var(--md-default-fg-color--light);
+}

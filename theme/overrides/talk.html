@@ -1,0 +1,59 @@
+{% extends "main.html" %}
+
+{% block content %}
+  {% include "partials/actions.html" %}
+  <h1>{{ page.title }}</h1>
+
+  <p class="talk-meta">
+    <span class="talk-type">{{ (page.meta.type or "talk") | capitalize }}</span>
+    {% if page.meta.inactive %}
+      <span class="talk-inactive">No longer presented</span>
+    {% endif %}
+  </p>
+
+  {% set links = [] %}
+  {% for key, label in [("sessionize", "Sessionize"), ("youtube", "YouTube"), ("speakerdeck", "Speaker Deck")] %}
+    {% set value = page.meta[key] %}
+    {% if value %}
+      {% set urls = [value] if value is string else value %}
+      {% for url in urls %}
+        {% set _ = links.append((label ~ (" #" ~ loop.index if urls | length > 1 else ""), url)) %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+  {% if links %}
+    <p class="talk-links">
+      {% for label, url in links %}
+        <a class="md-button" href="{{ url }}" target="_blank" rel="noopener">{{ label }}</a>
+      {% endfor %}
+    </p>
+  {% endif %}
+
+  {% if page.meta.tag %}
+    <ul class="talk-tags" aria-label="Tags">
+      {% for tag in page.meta.tag %}
+        <li class="talk-tag">{{ tag }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <h2 id="abstract">Abstract</h2>
+  {{ page.content }}
+
+  {% if page.meta.youtubeId %}
+    <h2 id="video">Video</h2>
+    {% for id in ([page.meta.youtubeId] if page.meta.youtubeId is string else page.meta.youtubeId) %}
+      <iframe class="talk-embed" src="https://www.youtube-nocookie.com/embed/{{ id }}" title="{{ page.title }} (video)" loading="lazy" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.meta.speakerdeckId %}
+    <h2 id="slides">Slides</h2>
+    {% for id in ([page.meta.speakerdeckId] if page.meta.speakerdeckId is string else page.meta.speakerdeckId) %}
+      <iframe class="talk-embed" src="https://speakerdeck.com/player/{{ id }}" title="{{ page.title }} (slides)" loading="lazy" frameborder="0" allowfullscreen="true" allow="web-share"></iframe>
+    {% endfor %}
+  {% endif %}
+
+  {% include "partials/source-file.html" %}
+{% endblock %}
