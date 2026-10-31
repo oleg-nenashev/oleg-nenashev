@@ -1,0 +1,188 @@
+/* Talk pages and the talks list */
+
+/* shields.io-style badges: fixed colors that work on any background */
+.talk-badge,
+.talk-tag,
+.talk-type,
+.talk-inactive,
+.talk-details {
+    background: #555;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 11px/20px Verdana, "DejaVu Sans", sans-serif;
+    margin: 0;
+    padding: 0 8px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.md-typeset a.talk-badge,
+.md-typeset a.talk-tag {
+    color: #fff;
+}
+
+.md-typeset a.talk-badge:hover,
+.md-typeset a.talk-tag:hover,
+a.talk-badge:hover,
+a.talk-tag:hover,
+button.talk-badge:hover,
+.talk-details:hover {
+    color: #fff;
+    filter: brightness(1.15);
+}
+
+.talk-badge--github { background: #24292f; }
+.talk-badge--sessionize { background: #1ab394; }
+.talk-badge--youtube { background: #e00; }
+.talk-badge--speakerdeck { background: #339666; }
+.talk-badge--primary { background: #007ec6; }
+
+.talk-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+.talk-tags {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    list-style: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+}
+
+.talk-tags-label {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.talk-tag.active {
+    background: #007ec6;
+}
+
+.talk-meta {
+    display: flex;
+    gap: 0.5em;
+    margin: 0 0 1em 0;
+}
+
+.talk-type {
+    background: #007ec6;
+}
+
+.talk-inactive {
+    background: #e05d44;
+}
+
+.talk-details {
+    background: #007ec6;
+    margin-right: 0.5em;
+    padding: 0 7px;
+}
+
+.talk-embed {
+    aspect-ratio: 16 / 9;
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+    display: block;
+    height: auto;
+    margin: 0 0 1.5em 0;
+    width: 100%;
+}
+
+.talk-filter {
+    background: var(--md-code-bg-color);
+    border-radius: 0.2rem;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+}
+
+.talk-filter[hidden] {
+    display: none;
+}
+
+.talk-dialog {
+    background: var(--md-default-bg-color);
+    border: 0;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.4);
+    color: var(--md-default-fg-color);
+    max-height: 85vh;
+    max-width: min(40rem, 92vw);
+    padding: 1rem 1.5rem;
+}
+
+.talk-dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.talk-dialog h3 {
+    margin-top: 0;
+}
+
+.talk-dialog-links a {
+    margin-right: 0.3em;
+}
+
+.talk-dialog-actions {
+    display: flex;
+    gap: 0.4em;
+    margin-bottom: 0;
+}
+
+.talk-badge--github::before,
+.talk-badge--sessionize::before,
+.talk-badge--youtube::before,
+.talk-badge--speakerdeck::before {
+    background: currentColor;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin-right: 5px;
+    -webkit-mask: var(--talk-icon) center / contain no-repeat;
+    mask: var(--talk-icon) center / contain no-repeat;
+    vertical-align: -2px;
+    width: 12px;
+}
+
+.talk-badge--github { --talk-icon: url("../icons/github.svg"); }
+.talk-badge--sessionize { --talk-icon: url("../icons/sessionize.svg"); }
+.talk-badge--youtube { --talk-icon: url("../icons/youtube.svg"); }
+.talk-badge--speakerdeck { --talk-icon: url("../icons/speakerdeck.svg"); }
+
+.talk-sidebar .talk-back {
+    font-weight: bold;
+}
+
+
+.talk-sidebar .talk-sidebar-title {
+    margin-top: 0.8rem;
+}
+
+.talk-sidebar .talk-sidebar-sub {
+    padding-left: 0.6rem;
+}
+
+.talk-summary {
+    font-size: 1.05em;
+    font-style: italic;
+}
+
+.talk-tag-cloud .talk-tag-extra {
+    display: none;
+}
+
+.talk-tag-cloud.expanded .talk-tag-extra {
+    display: inline-block;
+}
+
+.talk-tags-toggle {
+    cursor: pointer;
+}

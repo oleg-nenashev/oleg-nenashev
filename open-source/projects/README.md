@@ -14,6 +14,8 @@ My goal is to make the Jenkins community the best place to participate,
 and to ensure long term evolution of the project and its community.
 Always [looking for contributors](https://www.jenkins.io/participate), code or not!
 
+[My talks](../../speaking/talks/?tag=jenkins) about Jenkins
+
 ## Testcontainers
 
 <a href="https://testcontainers.com/" target="_blank">
@@ -26,6 +28,8 @@ I am a [Testcontainers Champion](https://testcontainers.com/community-champions/
 doing presentations on modern integration testing for
 software, hardware and embedded projects.
 
+[My talks](../../speaking/talks/?tag=testcontainers) about Testcontainers
+
 ## WireMock
 
 <a href="https://wiremock.org/" target="_blank">
@@ -36,6 +40,8 @@ I joined WireMock in 2023 to help with growing user and developer communities.
 Now I am a co-maintainer of the WireMock core (aka _WireMock for Java_) and its Testcontainers modules.
 It is a flexible open source tool for building mock APIs and testing your client apps, started as a Java testing library.
 [More about WireMock](https://wiremock.org/)
+
+[My talks](../../speaking/talks/?tag=wiremock) about WireMock
 
 ## Windows Service Wrapper
 
@@ -79,6 +85,22 @@ Keptn Lifecycle Toolkit.
 
 [More about Keptn](https://keptn.sh/)
 
+[My talks](../../speaking/talks/?tag=keptn) about Keptn
+
+### OpenFeature
+
+<a href="https://openfeature.dev/" target="_blank">
+<img align="right" width="128" src="openfeature/logo.png" alt="OpenFeature Logo">
+</a>
+
+[OpenFeature](https://openfeature.dev/) is an open specification that provides a vendor-agnostic,
+community-driven API for feature flagging.
+I was involved in the early days of the project as a contributor and community member.
+
+[More about OpenFeature](https://openfeature.dev/)
+
+[My talks](../../speaking/talks/?tag=openfeature) about OpenFeature
+
 ### LibreCores
 
 <a href="https://github.com/librecores" target="_blank">
@@ -92,3 +114,6 @@ powered by Jenkins.
 The project was discontinued.
 
 [GitHub](https://github.com/librecores)
+
+[My talks](../../speaking/talks/?tag=librecores) about LibreCores
+

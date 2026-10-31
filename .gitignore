@@ -3,4 +3,14 @@
 _site
 temp_dir
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache
+*.egg-info
+dist
+build
+
 .DS_Store
