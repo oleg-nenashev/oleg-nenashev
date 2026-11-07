@@ -18,7 +18,7 @@ And yes, I am a big supporter of [InnerSource](https://innersourcecommons.org/).
 
 ## Consulting
 
-I am available as a community buildig advisor and consultant.
+I am available as a community building advisor and consultant.
 [Learn more](../consulting/community-building.md).
 
 !!! quote "References - Software Developer Advocate Consultant at WireMock Inc."

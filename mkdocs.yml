@@ -20,7 +20,7 @@ docs_dir: .
 nav:
   - ">whoami": index.md
   - Open Source:
-    - Community Building: work/community-building.md
+    - Oleg in Open Source: open-source/README.md
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
     - Mentorship: open-source/mentorship/README.md
@@ -32,7 +32,8 @@ nav:
     - Community Building: consulting/community-building.md
     - Developer Relations: consulting/developer-relations.md
     - Jenkins Consulting: consulting/jenkins.md
-  - Developer Advocacy:
+  - Speaking & DevRel:
+    - Community Building: speaking/community-building.md
     - Public speaking:
       - Overview: speaking/README.md
       - My talks: speaking/talks.md
