@@ -9,8 +9,12 @@ headerImage: false
 tag:
   - testing
   - api
-  - mocking
+  - infrastructure-as-code
   - configuration-management
+  - wiremock
+  - testcontainers
+  - pulumi
+  - localstack
 author: oleg_nenashev
 speakerdeckId: 1cf15669584141eca7d664970261fc0c
 github: https://github.com/oleg-nenashev/workshop-aws-mocks-as-code
@@ -26,6 +30,8 @@ references:
 presented:
   - event: "DevOpsDays Geneva"
     year: 2024
+  - event: "PlatformCon 2025"
+    year: 2025
 ---
 
 When managing service configurations at scale, we often need to automate testing of these configurations. In software integration testing, we can use Testcontainers - a popular framework for Docker and other container engines. For public cloud environments, there is LocalStack. And for API service providers, we have WireMock. Can we use the same toolchain for configuration management? If you use modern Infrastructure-as-Code tools like Pulumi, yes!
