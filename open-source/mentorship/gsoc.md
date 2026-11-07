@@ -57,4 +57,5 @@ Jenkins, the Free and Open Source Silicon Foundation (FOSSi), the Continuous Del
 
 - [Mentorship programs for students in open source: Industry/Academia Partnerships](../../speaking/talks/culture/open-source-mentorships-and-academia-partnerships.md) discusses GSoC and partnerships with universities.
 - [Mentorship programs: Growing new team and community leaders](../../speaking/talks/culture/mentorship-programs-growing-new-team-and-community-leaders.md) covers GSoC alongside other mentorship and outreach programs.
+- [Contributing to Jenkins, CDF and Google Summer of Code](../../speaking/talks/jenkins/contributing-to-jenkins-and-cdf.md) introduces Jenkins contributions and its GSoC outreach.
 - [CDEvents in Jenkins and Keptn. What's next?](../../speaking/talks/cdevents-in-jenkins-and-keptn-whats-next.md) was presented alongside a GSoC project update.

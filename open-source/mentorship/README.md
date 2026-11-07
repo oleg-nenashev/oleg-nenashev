@@ -108,5 +108,6 @@ Hacktoberfest is not a formal one-on-one mentorship program, but code reviews, c
 
 - [Mentorship programs: Growing new team and community leaders](../../speaking/talks/culture/mentorship-programs-growing-new-team-and-community-leaders.md) explores mentorship and outreach as ways to grow maintainers and leaders.
 - [Mentorship programs for students in open source: Industry/Academia Partnerships](../../speaking/talks/culture/open-source-mentorships-and-academia-partnerships.md) discusses partnerships with universities, including GSoC.
+- [Contributing to Jenkins, CDF and Google Summer of Code](../../speaking/talks/jenkins/contributing-to-jenkins-and-cdf.md) introduces Jenkins contributions and outreach programs.
 
 <!-- TODO: ## Mentoring beyond Open Source -->
