@@ -12,14 +12,19 @@ including many community leadership roles.
 If you are interested in building and growing your open source community or open ecosystem,
 let me know!
 
-## Areas
+## Community programs and Go-to-Market
 
 - Building and growing open source communities and ecosystems
-- Organizing and hosting meetups, webinars and hackathons
-- Technical documentation at scale, docs engines and customization for them, especially AsciiDocs, MkDocs, Hugo or Jekyll
-- Setting up Community Analytics and sales/field insights, including GrimoireLab, LFX Insights, Common Room, and [AI-assisted community analytics](./ai.md)
-- Community Program Management and technical partnerships, often in collaboration with [Developer Relations](./developer-relations.md)
 - Starting new Open Source projects, programs and OSPOs
+- Organizing and hosting meetups, webinars and hackathons
+- Managing community outreach and mentorship programs ([mentorship portfolio](../open-source/mentorship/README.md))
+- Community Program Management and technical partnerships, often in collaboration with [Developer Relations](./developer-relations.md)
+
+## Platforms for your community
+
+- Technical documentation at scale, docs engines and customizations for them
+- Building Community Analytics and sales/field insights, including GrimoireLab, LFX Insights, Common Room, and [AI-assisted community analytics](./ai.md)
+
 
 ## References
 
@@ -50,4 +55,3 @@ let me know!
 
     // Reference letter from Gradle Inc.
     // Lead Developer Advocate, January 2024 – January 2026
-

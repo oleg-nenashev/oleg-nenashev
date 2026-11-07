@@ -41,6 +41,7 @@ My work have helped not just the community itself, but also customer success, ma
 Potential areas include:
 
 - AI positioning & strategy for developer tools.
+- Developer advocacy and community building for your AI projects
 - Writing productivity tools for **AI-assisted** content development
 - AI optimization for the websites and documentation
 - Community analytics with tools such as Common Room and GrimoireLab
@@ -59,5 +60,6 @@ Some recent client work is confidential.
 ## Learn more
 
 Explore [Developer Productivity](./developer-productivity.md) and [Jenkins Consulting](./jenkins.md) for AI in engineering systems and CI/CD, or [Developer Relations](./developer-relations.md) and [Community Building](./community-building.md) for AI-assisted content and community analytics.
+See also [my talks about AI](../speaking/talks/?tag=ai).
 See all [consulting areas](./README.md) as well as the [open source projects](../open-source/projects/README.md) for practical examples.
 I use AI for their development, both Claude and GitHub Copilot.
