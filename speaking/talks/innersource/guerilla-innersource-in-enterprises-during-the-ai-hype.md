@@ -10,6 +10,7 @@ tag:
   - innersource
   - culture
   - developer-relations
+  - ai
 author: oleg_nenashev
 speakerdeckId: b60c1c1808194a96b6a26e489e29a510
 speakerdeck: https://speakerdeck.com/onenashev/guerilla-innersource-in-enterprises-during-the-ai-hype

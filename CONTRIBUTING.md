@@ -28,6 +28,16 @@ The site is built with [MkDocs](https://www.mkdocs.org/),
 and [Material for MkDocs](https://squidfunk.github.io/mkdocs-material).
 For development, everything is powered by Dev Containers and GitHub Actions.
 
+## Talks
+
+The site contains a Speaking site, which is expected to convert to a separate plugin later.
+Forks and contributions are welcome!
+
+### Talk Metadata
+
+Use `presented` for events where a talk was delivered and `cancelled` for cancelled appearances.
+Both fields accept a list of events with `event`, `year`, `month`, `url`, `location`, and `note` as applicable.
+
 ## Localization
 
 The default language of the website is English.

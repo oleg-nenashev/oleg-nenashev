@@ -1,27 +1,32 @@
 # Categories for the generated list in talks.md, in display order.
-# A talk is listed in the first category that has any of its tags.
+# A talk is listed in the matching category with the highest match_priority,
+# or the first matching category in display order when priorities are equal.
 # Talks without a matching category are listed under "Other talks".
 - name: Management, Open Source and Culture
   tags: [mentorship, developer-relations, culture, management]
+
+- name: AI
+  tags: [ai]
+  match_priority: 1
+
+- name: WireMock and Testcontainers
+  tags: [wiremock, testcontainers, mocking]
+
+- name: Jenkins
+  tags: [jenkins]
 
 - name: Gradle Build Tool
   note: Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc.
   tags: [gradle]
 
-- name: Embedded and Hardware
-  tags: [embedded, hardware]
-
 - name: Observability, OpenTelemetry and CDEvents
   tags: [observability, opentelemetry, cdevents]
 
-- name: Jenkins
-  tags: [jenkins]
-
-- name: WireMock and Testcontainers
-  tags: [wiremock, testcontainers, mocking]
-
 - name: API Management and OpenAPI
   tags: [openapi]
+
+- name: Embedded and Hardware
+  tags: [embedded, hardware]
 
 - name: OpenFeature
   tags: [openfeature]

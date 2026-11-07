@@ -161,11 +161,12 @@ def define_env(env):
         talks.sort(key=lambda item: item[1]["title"].lower())
 
         categories = yaml.safe_load(CATEGORIES_FILE.read_text(encoding="utf-8")) or []
+        matching_categories = sorted(categories, key=lambda category: category.get("match_priority", 0), reverse=True)
         categories.append({"name": "Other talks", "tags": []})
         buckets = {c["name"]: [] for c in categories}
         for path, meta in talks:
             tags = set(meta.get("tag", []))
-            for category in categories[:-1]:
+            for category in matching_categories:
                 if tags & set(category.get("tags", [])):
                     buckets[category["name"]].append((path, meta))
                     break
