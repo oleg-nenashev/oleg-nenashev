@@ -14,6 +14,7 @@ And yes, I am a big supporter of [InnerSource](https://innersourcecommons.org/).
 
 - [My Open Source Projects](../open-source/projects/README.md)
 - [My Open Source Organizations](../open-source/organizations/README.md)
+- [Open Source Mentorship and outreach programs](../open-source/mentorship/README.md)
 
 ## Consulting
 

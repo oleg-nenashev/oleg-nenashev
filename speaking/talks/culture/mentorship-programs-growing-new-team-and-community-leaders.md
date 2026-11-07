@@ -34,3 +34,5 @@ Mentorship and outreach programs are often considered as side projects. Although
 Let’s discuss how to organize mentorship programs that help grow your current community and contributors. How do we involve a contributor in broader community efforts? How do we help them grow and take on new roles? Let’s discuss various program types, including wide outreach programs such as GSoC or Hacktoberfest, newcomer assistance, focused maintainer mentoring programs, and individual leadership training like shadow officers.
 
 The talk is based on my experience in the [Jenkins](https://www.jenkins.io/), [FOSSi](https://www.fossi-foundation.org/), the [Continuous Delivery Foundation](https://cd.foundation/) and other communities. I organized or helped to organize several mentorship and outreach programs: contributor/maintainer onboarding, GSoC/GSoD, Outreachy, CommunityBridge, various hackathons, and board member training.
+
+Read more about [my open source mentorship](../../../open-source/mentorship/README.md) and [my participation in Google Summer of Code](../../../open-source/mentorship/gsoc.md).
