@@ -4,9 +4,12 @@
 
 I participatite in many open source projects,
 and volunteer in some Swiss and international organizations related to technology and open source.
+I mentor students and participate in open source mentorshiop and outreach programs.
 
+- [Open source mentorship](../open-source/mentorship/README.md)
 - [My organizations](../open-source/organizations/README.md)
 - [My open source projects](../open-source/projects/README.md)
+
 
 ## Human Rights and Political Non-profit Memberships
 

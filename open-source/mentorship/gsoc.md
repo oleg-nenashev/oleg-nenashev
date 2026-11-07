@@ -46,4 +46,8 @@ Jenkins, the Free and Open Source Silicon Foundation (FOSSi), the Continuous Del
 | 2024 | Kotlin Foundation              | Organization Administrator                      | [GSoC 2024](https://kotlinlang.org/docs/gsoc-2024.html?utm_source=chatgpt.com)                                | Self-reported                                      |
 | 2025 | Kotlin Foundation              | Organization Administrator                      | [GSoC 2025](https://kotlinfoundation.org/annual-report-2025/?utm_source=chatgpt.com)                          | Participant-reported                               |
 
+## Related Talks
 
+- [Mentorship programs for students in open source: Industry/Academia Partnerships](../../speaking/talks/culture/open-source-mentorships-and-academia-partnerships.md) discusses GSoC and partnerships with universities.
+- [Mentorship programs: Growing new team and community leaders](../../speaking/talks/culture/mentorship-programs-growing-new-team-and-community-leaders.md) covers GSoC alongside other mentorship and outreach programs.
+- [CDEvents in Jenkins and Keptn. What's next?](../../speaking/talks/cdevents-in-jenkins-and-keptn-whats-next.md) was presented alongside a GSoC project update.

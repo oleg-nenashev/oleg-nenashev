@@ -27,3 +27,5 @@ presented:
 ---
 
 Overview of CDEvents from the standpoint of external adopter, and also plans for adopting CDEvents in Jenkins and Keptn. This talk was delivered together with Shruti Chaturvedi's GSoC project update on support for CloudEvents/CDEvents in Jenkins, at Kubecon | CloudNativeCon EU 2022
+
+Read more about [my participation in Google Summer of Code](../../open-source/mentorship/gsoc.md).

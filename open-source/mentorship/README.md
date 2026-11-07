@@ -72,9 +72,11 @@ Hacktoberfest is not a formal one-on-one mentorship program, but code reviews, c
 [Hacktoberfest at Jenkins](https://www.jenkins.io/events/hacktoberfest/),
 [Hacktoberfest at WireMock](https://www.wiremock.io/post/hacktoberfest-2023)
 
+## Related Talks
 
+- [Mentorship programs: Growing new team and community leaders](../../speaking/talks/culture/mentorship-programs-growing-new-team-and-community-leaders.md) explores mentorship and outreach as ways to grow maintainers and leaders.
+- [Mentorship programs for students in open source: Industry/Academia Partnerships](../../speaking/talks/culture/open-source-mentorships-and-academia-partnerships.md) discusses partnerships with universities, including GSoC.
 
 <!-- TODO: ## Mentoring beyond Open Source -->
-
 
 

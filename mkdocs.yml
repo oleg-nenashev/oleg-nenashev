@@ -24,7 +24,7 @@ nav:
     - My Projects: open-source/projects/README.md
     - My Organizations: open-source/organizations/README.md
     - Mentorship: open-source/mentorship/README.md
-    - Google Summer of Code: open-source/mentorship/gsoс.md
+    - Google Summer of Code: open-source/mentorship/gsoc.md
   - Consulting:
     - Summary: consulting/README.md
     - Developer Productivity: consulting/developer-productivity.md
