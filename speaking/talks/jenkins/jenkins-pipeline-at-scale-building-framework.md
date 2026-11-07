@@ -25,3 +25,5 @@ presented:
 This is a follow-up presentation to my talk at [CloudBees | Jenkins Automotive and Embedded Day 2016](https://www.cloudbees.com/event/cloudbees-jenkins-automotive-and-embedded-day), where I was presenting Pipeline usage strategies for use-cases in the Embedded area.
 
 In this presentation I talk about Jenkins Pipeline features for automation frameworks and talk about lessons learned in several projects.
+
+<!--FIXME: slideshare is gone-->

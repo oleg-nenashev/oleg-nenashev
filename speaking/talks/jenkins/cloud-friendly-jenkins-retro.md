@@ -21,9 +21,11 @@ references:
   - name: "Slides"
     url: "https://speakerdeck.com/onenashev/cloud-friendly-jenkins-retro"
 presented:
-  - event: "CNCF Bilbao"
+  - event: "CNCF Meetup in Bilbao"
     year: 2023
   - event: "Cloud Native Rejekts EU"
+    year: 2024
+  - event: "Cloud Native Bern"
     year: 2024
 ---
 

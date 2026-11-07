@@ -1,6 +1,6 @@
 ---
 title: "External Build Logging in Jenkins. Prototype Demo"
-description: "Hackathon prototype that sends Jenkins build logs to Logstash and Elasticsearch instead of the disk."
+description: "Pluggable Log storage prototype - integrating with Logstash and Elasticsearch instead of the disk."
 layout: talk
 template: talk.html
 category: talks
