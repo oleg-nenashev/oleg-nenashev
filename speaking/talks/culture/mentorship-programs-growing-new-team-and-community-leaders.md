@@ -10,6 +10,7 @@ tag:
   - community
   - mentorship
   - leadership
+  - innersource
 author: oleg_nenashev
 speakerdeckId: f21d3b91fdee46ec9dc48c91b47cd3c9
 youtubeId: cyHDCKd4Oew

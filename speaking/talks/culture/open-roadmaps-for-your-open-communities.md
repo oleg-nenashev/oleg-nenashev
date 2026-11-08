@@ -10,6 +10,7 @@ tag:
   - community
   - open-source
   - management
+  - innersource
 author: oleg_nenashev
 speakerdeckId:
   - 661f869d57de4163b8edf3905aa5c08f

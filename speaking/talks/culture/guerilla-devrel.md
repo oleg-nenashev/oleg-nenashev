@@ -10,6 +10,7 @@ tag:
   - developer-relations
   - community
   - culture
+  - innersource
 author: oleg_nenashev
 speakerdeckId: dd8fdac7471142078e6c9dc31919e2fd
 speakerdeck: https://speakerdeck.com/onenashev/guerilla-devrel
