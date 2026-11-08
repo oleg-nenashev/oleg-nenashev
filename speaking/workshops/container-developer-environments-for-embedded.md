@@ -30,3 +30,33 @@ Embedded development and QA are entering a new era, enabled by Cloud Development
 In this workshop, we build a containerized developer environment for a robotics project using the open-source ROS2 stack (C++/Python, CMake, custom build tools, Gazebo, etc.), or another audience-nominated example. Step by step, you will learn to define and customize Dev Containers for your technology stack, adapt IDEs for embedded workflows, and package the full environment for sharing across teams and reuse in CI/CD pipelines.
 
 We also explore how to move these environments beyond the laptop and run them on cloud-based development platforms such as GitHub Codespaces. By the end of the session, participants will understand how to virtualize their IDEs, standardize developer onboarding, and create reusable development environments that connect local workstations, cloud platforms, and automated pipelines.
+
+## Workshop Structure
+
+### I. Getting started
+
+* Environment Setup
+
+### II. Key sections
+
+1. Devcontainer Basics
+2. Using AI and agents in Devcontainers
+3. C/C++ tooling in a Devcontainer
+4. Custom images in a Devcontainer
+5. ROS and Gazebo in a Devcontainer
+6. Moving to a Cloud Developer Environment
+
+### III. Optional parts
+
+The following parts can be optionally chosen by the audience
+if the time allows and in any order:
+
+* Using Devcontainers in CI
+* Integration Testing with Testcontainers
+* Using Nix in Devcontainers
+* Connecting hardware to a Devcontainer
+* Custom CDEs - building your own IDEs at scale
+
+## Target duration
+
+4..8 hours
