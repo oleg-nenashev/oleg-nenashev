@@ -11,6 +11,8 @@ Apart from [community building](./community-building.md),
 I can help with many other areas of Developer Relations,
 including fractional Developer Advocate positions.
 
+--8<-- ".snippets/consulting-enquiry.md"
+
 ## Areas
 
 - Developer Advocacy for your products and open source projects.
@@ -34,4 +36,3 @@ including fractional Developer Advocate positions.
 
     // Reference letter from Gradle Inc.
     // Lead Developer Advocate, January 2024 – January 2026
-

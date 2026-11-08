@@ -7,16 +7,16 @@ description: >
 
 # Jenkins Consulting
 
-I have 10+ years of experience creating large-scale CI/CD systems with Jenkins
-for software, hardware and embedded projects.
+I have 10+ years of experience of buidling and maintaining large-scale CI/CD systems
+with Jenkins for software, hardware and embedded projects.
 As a Jenkins core maintainer and a former governing board member,
-I have experience with many areas of the ecosystem.
-For broader engineering systems and developer productivity, see [Developer Productivity consulting](./developer-productivity.md).
-For applying AI to build systems and CI/CD workflows, see [Applied AI consulting](./ai.md).
+I have expertise in many areas of the ecosystem, including security and scalability.
+
+--8<-- ".snippets/consulting-enquiry.md"
 
 ## Engineering
 
-- All kinds of integrations between Jenkins and other tools
+- Integrations between Jenkins and other tools, as plugins or Pipeline libraries
 - Developing new plugins for Jenkins, and patching/refreshing the existing ones
 - Custom development for tools like Jenkinsfile Runner
 
@@ -38,6 +38,8 @@ For applying AI to build systems and CI/CD workflows, see [Applied AI consulting
 
 - Building custom automation and CI/CD platforms based on Jenkins,
   especially for hardware and embedded projects.
+- Jenkins security audit and customizations
+- Observability for Jenkins and CI/CD
 - Designing Jenkins-based CI/CD for hardware-in-the-loop testing, hardware and embedded projects, and other specialized development environments.
 
 !!! quote "Reference - Developer Productivity & CI/CD Engineering at Synopsys"
@@ -55,7 +57,11 @@ For applying AI to build systems and CI/CD workflows, see [Applied AI consulting
 
 ## Training
 
-- Internal trainings and workshops about Jenkins.
-  Some of my public presentations can be found
-  [here](https://speakerdeck.com/onenashev/collections/jenkins).
+- Internal [Jenkins workshops and tutorials](../speaking/workshops.md?tag=jenkins)
+- On-demand [talks](../speaking/talks.md?tag=jenkins) about Jenkins
+- Show-and tell sessions
 
+## More areas
+
+For broader engineering systems and developer productivity, see [Developer Productivity consulting](./developer-productivity.md).
+For applying AI to build systems and CI/CD workflows with Jenkins, see [Applied AI consulting](./ai.md).

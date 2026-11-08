@@ -11,6 +11,8 @@ With 15+ years of experience in developer tools and automation projects,
 I focus on developer productivity across multiple areas and technology stacks.
 My key interests are automation, CI/CD and container developer environment.
 
+--8<-- ".snippets/consulting-enquiry.md"
+
 ## Areas
 
 - Automation, developer tools, and CI/CD in Java/Maven, Golang, cloud-native, and .NET technology stacks.
@@ -54,4 +56,3 @@ The list of my recent workshops can be found [here](../speaking/workshops.md).
 
     // Reference letter from Synopsys,
     // Software Engineer, Sr II, 2013–2015
-

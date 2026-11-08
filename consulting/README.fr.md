@@ -9,6 +9,8 @@ Avec plus de 15 ans d’expérience dans les outils pour développeurs et l’au
 Je propose du conseil et de l’accompagnement dans ces domaines.
 Construisons quelque chose ensemble !
 
+--8<-- ".snippets/consulting-enquiry.fr.md"
+
 ## Domaines d’intervention
 
 Mes domaines d’intervention comprennent, sans s’y limiter :

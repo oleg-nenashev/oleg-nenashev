@@ -12,6 +12,8 @@ including many community leadership roles.
 If you are interested in building and growing your open source community or open ecosystem,
 let me know!
 
+--8<-- ".snippets/consulting-enquiry.md"
+
 ## Community programs and Go-to-Market
 
 - Building and growing open source communities and ecosystems

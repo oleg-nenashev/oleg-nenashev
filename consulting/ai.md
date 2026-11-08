@@ -10,6 +10,8 @@ With 15+ years in developer tools, automation and community analytics,
 I approach AI as an engineering problem rather than a standalone technology.
 So, I apply AI in all my consulting areas, including developer tooling and community management.
 
+--8<-- ".snippets/consulting-enquiry.md"
+
 ## Technical side
 
 My focus is on developer productivity and engineering systems: giving AI agents the right context, tools, APIs, and feedback loops to work effectively with real-world projects.

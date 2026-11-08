@@ -9,6 +9,8 @@ With 15+ years in developer tools and automation, including work as a CNCF Ambas
 I provide consulting and advisory in these areas.
 Let's buid something together!
 
+--8<-- ".snippets/consulting-enquiry.md"
+
 ## Consulting Areas
 
 My consulting areas include but are not limited to:
