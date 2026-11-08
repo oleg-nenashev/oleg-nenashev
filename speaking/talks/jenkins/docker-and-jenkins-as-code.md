@@ -1,5 +1,5 @@
 ---
-title: "Docker and Jenkins as Code"
+title: "Docker and Jenkins [as Code]"
 description: "Running Jenkins in Docker and managing its configuration as code."
 layout: talk
 template: talk.html
@@ -12,18 +12,24 @@ tag:
   - configuration-as-code
   - ci-cd
 author: oleg_nenashev
-speakerdeckId: fddf95ba71804a8ab6eb3c4da69e2d16
+speakerdeckId: 61615b9107bb4d94afbbbc10a45ab030
 youtubeId: J0d-CbJKAwU
 youtube: https://www.youtube.com/watch?v=J0d-CbJKAwU
-speakerdeck: https://speakerdeck.com/onenashev/dw-jw-2019-docker-and-jenkins-as-code
+speakerdeck: https://speakerdeck.com/onenashev/docker-and-jenkins-as-code
 references:
   - name: "Slides and abstract"
+    url: "https://speakerdeck.com/onenashev/docker-and-jenkins-as-code"
+  - name: "DevOps World | Jenkins World 2019 slides"
     url: "https://speakerdeck.com/onenashev/dw-jw-2019-docker-and-jenkins-as-code"
   - name: "Video"
     url: "https://www.youtube.com/watch?v=J0d-CbJKAwU"
 presented:
+  - event: "Docker Meetup Geneva"
+    year: 2019
+    month: 3
   - event: "DevOps World | Jenkins World"
     year: 2019
+    month: 12
   - event: "Day of Jenkins Copenhagen"
     year: 2019
   - event: "CloudBees webinars"
