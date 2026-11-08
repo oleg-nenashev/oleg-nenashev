@@ -10,6 +10,7 @@ import yaml
 TALKS_DIR = Path("speaking/talks")
 WORKSHOPS_DIR = Path("speaking/workshops")
 CATEGORIES_FILE = Path("speaking/talk-categories.yml")
+WORKSHOP_CATEGORIES_FILE = Path("speaking/workshop-categories.yml")
 TOP_TAGS = 10
 TALK_STATUSES = ("highlighted", "normal", "collapsed", "hidden")
 LINK_LABELS = (
@@ -173,37 +174,39 @@ def _render_list(items, base):
     return rendered
 
 
+def _categorized_list(directory, categories_file, other_name):
+    items = _load(directory)
+    categories = yaml.safe_load(categories_file.read_text(encoding="utf-8")) or []
+    matching_categories = sorted(categories, key=lambda category: category.get("match_priority", 0), reverse=True)
+    categories.append({"name": other_name, "tags": []})
+    buckets = {category["name"]: [] for category in categories}
+    for path, meta in items:
+        tags = set(meta.get("tag", []))
+        for category in matching_categories:
+            if tags & set(category.get("tags", [])):
+                buckets[category["name"]].append((path, meta))
+                break
+        else:
+            buckets[other_name].append((path, meta))
+
+    out = [_tag_cloud(items)]
+    for category in categories:
+        section_items = buckets[category["name"]]
+        if not section_items:
+            continue
+        section = f"## {category['name']}\n\n"
+        if category.get("note"):
+            section += f"> {category['note']}\n\n"
+        section += _render_list(section_items, directory)
+        out.append(section)
+    return "\n".join(out)
+
+
 def define_env(env):
     @env.macro
     def workshops_list():
-        items = _load(WORKSHOPS_DIR)
-        return _tag_cloud(items) + _render_list(items, WORKSHOPS_DIR)
+        return _categorized_list(WORKSHOPS_DIR, WORKSHOP_CATEGORIES_FILE, "Other workshops")
 
     @env.macro
     def talks_list():
-        talks = _load(TALKS_DIR)
-
-        categories = yaml.safe_load(CATEGORIES_FILE.read_text(encoding="utf-8")) or []
-        matching_categories = sorted(categories, key=lambda category: category.get("match_priority", 0), reverse=True)
-        categories.append({"name": "Other talks", "tags": []})
-        buckets = {c["name"]: [] for c in categories}
-        for path, meta in talks:
-            tags = set(meta.get("tag", []))
-            for category in matching_categories:
-                if tags & set(category.get("tags", [])):
-                    buckets[category["name"]].append((path, meta))
-                    break
-            else:
-                buckets["Other talks"].append((path, meta))
-
-        out = [_tag_cloud(talks)]
-        for category in categories:
-            items = buckets[category["name"]]
-            if not items:
-                continue
-            section = f"## {category['name']}\n\n"
-            if category.get("note"):
-                section += f"> {category['note']}\n\n"
-            section += _render_list(items, TALKS_DIR)
-            out.append(section)
-        return "\n".join(out)
+        return _categorized_list(TALKS_DIR, CATEGORIES_FILE, "Other talks")

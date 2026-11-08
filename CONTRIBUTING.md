@@ -54,6 +54,14 @@ Set `status` in a talk or workshop's front matter to control its listing:
 Items in each status are sorted by title. These settings affect the lists only:
 the individual pages remain published and may appear in site search.
 
+### Talk and Workshop Categories
+
+The lists use the tag-based categories in [talk-categories.yml](speaking/talk-categories.yml)
+and [workshop-categories.yml](speaking/workshop-categories.yml), respectively.
+Each item appears in the matching category with the highest `match_priority`;
+ties use the order in the YAML file. Unmatched items appear under **Other talks**
+or **Other workshops**. Empty categories are omitted.
+
 ## Localization
 
 The default language of the website is English.

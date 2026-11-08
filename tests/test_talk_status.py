@@ -25,10 +25,15 @@ class TalkStatusTests(unittest.TestCase):
         self.workshops.mkdir()
         self.categories = self.root / "categories.yml"
         self.categories.write_text("- name: Testing\n  tags: [testing]\n", encoding="utf-8")
+        self.workshop_categories = self.root / "workshop-categories.yml"
+        self.workshop_categories.write_text(
+            "- name: Testing\n  tags: [testing]\n", encoding="utf-8"
+        )
         for name, value in (
             ("TALKS_DIR", self.talks),
             ("WORKSHOPS_DIR", self.workshops),
             ("CATEGORIES_FILE", self.categories),
+            ("WORKSHOP_CATEGORIES_FILE", self.workshop_categories),
         ):
             patcher = patch.object(talks_macros, name, value)
             patcher.start()
@@ -68,6 +73,43 @@ class TalkStatusTests(unittest.TestCase):
         self.assertIn("Collapsed workshop", output)
         self.assertNotIn("Hidden workshop", output)
         self.assertIn("More talks", output)
+
+    def test_workshop_categories_priority_fallback_and_status(self):
+        self.workshop_categories.write_text(
+            "- name: First\n  tags: [testing]\n"
+            "- name: Priority\n  tags: [testing]\n  match_priority: 1\n"
+            "- name: Empty\n  tags: [unused]\n",
+            encoding="utf-8",
+        )
+        self.write_item(self.workshops, "normal", "Normal")
+        self.write_item(self.workshops, "highlight", "Highlighted", "highlighted")
+        self.write_item(self.workshops, "collapsed", "Collapsed", "collapsed")
+        self.write_item(self.workshops, "hidden", "Hidden", "hidden")
+        self.write_item(self.workshops, "other", "Other", tag="unmatched")
+        output = self.env.workshops_list()
+        self.assertIn("## Priority", output)
+        self.assertNotIn("## First", output)
+        self.assertNotIn("## Empty", output)
+        self.assertIn("## Other workshops", output)
+        self.assertLess(output.index("Highlighted"), output.index("Normal"))
+        self.assertLess(output.index("Normal"), output.index("Collapsed"))
+        self.assertLess(output.index("Collapsed"), output.index("## Other workshops"))
+        self.assertNotIn("Hidden", output)
+        self.assertEqual(output.count('class="talk-list"'), 2)
+        rendered = markdown.markdown(output)
+        self.assertIn('<h2>Priority</h2>', rendered)
+        self.assertIn('</ul>\n<p class="talk-more" hidden>', rendered)
+
+    def test_equal_priority_uses_category_order(self):
+        self.workshop_categories.write_text(
+            "- name: First\n  tags: [testing]\n"
+            "- name: Second\n  tags: [testing]\n",
+            encoding="utf-8",
+        )
+        self.write_item(self.workshops, "item", "Workshop")
+        output = self.env.workshops_list()
+        self.assertIn("## First", output)
+        self.assertNotIn("## Second", output)
 
     def test_invalid_status_fails_with_path(self):
         self.write_item(self.talks, "invalid", "Invalid", "colapsed")

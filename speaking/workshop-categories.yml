@@ -1,0 +1,13 @@
+# Categories for the generated list in workshops.md, in display order.
+# A workshop is listed in the matching category with the highest match_priority,
+# or the first matching category in display order when priorities are equal.
+# Workshops without a matching category are listed under "Other workshops".
+- name: Project Management and Culture
+  tags: [open-source, innersource, roadmaps, project-management, management, culture, community]
+
+- name: Containers for Developmwent and DevEx
+  tags: [devcontainers, cloud-development-environments, docker, kubernetes, testcontainers, wiremock, mocking]
+
+- name: Jenkins
+  tags: [jenkins]
+  match_priority: 1
