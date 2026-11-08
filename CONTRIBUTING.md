@@ -38,6 +38,17 @@ Forks and contributions are welcome!
 Use `presented` for events where a talk was delivered and `cancelled` for cancelled appearances.
 Both fields accept a list of events with `event`, `year`, `month`, `url`, `location`, and `note` as applicable.
 
+Set `status` in a talk or workshop's front matter to control its listing:
+
+- `highlighted` displays the item prominently at the top of its section.
+- `normal` displays it normally and is the default when `status` is omitted.
+- `collapsed` places it behind the section's **More talks** button. Without JavaScript,
+  collapsed items remain visible.
+- `hidden` excludes it from the listing and tag cloud.
+
+Items in each status are sorted by title. These settings affect the lists only:
+the individual pages remain published and may appear in site search.
+
 ## Localization
 
 The default language of the website is English.

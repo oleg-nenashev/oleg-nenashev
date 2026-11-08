@@ -10,6 +10,7 @@ tag:
   - jenkins
   - ci-cd
   - cloud-native
+  - jenkinsfile-runner
 author: oleg_nenashev
 speakerdeckId: 4e9f5d4982884ba196b9b0a021992350
 speakerdeck: https://speakerdeck.com/onenashev/under-the-hood-of-serverless-jenkins-jenkinsfile-runner

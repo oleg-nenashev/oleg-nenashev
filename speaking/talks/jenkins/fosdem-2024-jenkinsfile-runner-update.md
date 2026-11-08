@@ -1,5 +1,6 @@
 ---
 title: "FOSDEM 2024 - Jenkinsfile Runner Update"
+status: collapsed
 description: "Jenkinsfile Runner status at the Jenkins Contributor Summit and why Testcontainers can replace it for pipeline testing."
 layout: talk
 template: talk.html
@@ -8,8 +9,7 @@ type: talk
 headerImage: false
 tag:
   - jenkins
-  - testcontainers
-  - testing
+  - jenkinsfile-runner
 author: oleg_nenashev
 speakerdeckId: a63ccf396a57428eadc3536a4421294e
 speakerdeck: https://speakerdeck.com/onenashev/fosdem-2024-jenkinsfile-runner-update

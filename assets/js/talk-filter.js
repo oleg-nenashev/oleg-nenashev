@@ -1,14 +1,26 @@
 // Filters the generated talks list by the "tag" URL parameter.
 (function () {
   function init() {
-    var list = Array.prototype.slice.call(
-      document.querySelectorAll(".md-content li")
-    ).filter(function (li) {
-      return li.querySelector("a.talk-tag[data-tag]");
-    });
-    if (!list.length) {
+    var sections = Array.prototype.slice.call(
+      document.querySelectorAll(".md-content ul.talk-list")
+    );
+    if (!sections.length) {
       return;
     }
+
+    sections.forEach(function (section) {
+      var more = section.nextElementSibling;
+      var button = more && more.classList.contains("talk-more") &&
+        more.querySelector(".talk-more-toggle");
+      if (button) {
+        button.addEventListener("click", function () {
+          var expanded = button.getAttribute("aria-expanded") !== "true";
+          button.setAttribute("aria-expanded", String(expanded));
+          button.textContent = expanded ? "Fewer talks" : "More talks";
+          apply();
+        });
+      }
+    });
 
     var bar = document.createElement("div");
     bar.className = "talk-filter";
@@ -22,27 +34,43 @@
 
     function apply() {
       var tag = currentTag();
-      list.forEach(function (li) {
-        var tags = Array.prototype.map.call(
-          li.querySelectorAll("a.talk-tag[data-tag]"),
-          function (a) { return a.dataset.tag; }
-        );
-        li.hidden = !!tag && tags.indexOf(tag) === -1;
+      sections.forEach(function (section) {
+        var more = section.nextElementSibling;
+        var button = more && more.classList.contains("talk-more") &&
+          more.querySelector(".talk-more-toggle");
+        var expanded = button && button.getAttribute("aria-expanded") === "true";
+        var hasMatches = false;
+        var hasCollapsedMatches = false;
+        section.querySelectorAll("li.talk-item").forEach(function (li) {
+          var tags = Array.prototype.map.call(
+            li.querySelectorAll("a.talk-tag[data-tag]"),
+            function (a) { return a.dataset.tag; }
+          );
+          var matches = !tag || tags.indexOf(tag) !== -1;
+          var collapsed = li.hasAttribute("data-collapsed");
+          hasMatches = hasMatches || matches;
+          hasCollapsedMatches = hasCollapsedMatches || (matches && collapsed);
+          li.hidden = !matches || (collapsed && !expanded);
+        });
+        section.hidden = !hasMatches;
+        if (button) {
+          more.hidden = !hasCollapsedMatches;
+        }
+
+        var preceding = section.previousElementSibling;
+        while (preceding && preceding.tagName !== "H1" && preceding.tagName !== "H2" &&
+               !preceding.classList.contains("talk-list")) {
+          if (preceding.tagName === "BLOCKQUOTE") {
+            preceding.hidden = !hasMatches;
+          }
+          preceding = preceding.previousElementSibling;
+        }
+        if (preceding && preceding.tagName === "H2") {
+          preceding.hidden = !hasMatches;
+        }
       });
       document.querySelectorAll(".md-content a.talk-tag").forEach(function (a) {
         a.classList.toggle("active", a.dataset.tag === tag);
-      });
-
-      document.querySelectorAll(".md-content h2").forEach(function (h) {
-        var section = h.nextElementSibling;
-        while (section && section.tagName !== "UL") {
-          section = section.nextElementSibling;
-        }
-        if (section && section.querySelector("a.talk-tag[data-tag]")) {
-          var empty = !section.querySelector("li:not([hidden])");
-          h.hidden = empty;
-          section.hidden = empty;
-        }
       });
 
       if (tag) {

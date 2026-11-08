@@ -191,6 +191,18 @@ button.talk-badge:hover,
     overflow: auto;
 }
 
+.md-typeset li.talk-item[hidden],
+.md-typeset .talk-more[hidden] {
+    display: none;
+}
+
+.md-typeset li.talk-item--highlighted {
+    background: var(--md-code-bg-color);
+    border-left: 0.2rem solid var(--md-accent-fg-color);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
 .talk-thumb {
     float: right;
     margin: 0 0 0.4rem 0.8rem;

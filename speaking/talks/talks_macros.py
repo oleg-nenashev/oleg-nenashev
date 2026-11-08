@@ -11,6 +11,7 @@ TALKS_DIR = Path("speaking/talks")
 WORKSHOPS_DIR = Path("speaking/workshops")
 CATEGORIES_FILE = Path("speaking/talk-categories.yml")
 TOP_TAGS = 10
+TALK_STATUSES = ("highlighted", "normal", "collapsed", "hidden")
 LINK_LABELS = (
     ("github", "GitHub"),
     ("sessionize", "Sessionize"),
@@ -114,8 +115,12 @@ def _render_item(path, meta, base):
     )
     desc = meta.get("description")
     desc_html = f'<span class="talk-desc">{html.escape(str(desc))}</span><br>' if desc else ""
+    status = meta.get("status", "normal")
+    collapsed = ' data-collapsed="true"' if status == "collapsed" else ""
     return (
-        f'<li class="talk-item{" has-thumb" if deck else ""}">'
+        f'<li class="talk-item{" has-thumb" if deck else ""}'
+        f'{" talk-item--highlighted" if status == "highlighted" else ""}"'
+        f'{collapsed}>'
         f"{thumb}"
         f'<button type="button" class="talk-details" data-talk-dialog="{dialog_id}" '
         f'aria-label="Show details: {title}" title="Show details">+</button>'
@@ -140,25 +145,39 @@ def _load(directory):
     for path in sorted(directory.rglob("*.md")):
         meta = _front_matter(path)
         if meta.get("title"):
-            items.append((path, meta))
-    items.sort(key=lambda item: item[1]["title"].lower())
+            status = meta.get("status", "normal")
+            if status not in TALK_STATUSES:
+                raise ValueError(f"{path}: invalid talk status {status!r}; expected one of {', '.join(TALK_STATUSES)}")
+            if status != "hidden":
+                items.append((path, meta))
+    items.sort(key=lambda item: (
+        TALK_STATUSES.index(item[1].get("status", "normal")),
+        item[1]["title"].lower(),
+    ))
     return items
+
+
+def _render_list(items, base):
+    rendered = '<ul class="talk-list">' + "".join(
+        _render_item(path, meta, base) for path, meta in items
+    ) + "</ul>\n"
+    if any(meta.get("status") == "collapsed" for _, meta in items):
+        rendered += (
+            '<p class="talk-more" hidden><button type="button" class="talk-badge talk-more-toggle" '
+            'aria-expanded="false">More talks</button></p>\n'
+        )
+    return rendered
 
 
 def define_env(env):
     @env.macro
     def workshops_list():
         items = _load(WORKSHOPS_DIR)
-        return _tag_cloud(items) + "<ul>" + "".join(_render_item(p, m, WORKSHOPS_DIR) for p, m in items) + "</ul>\n"
+        return _tag_cloud(items) + _render_list(items, WORKSHOPS_DIR)
 
     @env.macro
     def talks_list():
-        talks = []
-        for path in sorted(TALKS_DIR.rglob("*.md")):
-            meta = _front_matter(path)
-            if meta.get("title"):
-                talks.append((path, meta))
-        talks.sort(key=lambda item: item[1]["title"].lower())
+        talks = _load(TALKS_DIR)
 
         categories = yaml.safe_load(CATEGORIES_FILE.read_text(encoding="utf-8")) or []
         matching_categories = sorted(categories, key=lambda category: category.get("match_priority", 0), reverse=True)
@@ -181,6 +200,6 @@ def define_env(env):
             section = f"## {category['name']}\n\n"
             if category.get("note"):
                 section += f"> {category['note']}\n\n"
-            section += "<ul>" + "".join(_render_item(p, m, TALKS_DIR) for p, m in items) + "</ul>\n"
+            section += _render_list(items, TALKS_DIR)
             out.append(section)
         return "\n".join(out)
