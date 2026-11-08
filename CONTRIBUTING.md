@@ -38,6 +38,11 @@ Forks and contributions are welcome!
 Use `presented` for events where a talk was delivered and `cancelled` for cancelled appearances.
 Both fields accept a list of events with `event`, `year`, `month`, `url`, `location`, and `note` as applicable.
 
+Set `ogImage` to an absolute image URL to use a custom Open Graph and Twitter
+preview image for a talk or workshop. It also appears in the listing and details
+popup. When both `ogImage` and `speakerdeckId` are set, `ogImage` takes precedence;
+otherwise the first Speaker Deck slide is used when available.
+
 Set `status` in a talk or workshop's front matter to control its listing:
 
 - `highlighted` displays the item prominently at the top of its section.

@@ -78,6 +78,39 @@ class TalkStatusTests(unittest.TestCase):
         self.write_item(self.talks, "normal", "Normal")
         self.assertNotIn("talk-more-toggle", self.env.talks_list())
 
+    def test_custom_image_takes_precedence_in_list_and_dialog(self):
+        self.write_item(self.talks, "item", "Talk")
+        path = self.talks / "item.md"
+        image = 'https://example.com/image.jpg?a=1&b=2'
+        output = talks_macros._render_item(
+            path, {"title": "Talk", "speakerdeckId": "deck", "ogImage": image}, self.talks
+        )
+        self.assertEqual(output.count('src="https://example.com/image.jpg?a=1&amp;b=2"'), 2)
+        self.assertNotIn("files.speakerdeck.com", output)
+        self.assertIn("has-thumb", output)
+
+    def test_images_fallback_to_first_speakerdeck_slide_or_none(self):
+        self.write_item(self.workshops, "item", "Workshop")
+        path = self.workshops / "item.md"
+        output = talks_macros._render_item(
+            path, {"title": "Workshop", "speakerdeckId": ["first", "second"]}, self.workshops
+        )
+        self.assertEqual(output.count("https://files.speakerdeck.com/presentations/first/slide_0.jpg"), 2)
+        self.assertNotIn("second/slide_0.jpg", output)
+        output = talks_macros._render_item(path, {"title": "Workshop"}, self.workshops)
+        self.assertNotIn("has-thumb", output)
+        self.assertNotIn("talk-dialog-image", output)
+
+    def test_custom_image_without_speakerdeck(self):
+        self.write_item(self.workshops, "item", "Workshop")
+        output = talks_macros._render_item(
+            self.workshops / "item.md",
+            {"title": "Workshop", "ogImage": "https://example.com/image.png"},
+            self.workshops,
+        )
+        self.assertIn("has-thumb", output)
+        self.assertEqual(output.count('src="https://example.com/image.png"'), 2)
+
 
 if __name__ == "__main__":
     unittest.main()

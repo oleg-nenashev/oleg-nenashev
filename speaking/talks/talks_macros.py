@@ -98,10 +98,14 @@ def _render_item(path, meta, base):
     )
     links = _link_html(meta)
     deck = _first(meta.get("speakerdeckId"))
+    image = meta.get("ogImage") or (
+        f"https://files.speakerdeck.com/presentations/{deck}/slide_0.jpg" if deck else None
+    )
+    image_url = html.escape(image, quote=True) if image else ""
     thumb = (
         f'<a class="talk-thumb" href="{slug}/" tabindex="-1" aria-hidden="true">'
-        f'<img loading="lazy" alt="" src="https://files.speakerdeck.com/presentations/{deck}/slide_0.jpg"></a>'
-        if deck
+        f'<img loading="lazy" alt="" src="{image_url}"></a>'
+        if image
         else ""
     )
     links_html = (
@@ -109,8 +113,8 @@ def _render_item(path, meta, base):
     )
     dialog_image = (
         f'<a class="talk-dialog-image" href="{slug}/"><img loading="lazy" alt="{title}" '
-        f'src="https://files.speakerdeck.com/presentations/{deck}/slide_0.jpg"></a>'
-        if deck
+        f'src="{image_url}"></a>'
+        if image
         else ""
     )
     desc = meta.get("description")
@@ -118,7 +122,7 @@ def _render_item(path, meta, base):
     status = meta.get("status", "normal")
     collapsed = ' data-collapsed="true"' if status == "collapsed" else ""
     return (
-        f'<li class="talk-item{" has-thumb" if deck else ""}'
+        f'<li class="talk-item{" has-thumb" if image else ""}'
         f'{" talk-item--highlighted" if status == "highlighted" else ""}"'
         f'{collapsed}>'
         f"{thumb}"

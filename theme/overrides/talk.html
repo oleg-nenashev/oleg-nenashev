@@ -2,7 +2,7 @@
 
 {% block analytics %}
   {{ super() }}
-  {# Drop the generated social card tags so the Speaker Deck ones below are the only OpenGraph tags #}
+  {# Replace generated social card tags when a custom or Speaker Deck image is available. #}
   {% if (page.meta.speakerdeckId or page.meta.ogImage) and page.meta.meta %}
     {% set kept = [] %}
     {% for tag in page.meta.meta %}
@@ -25,10 +25,10 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="{{ page.title | e }}">
     {% if page.meta.description %}<meta property="og:description" content="{{ page.meta.description | e }}">{% endif %}
-    <meta property="og:url" content="{{ page.canonical_url }}">
-    <meta property="og:image" content="{{ og_image }}">
+    <meta property="og:url" content="{{ page.canonical_url | e }}">
+    <meta property="og:image" content="{{ og_image | e }}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ og_image }}">
+    <meta name="twitter:image" content="{{ og_image | e }}">
   {% endif %}
 {% endblock %}
 
