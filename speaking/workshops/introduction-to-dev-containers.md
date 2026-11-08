@@ -30,15 +30,17 @@ and editor configuration for a project as code, so developers can work in a
 consistent environment on their laptops or in the cloud.
 The same container configuration can also support automated workflows.
 
-In this hands-on workshop, we build and customize a Dev Container for a project
-using a technology stack selected by the audience, such as Go, Python, Java,
-C/C++, or .NET.
+In this hands-on workshop, we build and customize a Dev Container for a project using a technology stack selected by the audience.
 We explore how to package development tools, use AI assistants and agents, and share the resulting environment across a team.
 We then take the environment to the cloud with GitHub Codespaces and explore how to reuse it in CI.
 
 By the end of the session, participants will understand how to define a reproducible development environment,
 adapt it to their project's tooling, and
 use it across in local developer environment, cloud developer environments, and CI/CD pipelines.
+
+## Possible technology stacks
+
+Go, Python, Java, C/C++, or .NET
 
 ## Workshop Structure
 
