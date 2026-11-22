@@ -10,6 +10,7 @@ tag:
   - jenkins
   - remoting
   - troubleshooting
+  - observability
 author: oleg_nenashev
 speakerdeckId: 0e7cd3cc33ba495da83a13f02e3ed810
 speakerdeck: https://speakerdeck.com/onenashev/day-of-jenkins-2017-dealing-with-agent-connectivity-issues

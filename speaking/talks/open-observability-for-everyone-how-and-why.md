@@ -12,6 +12,7 @@ tag:
   - prometheus
   - keptn
   - open-source
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: 092b966e42ae426abdd19904690c938d
 youtubeId: XZOK7gCTOS0

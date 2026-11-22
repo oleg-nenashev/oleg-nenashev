@@ -12,6 +12,7 @@ tag:
   - api
   - wiremock
   - testcontainers
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: bf5e39e856a74a7b8f32e3c03d921b90
 youtubeId: 9F6hGhmedKk

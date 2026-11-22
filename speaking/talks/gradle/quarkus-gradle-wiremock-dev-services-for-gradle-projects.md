@@ -12,6 +12,7 @@ tag:
   - testcontainers
   - api
   - testing
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: f7da78a5100d459491cc646cceddf7da
 youtubeId: Lf15C0Jl3Yk

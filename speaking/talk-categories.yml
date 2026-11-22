@@ -5,6 +5,7 @@
 - name: Management, Open Source and Culture
   tags: [mentorship, developer-relations, culture, management]
 
+
 - name: AI
   tags: [ai]
   match_priority: 1
@@ -19,6 +20,10 @@
   note: Gradle®, Develocity®, Build Scan®, and the Gradlephant logo are registered trademarks of Gradle, Inc.
   tags: [gradle]
 
+- name: Cloud Native
+  tags: [cloud-native, kubernetes]
+  match_priority: 2
+
 - name: Observability, OpenTelemetry and CDEvents
   tags: [observability, opentelemetry, cdevents]
 
@@ -28,8 +33,5 @@
 - name: Embedded and Hardware
   tags: [embedded, hardware]
 
-- name: OpenFeature
-  tags: [openfeature]
-
 - name: Other Tools
-  tags: [developer-tools, dependencies, keptn, grimoirelab, github]
+  tags: [developer-tools, openfeature, dependencies, keptn, grimoirelab, github]

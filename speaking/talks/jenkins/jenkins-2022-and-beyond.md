@@ -10,6 +10,7 @@ tag:
   - jenkins
   - ci-cd
   - open-source
+  - cloud-native
 author: oleg_nenashev
 youtubeId: 7l-eaqLrcZk
 youtube: https://www.youtube.com/watch?v=7l-eaqLrcZk

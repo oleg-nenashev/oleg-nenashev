@@ -11,6 +11,7 @@ tag:
   - kubernetes
   - api
   - testing
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: e4f3f75f38e74776afdbd5abb202c70e
 youtubeId: 1D-BbC6AQWA

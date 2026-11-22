@@ -10,6 +10,7 @@ headerImage: false
 tag:
   - jenkins
   - jenkinsfile-runner
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: a63ccf396a57428eadc3536a4421294e
 speakerdeck: https://speakerdeck.com/onenashev/fosdem-2024-jenkinsfile-runner-update

@@ -11,6 +11,7 @@ tag:
   - keptn
   - cdevents
   - ci-cd
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: 29929c94f5a24261b26cd4a2e9beb90a
 youtubeId: ubYa_UvZzp0

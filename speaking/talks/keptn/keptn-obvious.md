@@ -11,6 +11,7 @@ tag:
   - observability
   - prometheus
   - slo
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: 44be3c3d5c7d4c38a18ba71fba2e79b0
 speakerdeck: https://speakerdeck.com/onenashev/keptn-obvious-fr

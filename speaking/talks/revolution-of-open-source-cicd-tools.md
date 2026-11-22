@@ -11,6 +11,7 @@ tag:
   - ci-cd
   - developer-tools
   - jenkins
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: 03ba5779b0a242318ca447d95d81193d
 speakerdeck: https://speakerdeck.com/onenashev/revolution-of-open-source-cicd-tools

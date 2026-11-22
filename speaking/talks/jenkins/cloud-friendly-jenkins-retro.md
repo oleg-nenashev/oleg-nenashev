@@ -11,6 +11,7 @@ tag:
   - cloud-native
   - architecture
   - ci-cd
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: 922fbcd99b444e4e94b9f143ad68d851
 sessionize: https://sessionize.com/s/onenashev/cloud-friendly-jenkins.-how-we-failed-to-make-jenk/80447

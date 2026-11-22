@@ -13,6 +13,7 @@ tag:
   - ci-cd
   - observability
   - opentelemetry
+  - cloud-native
 author: oleg_nenashev
 youtubeId: qyYfcsu99aY
 sessionize: https://sessionize.com/s/onenashev/modern-java-app-cicd-observability-with-otel-quark/91831

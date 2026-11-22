@@ -11,6 +11,7 @@ tag:
   - docker
   - configuration-as-code
   - ci-cd
+  - cloud-native
 author: oleg_nenashev
 speakerdeckId: 61615b9107bb4d94afbbbc10a45ab030
 youtubeId: J0d-CbJKAwU
