@@ -1,15 +1,15 @@
 ---
 title: Oleg Nenashev - Community Building
 description: >
-    Build and grow open source communities and ecosystems through
+    Building and growing technical communities and ecosystems through
     community programs, events, partnerships, and documentation.
 ---
 
 # Community Building
 
-I've been active in open source communities since 2012,
-including many community leadership roles.
-If you are interested in building and growing your open source community or open ecosystem,
+I've been active in open source communities and ecosystem building since 2012,
+including many community leadership roles in cloud-native and Java projects and foundations.
+If you are interested in building and growing your community or open ecosystem,
 let me know!
 
 --8<-- ".snippets/consulting-enquiry.md"
@@ -18,15 +18,23 @@ let me know!
 
 - Building and growing open source communities and ecosystems
 - Starting new Open Source projects, programs and OSPOs
-- Organizing and hosting meetups, webinars and hackathons
+- Building champion programs for your products 
+- Building a go-to-community strategy and public roadmaps
 - Managing community outreach and mentorship programs ([mentorship portfolio](../open-source/mentorship/README.md))
 - Community Program Management and technical partnerships, often in collaboration with [Developer Relations](./developer-relations.md)
 
 ## Platforms for your community
 
 - Technical documentation at scale, docs engines and customizations for them
+- Building contributing guidelines and contributor onboarding documentation, on the ecosystem scale
 - Building Community Analytics and sales/field insights, including GrimoireLab, LFX Insights, Common Room, and [AI-assisted community analytics](./ai.md)
 
+## Community events
+
+- Organizing and hosting meetups, webinars and hackathons
+- Organizing satellite events for major conferences like KubeCon | CloudNativeCon or FOSDEM
+- Supporting wide industry community outreach as organization admin, 
+  e.g. Hacktoberfest or Google Summer of Code
 
 ## References
 
