@@ -2,14 +2,12 @@
 title: Oleg Nenashev - Conseil
 description: >
   Conseil et accompagnement en DevOps, outils pour développeurs, automatisation,
-  développement de communautés et DevRel. Plus de 15 ans d’expérience.
+  développement de communautés et DevRel. 18+ ans d'expérience.
 ---
 
-Avec plus de 15 ans d’expérience dans les outils pour développeurs et l’automatisation, notamment comme ambassadeur CNCF, mainteneur de Jenkins et Testcontainers Champion, je me concentre sur le développement de communautés, l’automatisation et la productivité des développeurs, quelle que soit la pile technologique.
+Avec plus de 18 ans d'expérience dans les outils pour développeurs et l'automatisation, notamment comme ambassadeur CNCF, mainteneur de Jenkins et Testcontainers Champion, je me concentre sur le développement de communautés, l'automatisation et la productivité des développeurs, quelle que soit la pile technologique.
 Je propose du conseil et de l’accompagnement dans ces domaines.
 Construisons quelque chose ensemble !
-
---8<-- ".snippets/consulting-enquiry.fr.md"
 
 ## Domaines d’intervention
 
@@ -17,45 +15,51 @@ Mes domaines d’intervention comprennent, sans s’y limiter :
 
 <div class="grid cards" markdown>
 
+-   :material-speedometer: **[Productivité des développeurs](./developer-productivity.md)**
 
+    Améliorer l'automatisation, les outils pour développeurs, la CI/CD, l'observabilité,
+    les flux de travail assistés par l'IA et l'InnerSource.
 
--   :material-account-group: **Développement de communautés**
+-   :material-brain: **[IA appliquée](./ai.md)**
+
+    Appliquer l'IA à la productivité des développeurs, aux agents de programmation,
+    à la documentation et à l'analyse des communautés.
+
+-   :material-account-group: **[Développement de communautés](./community-building.md)**
 
     Créer et développer des communautés et des écosystèmes open source grâce
     à des programmes communautaires, des événements, des partenariats et de la documentation.
-    [En savoir plus (en anglais)](community-building.md)
 
--   :material-account-tie: **Relations développeurs (DevRel)**
+-   :material-account-tie: **[Relations développeurs (DevRel)](./developer-relations.md)**
 
     Définir des stratégies DevRel, des programmes d’évangélisation, des conférences,
     des ateliers et des contenus techniques.
-    [En savoir plus (en anglais)](developer-relations.md)
 
--   :material-speedometer: **Productivité des développeurs**
+</div>
 
-    Améliorer l’automatisation, les outils pour développeurs, la CI/CD, l’observabilité,
-    les flux de travail assistés par l’IA et l’InnerSource.
-    [En savoir plus (en anglais)](developer-productivity.md)
+## Domaines spécialisés
 
--   :material-hammer-wrench: **Conseil Jenkins**
+<div class="grid cards" markdown>
+
+-   :material-hammer-wrench: **[Conseil Jenkins](./jenkins.md)**
 
     Concevoir des plateformes d’automatisation et de CI/CD à grande échelle pour des projets
     logiciels, matériels et embarqués, et développer Jenkins sur mesure.
-    [En savoir plus (en anglais)](jenkins.md)
 
--   :material-brain: **IA appliquée**
+-   :material-bullhorn: **[Ateliers et formations](../speaking/workshops.md)**
 
-    Appliquer l’IA à la productivité des développeurs, aux agents de programmation,
-    à la documentation et à l’analyse des communautés.
-    [En savoir plus (en anglais)](ai.md)
+    Je propose des ateliers et des formations sur plusieurs sujets, notamment les technologies
+    de conteneurisation, Jenkins, DevOps et InnerSource.
 
 </div>
 
 ## Disponibilités
 
 Je suis ouvert à de nouvelles missions de conseil : à temps plein, à temps partagé ou en accompagnement ponctuel.
+Si vous êtes intéressé,
+vous pouvez également consulter mes [coordonnées](../contacts.md).
 
-Pour toute demande, vous pouvez également consulter mes [coordonnées](../contacts.md).
+--8<-- ".snippets/consulting-enquiry.fr.md"
 
 ## Conseil bénévole
 
@@ -71,7 +75,7 @@ Des accords de non-concurrence avec des entreprises ou des clients peuvent s’a
 
 ## C.V. et portfolio
 
-Vous trouverez mon C.V. et mes références [ici](../work/cv.md).
-Une partie de mon travail est également présentée sur ce site,
+Vous trouverez mon C.V. et mes témoignages [ici](../work/cv.md).
+Une partie de mon travail et mes témoignages sont également présentés sur ce site,
 par exemple mes [projets open source](../open-source/projects/README.md) et mes [interventions publiques](../speaking/README.md).
 Des lettres de recommandation concernant mes expériences professionnelles et missions de conseil sont disponibles sur demande.

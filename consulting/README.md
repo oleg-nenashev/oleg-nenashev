@@ -2,14 +2,12 @@
 title: Oleg Nenashev - Consulting
 description: >
   Consulting and advisory in DevOps, developer tools, automation, community building and DevRel.
-  15+ years of experience.
+  18+ years of experience.
 ---
 
 With 15+ years in developer tools and automation, including work as a CNCF Ambassador, Jenkins maintainer, and Testcontainers Champion, I focus on community building, automation, and developer productivity across technology stacks.
 I provide consulting and advisory in these areas.
 Let's buid something together!
-
---8<-- ".snippets/consulting-enquiry.md"
 
 ## Consulting Areas
 
@@ -17,7 +15,13 @@ My consulting areas include but are not limited to:
 
 <div class="grid cards" markdown>
 
+-   :material-speedometer: **[Developer Productivity](./developer-productivity.md)**
 
+    Improve automation, developer tools, CI/CD, observability, AI-assisted workflows, and InnerSource.
+
+-   :material-brain: **[Applied AI](./ai.md)**
+
+    Apply AI to developer productivity, coding agents, documentation, and community analytics.
 
 -   :material-account-group: **[Community Building](./community-building.md)**
 
@@ -28,17 +32,19 @@ My consulting areas include but are not limited to:
 
     Shape DevRel strategies, advocacy programs, conference talks, workshops, and technical content.
 
--   :material-speedometer: **[Developer Productivity](./developer-productivity.md)**
+</div>
 
-    Improve automation, developer tools, CI/CD, observability, AI-assisted workflows, and InnerSource.
+## Specialized Topics
+
+<div class="grid cards" markdown>
 
 -   :material-hammer-wrench: **[Jenkins Consulting](./jenkins.md)**
 
     Building large-scale automation and CI/CD platforms for software, hardware, and embedded projects, custom Jenkins development.
 
--   :material-brain: **[Applied AI](./ai.md)**
+-   :material-bullhorn: **[Workshops and Trainings](../speaking/workshops.md)**
 
-    Apply AI to developer productivity, coding agents, documentation, and community analytics.
+    I deliver workshops and trainings on multiple topics, including container technologies, Jenkins, DevOps and InnerSource.
 
 </div>
 
@@ -46,9 +52,10 @@ My consulting areas include but are not limited to:
 
 I am open to new consulting projects.
 This includes full-time projects, fractional, and advisory roles.
-
 If you are interested,
 you can also find my contacts [here](../contacts.md).
+
+--8<-- ".snippets/consulting-enquiry.md"
 
 ## Pro Bono Consulting
 
@@ -62,7 +69,7 @@ Company and client non-competition agreements may apply.
 
 ## My Resume and Portfolio
 
-You can find my curriculum vitae with the references [here](../work/cv.md).
-Some of my work can be found on this site too,
+You can find my resume [here](../work/cv.md).
+Some of my work and testimonials can be found on this site too,
 e.g. [My Open Source Projects](../open-source/projects/README.md) or [Public Speaking](../speaking/README.md).
 Referral letters from my work and consulting projects can be provided upon request.
